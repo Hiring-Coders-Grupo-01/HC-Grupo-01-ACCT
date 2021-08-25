@@ -1,107 +1,227 @@
 {
   "footer": {
-    "blocks": [
-      "footer-layout.desktop", 
-      "footer-layout.mobile"]
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "children": [
-      "sticky-layout#footer"
+      "flex-layout.row#footer-1-desktop"
+     // "flex-layout.row#footer-2-desktop",
+     // "flex-layout.row#footer-3-desktop"
     ]
   },
-  "footer-layout.mobile": { 
+  "flex-layout.row#footer-1-desktop": {
     "children": [
-      "sticky-layout#footer"
-    ]
-  },
-  "sticky-layout#footer": { 
-    "props": {
-      "position": "bottom",
-      "blockClass": "footer"
-    },
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer":{
-    "props":{
-      "fullWidth": true,
-      "verticalAlign": "center",
-      "horizontalAlign": "center",
-      "preserveLayoutOnMobile": true,
-      "preventHorizontalStretch": true
-    },
-    "children": [
-     "vtex.menu@2.x:menu#footer"
+      "flex-layout.col#footer-1-desktop",
+      "flex-layout.col#footer-2-desktop",
+      "flex-layout.col#footer-3-desktop",
+      "flex-layout.col#footer-4-desktop",
+      "flex-layout.col#footer-5-desktop"
       
+     
+    ],
+    "props": {
+      
+    }
+  },
+  "flex-layout.col#footer-1-desktop": {
+    "children": [
+      
+      "image#logofooter"
+      //"social-networks"
     ]
   },
-  "vtex.menu@2.x:menu#footer": {
+  "image#logofooter": {
     "props": {
-      "items": [
+      "src": "https://acct.global/wp-content/uploads/2021/07/selo-gptw-2021.svg",
+      "maxHeight": 180,
+      "alt": "Certificado"
+      
+    }
+  },
+  "flex-layout.col#footer-2-desktop": {
+    "children": [
+      "flex-layout.row#footer1",
+      "flex-layout.row#footer2",
+      "flex-layout.row#footer3"
+      
+     
+    ]
+  },
+  "flex-layout.row#footer1": {
+    "children": [
+      "image#logo2footer"
+    ]
+  },
+  "flex-layout.row#footer2": {
+    "children": [
+      "social-networks"
+    ]
+  },
+  "image#logo2footer": {
+    "props": {
+      "src": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
+      "maxHeight": 40,
+      "alt": "Certificado"
+      
+    }
+  },
+  
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
         {
-          "id": "menu-footer-login",
-          "type": "custom",
-          "iconId": "hpa-login",
-          "itemProps": {
-            "href": "cadastro",
-            "text": "Login"
-          },
-          "iconProps": {
-            "id": "hpa-login",
-            "size": 24,
-            "viewBox": "0 0 24 24"
-          }
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
         },
         {
-          "id": "menu-footer-challenges",
-          "type": "custom",
-          "iconId": "hpa-challenges",
-          "itemProps": {
-            "blockClass": "footerActive",
-            "href": "/",
-            "text": "Desafios"
-          },
-          "iconProps": {
-            "id": "hpa-challenges",
-            "size": 24,
-            "viewBox": "0 0 24 24"
-          }
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
         },
         {
-          "id": "menu-footer-store",
-          "type": "custom",
-          "iconId": "hpa-cart",
-          "itemProps": {
-            "href": "#loja",
-            "text": "Loja"
-          },
-          "iconProps": {
-            "id": "hpa-cart",
-            "size": 24,
-            "viewBox": "0 0 24 24"
-          }
+          "name": "Twitter",
+          "url": "https://twitter.com/vtexonline"
         },
         {
-          "id": "menu-footer-support",
-          "type": "custom",
-          "iconId": "hpa-support",
-          "itemProps": {
-            
-            "href": "https://api.whatsapp.com/send?phone=5532991021377&text=Ol%C3%A1!%20Como%20posso%20te%20ajudar%3F",
-            
-            "text": "Whatsapp"
-          },
-          "iconProps": {
-            "id": "hpa-support",
-            "size": 24,
-            "viewBox": "0 0 24 24"
-          }
+          "name": "Youtube",
+          "url": "https://www.youtube.com/user/VTEXTV"
         }
       ]
     }
-  }
- 
+  },
+  "flex-layout.row#footer3": {
+    "children": [
+      "link#email"
+    ]
+  },
   
+  "link#email": {
+      "props": {
+        "href": "/login?returnUrl={queryString.returnUrl}",
+        "label": "contato@acct.global"
+      }
+  },
+  "flex-layout.col#footer-3-desktop": {
+    "children": [
+      "flex-layout.row#1footer",
+      "flex-layout.row#2footer"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "flex-layout.row#1footer" : {
+    "children": [
+      "rich-text#footer"
+    ]
+  },
+  "flex-layout.row#2footer" : {
+    "children": [
+      "rich-text#2footer"
+    ]
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  },
+  "rich-text#2footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  },
+  "flex-layout.col#footer-4-desktop": {
+    "children": ["rich-text#footer2"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer2": {
+    "props": {
+      "text": "Carrer Provença, 339 08037 - Barcelona",
+      "blockClass": "footer"
+    }
+  },
+  "flex-layout.col#footer-5-desktop": {
+    "children": ["rich-text#footer3"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer3": {
+    "props": {
+      "text": "12 East 49th Street NY 10017 - New York",
+      "blockClass": "footer"
+    }
+  }
 
+  
+/*
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["accepted-payment-methods"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+
+  "flex-layout.row#footer-3-desktop": {
+    "children": ["rich-text#footer"],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "social-networks",
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4
+    }
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "All stock and product photos are from photos.icons8.com",
+      "blockClass": "footer"
+    }
+  }
+  */
 }

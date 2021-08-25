@@ -9,14 +9,14 @@
     "children": [
      
       
-      "flex-layout.row#3-desktop",
-      "sticky-layout#4-desktop"
+      "flex-layout.row#1-desktop",
+      "sticky-layout#2-desktop"
     ]
   },
 
 
   
-  "flex-layout.row#3-desktop": {
+  "flex-layout.row#1-desktop": {
     "props": {
       "blockClass": "menu-link",
       "horizontalAlign": "center",
@@ -35,13 +35,13 @@
       "width": "grow"
     }
   },
-  "sticky-layout#4-desktop": {
+  "sticky-layout#2-desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": ["flex-layout.row#2-desktop"]
   },
-  "flex-layout.row#4-desktop": {
+  "flex-layout.row#2-desktop": {
     "props": {
       "blockClass": "main-header",
       "horizontalAlign": "center",
@@ -56,9 +56,8 @@
       "flex-layout.col#category-menu",
       
      
-      "locale-switcher",
-      "locale-switcher#en",
-      "locale-switcher#es"
+      "locale-switcher"
+     
      
      
     ]
@@ -112,8 +111,8 @@
     "children": [
       "menu-item#category-acct",
       "menu-item#category-blog",
-      "menu-item#category-parceiros",
-      "menu-item#more"
+      "menu-item#category-parceiros"
+      
     ],
     "props": {
       "orientation": "vertical"
@@ -127,45 +126,7 @@
       "url": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
       "width": "70"
     }
-  },
-  "locale-switcher#en": {
-    "props": {
-      "buttonText": "En",
-      "localeIdText": "EN",
-      "button":"EN",
-      "text": "ACCT"
+  }
 
-    }
-  },
-  "locale-switcher#es": {
-    "props": {
-      "buttonText": "Es"
-    }
-  }
 }
-  /*
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
-  }
-  */
+ 

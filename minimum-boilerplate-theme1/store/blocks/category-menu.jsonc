@@ -20,7 +20,7 @@
           "highlight": true,
           "itemProps": {
             "type": "internal",
-            "href": "/home---decor/",
+            "href": "/",
             "noFollow": false,
             "tagTitle": "INÍCIO",
             "text": "INÍCIO"
@@ -35,10 +35,10 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/",
+          "href": "/acct/",
           "noFollow": false,
           "tagTitle": "ACCT",
-          "text": "ACCT"
+          "text": "ACCT" 
         }
       },
       "blocks": [
@@ -71,7 +71,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/clothing/",
+          "href": "/acct/sobre-nos/",
           "noFollow": false,
           "tagTitle": "SOBRE NÓS",
           "text": "SOBRE NÓS"
@@ -86,7 +86,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/accessories/",
+          "href": "/acct/imprensa/",
           "noFollow": false,
           "tagTitle": "IMPRENSA E MÍDIA",
           "text": "IMPRENSA E MÍDIA"
@@ -101,7 +101,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/eyeglasses/",
+          "href": "/acct/carreira/",
           "noFollow": false,
           "tagTitle": "CARREIRA",
           "text": "CARREIRA"
@@ -116,7 +116,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/",
+          "href": "/oquefazemos/",
           "noFollow": false,
           "tagTitle": "O QUE FAZEMOS",
           "text": "O QUE FAZEMOS"
@@ -152,7 +152,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/clothing/",
+          "href": "/oquefazemos/servicos/",
           "noFollow": false,
           "tagTitle": "SERVIÇOS",
           "text": "SERVIÇOS"
@@ -167,7 +167,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/accessories/",
+          "href": "/oquefazemos/categorias/",
           "noFollow": false,
           "tagTitle": "CATEGORIAS INDUSTRIAIS",
           "text": "CATEGORIAS INDUSTRIAIS"
@@ -182,7 +182,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/apparel---accessories/eyeglasses/",
+          "href": "/oquefazemos/cases/",
           "noFollow": false,
           "tagTitle": "CASES",
           "text": "CASES"
@@ -197,7 +197,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/home---decor/",
+          "href": "/blog/",
           "noFollow": false,
           "tagTitle": "BLOG",
           "text": "BLOG"
@@ -212,7 +212,7 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/home---decor/",
+          "href": "/parceiros/",
           "noFollow": false,
           "tagTitle": "PARCEIROS",
           "text": "PARCEIROS"
@@ -227,107 +227,12 @@
         "highlight": false,
         "itemProps": {
           "type": "internal",
-          "href": "/home---decor/",
+          "href": "/cadastro",
           "noFollow": false,
           "tagTitle": "CONTATO",
           "text": "CONTATO"
         }
       }
-    },
-    "menu-item#more": {
-      "props": {
-        "id": "menu-item-custom-sale",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": true,
-          "tagTitle": "More",
-          "text": "More"
-        }
-      },
-      "blocks": [
-        "vtex.menu@2.x:submenu#more"
-      ]
-    },
-    "vtex.menu@2.x:submenu#more": {
-      "props": {
-        "width": "100%"
-      },
-      "children": [
-        "flex-layout.row#menu-more"
-      ]
-    },
-    "flex-layout.row#menu-more": {
-      "children": [
-        "flex-layout.col#menu-more-1",
-        "flex-layout.col#menu-more-2"
-      ]
-    },
-    "flex-layout.col#menu-more-1": {
-      "children": [
-        "vtex.menu@2.x:menu#more"
-      ]
-    },
-    "flex-layout.col#menu-more-2": {
-      "children": [
-        
-      ]
-    },
-    "vtex.menu@2.x:menu#more": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#about-us",
-        "menu-item#faq"
-      ]
-    },
-    "menu-item#about-us": {
-      "props": {
-        "id": "menu-item-about-us",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/about-us",
-          "noFollow": true,
-          "tagTitle": "About us",
-          "text": "About us"
-        }
-      }
-    },
-    "menu-item#faq": {
-      "props": {
-        "id": "menu-item-faq",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/faq",
-          "noFollow": true,
-          "tagTitle": "FAQ",
-          "text": "FAQ"
-        }
-      }
-    },
-    "menu-item#contact-us": {
-      "props": {
-        "id": "menu-item-contact-us",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/contact-us",
-          "noFollow": true,
-          "tagTitle": "Contact Us",
-          "text": "Contact Us"
-        }
-      }
     }
+
   }
