@@ -1,0 +1,86 @@
+{
+  "store.product": {
+    "children": [
+      "breadcrumb",
+      "flex-layout.row#main"
+    ]
+  },
+  "flex-layout.row#main": {
+    "props": {
+      "marginTop": 6
+    },
+    "children": [
+      "flex-layout.col#left",
+      "flex-layout.col#right"
+    ]
+  },
+  "flex-layout.col#left": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "flex-layout.col#right": {
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "condition-layout.product",
+   
+      "product-identifier.product",
+      "product-price",
+      "flex-layout.row#qty-sku",
+      "shipping-simulator",
+      "buy-button",
+      "share#default"
+    ]
+  },
+  "condition-layout.product": {
+    "children": [
+      "condition.product#retro-mixer"
+    ]
+  },
+  "condition.product#retro-mixer": {
+     "props": {
+       "conditions": [
+         {
+           "subject": "productId",
+           "verb": "is",
+           "object": "20"
+         }
+       ]
+     },
+     "children": ["image#retro-mixer-banner"]
+   },
+   "image#retro-mixer-banner": {
+      "props": {
+        "src": "https://appliancetheme.vtexassets.com/assets/app/src/retroimage___92a8271aac7c51d2059193bdbe019016.jpg",
+        "width": "100%",
+        "height": "200px",
+        "blockClass": "cover"
+      }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
+    }
+  },
+  "flex-layout.row#qty-sku": {
+    "children": [
+      "sku-selector",
+      "product-quantity"
+    ]
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  }
+
+}

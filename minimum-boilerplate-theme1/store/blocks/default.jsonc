@@ -1,0 +1,44 @@
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-name",
+      "product-images",
+      "product-summary-add-to-list-button",     
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button#1"
+    ]
+  },
+  "add-to-cart-button#1": {
+    "props": {
+      "onClickBehavior": "go-to-product-page",
+      "text": "Ver detalhes"
+    }
+  } 
+  
+}

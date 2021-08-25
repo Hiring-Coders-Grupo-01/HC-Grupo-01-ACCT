@@ -1,0 +1,107 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop", 
+      "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "sticky-layout#footer"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "sticky-layout#footer"
+    ]
+  },
+  "sticky-layout#footer": { 
+    "props": {
+      "position": "bottom",
+      "blockClass": "footer"
+    },
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "flex-layout.row#footer":{
+    "props":{
+      "fullWidth": true,
+      "verticalAlign": "center",
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+     "vtex.menu@2.x:menu#footer"
+      
+    ]
+  },
+  "vtex.menu@2.x:menu#footer": {
+    "props": {
+      "items": [
+        {
+          "id": "menu-footer-login",
+          "type": "custom",
+          "iconId": "hpa-login",
+          "itemProps": {
+            "href": "cadastro",
+            "text": "Login"
+          },
+          "iconProps": {
+            "id": "hpa-login",
+            "size": 24,
+            "viewBox": "0 0 24 24"
+          }
+        },
+        {
+          "id": "menu-footer-challenges",
+          "type": "custom",
+          "iconId": "hpa-challenges",
+          "itemProps": {
+            "blockClass": "footerActive",
+            "href": "/",
+            "text": "Desafios"
+          },
+          "iconProps": {
+            "id": "hpa-challenges",
+            "size": 24,
+            "viewBox": "0 0 24 24"
+          }
+        },
+        {
+          "id": "menu-footer-store",
+          "type": "custom",
+          "iconId": "hpa-cart",
+          "itemProps": {
+            "href": "#loja",
+            "text": "Loja"
+          },
+          "iconProps": {
+            "id": "hpa-cart",
+            "size": 24,
+            "viewBox": "0 0 24 24"
+          }
+        },
+        {
+          "id": "menu-footer-support",
+          "type": "custom",
+          "iconId": "hpa-support",
+          "itemProps": {
+            
+            "href": "https://api.whatsapp.com/send?phone=5532991021377&text=Ol%C3%A1!%20Como%20posso%20te%20ajudar%3F",
+            
+            "text": "Whatsapp"
+          },
+          "iconProps": {
+            "id": "hpa-support",
+            "size": 24,
+            "viewBox": "0 0 24 24"
+          }
+        }
+      ]
+    }
+  }
+ 
+  
+
+}

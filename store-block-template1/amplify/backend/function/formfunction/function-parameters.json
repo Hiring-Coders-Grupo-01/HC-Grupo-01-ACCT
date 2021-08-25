@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "storage": {
+      "formtable": [
+        "create",
+        "read"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

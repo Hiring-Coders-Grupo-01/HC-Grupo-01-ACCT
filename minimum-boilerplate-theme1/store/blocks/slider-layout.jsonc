@@ -1,0 +1,82 @@
+{ 
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": 1,        
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#1corinthians", "image#2corinthians"]
+  },
+
+  "image#1corinthians": {
+    "props": {
+      "src": "assets/banner1.png",
+      "title": "Wood Sport Festival",
+      "alt": "Kit com corta vento",
+      "maxHeight": 250
+    }
+  },
+  "image#2corinthians": {
+    "props": {
+      "src": "assets/banner2.png",
+      "title": "Grandes Guerreiros",
+      "alt": "Kit com corta vento",
+      "maxHeight": 250
+    }
+  },
+
+  "slider-layout#demo-images2": {
+    "props": {
+      "itemsPerPage": 1,        
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#1palmeiras", "image#2palmeiras"]
+  },
+
+  "image#1palmeiras": {
+    "props": {
+      "src": "assets/banner1.png",
+      "title": "Wood Sport Festival",
+      "alt": "Kit com corta vento",
+      "maxHeight": 250
+    }
+  },
+  "image#2palmeiras": {
+    "props": {
+      "src": "assets/banner2.png",
+      "title": "Grandes Guerreiros",
+      "alt": "Kit com corta vento",
+      "maxHeight": 250
+    }
+  },
+
+  "slider-layout#demo-images3": {
+    "props": {
+      "itemsPerPage": 1,        
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#1sale", "image#2sale"]
+  },
+
+  "image#1sale": {
+    "props": {
+      "src": "assets/banner1.png",
+      "title": "Wood Sport Festival",
+      "alt": "Kit com corta vento",
+      "maxHeight": 250
+    }
+  },
+  "image#2sale": {
+    "props": {
+      "src": "assets/banner2.png",
+      "title": "Grandes Guerreiros",
+      "alt": "Kit com corta vento",
+      "maxHeight": 250
+    }
+  }
+}

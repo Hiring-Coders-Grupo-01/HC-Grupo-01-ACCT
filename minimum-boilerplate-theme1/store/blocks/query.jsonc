@@ -1,0 +1,88 @@
+{
+  "search-result-layout.customQuery#corinthians": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ],
+    "props": {
+     
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "maxItemsPerPage":8,
+        "simulationBehavior": "skip",
+        "queryField": "corinthians",
+        
+        "mapField": "ft",
+        "itemsPerRow": {
+          "(min-width:1300px)": 2,
+          "desktop": 2,
+          "tablet": 2,
+          "phone": 1
+        }
+      }
+      
+    }
+    
+  },
+  "search-result-layout.customQuery#palmeiras": {
+    "props": {
+     
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "palmeiras",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE",
+        "itemsPerRow": {
+          "(min-width:1300px)": 2,
+          "desktop": 2,
+          "tablet": 2,
+          "phone": 1
+        }
+      }     
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+
+
+  "search-result-layout.customQuery#sale": {
+    "props": {
+      "gallery": "grid",
+      "querySchema": {
+        "simulationBehavior": "skip",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "UpMedal",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE",
+        "itemsPerRow": {
+          "(min-width:1300px)": 2,
+          "desktop": 2,
+          "tablet": 2,
+          "phone": 1
+        }
+      },
+      "mobileLayout": {
+        "model": "small"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+ 
+  
+ 
+ 
+  
+  
+
+}
