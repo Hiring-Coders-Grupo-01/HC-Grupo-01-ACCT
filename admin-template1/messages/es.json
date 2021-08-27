@@ -1,0 +1,8 @@
+{
+  "admin/test": "teste",
+  "store/test": "teste",
+  "admin-example.navigation.label": "Gestionar Prospectos",
+  "admin-example.navigation.search.kws": "mock, test, entrenamiento, io",
+  "admin-example.navigation.insight": "Conversión de Prospectos",
+  "admin-example.navigation.management": "Indicadores"
+}
