@@ -1,0 +1,72 @@
+{
+    "flex-layout.row#intro-about-us": {
+		"props": {
+            "blockClass": "intro-about-us"
+        },
+        "children": [
+            "flex-layout.col#intro-about-us"
+        ]        
+    },
+	"flex-layout.col#intro-about-us": {
+		"children": [
+            "flex-layout.row#intro-title",
+			"flex-layout.row#intro-details"
+        ]    	
+	},
+    "flex-layout.row#intro-title": {
+		"props": {
+			"width": "100%"
+		},
+		"children": [
+			"rich-text#intro-title"
+		]
+	},
+	"rich-text#intro-title": {
+		"props": {
+			"text": "## Projetando o **futuro do comércio digital**",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "page-title"
+		}
+	},
+	"flex-layout.row#intro-details": {
+		"props": {
+			"blockClass": "intro-details"
+		},
+		"children": [
+			"flex-layout.row#intro-text",
+			"flex-layout.row#intro-image"
+		]
+	},
+	"flex-layout.row#intro-text": {
+		"props": {
+			"width": "48%"
+		},
+		"children": [
+			"rich-text#intro-text"
+		]
+	},
+	"rich-text#intro-text": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia.  \n \n  A **ACCT** passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes. \n \n Nós também temos o orgulho de dizer que a **ACCT** esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo. \n \n Clientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento",
+			"blockClass": "description",
+			"font": "p"
+		}
+	},
+	"flex-layout.row#intro-image": {
+		"props": {
+			"width": "48%",
+			"blockClass": "intro-image"
+		},
+		"children": [
+			"image#intro-image"
+		]
+	},
+	"image#intro-image": {
+		"props": {
+			"src": "assets/brand/sobre-acct.jpg"
+		}
+	}
+}

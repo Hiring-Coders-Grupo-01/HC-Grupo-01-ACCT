@@ -1,0 +1,27 @@
+.link--social {
+    max-width: 32px;    
+    background-color: black;
+    padding: 9px 8px;
+    margin: 0;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.link--social,
+.link--email-footer {
+    text-align: center;
+}
+
+.link--email-footer {
+    font-family: 'OpenSans';
+    color: #5974c7;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.link--email-footer:hover,
+.link--email-footer:active,
+.link--email-footer:focus {
+    color: #040404;
+    text-decoration: underline;
+}

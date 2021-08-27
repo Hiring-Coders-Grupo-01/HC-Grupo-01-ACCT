@@ -1,0 +1,146 @@
+{
+    "rich-text#office-design-experience": {
+        "props": {
+            "text": "Design Experience",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-sales-analist": {
+        "props": {
+            "text": "Sales Analist",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-designer": {
+        "props": {
+            "text": "Designer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-developer": {
+        "props": {
+            "text": "Developer",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-ceo": {
+        "props": {
+            "text": "CEO & Partner",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-cto": {
+        "props": {
+            "text": "CTO & Partner",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-director": {
+        "props": {
+            "text": "Director & Partner",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-head-rh": {
+        "props": {
+            "text": "Head of RH",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-head-marketing": {
+        "props": {
+            "text": "Head of Marketing",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-head-controladoria": {
+        "props": {
+            "text": "Head de Controladoria e Backoffice",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-general-manager-europe": {
+        "props": {
+            "text": "General Manager Europe",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-svp-global-sales": {
+        "props": {
+            "text": "SVP of Global Sales",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-sales-manager-brazil": {
+        "props": {
+            "text": "Sales Manager Brazil",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-head-trainning": {
+        "props": {
+            "text": "Head of Trainning and Development",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-head-quality-assurance": {
+        "props": {
+            "text": "Head of Quality Assurance",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-head-engineering": {
+        "props": {
+            "text": "Head of Engineering",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-design-experience-director": {
+        "props": {
+            "text": "Design Experience Director",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    },
+    "rich-text#office-head-business-intelligence": {
+        "props": {
+            "text": "Head of Business Intelligence",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "team-member-office"
+        }
+    }
+}

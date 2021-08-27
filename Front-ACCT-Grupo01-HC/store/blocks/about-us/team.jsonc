@@ -1,0 +1,85 @@
+{
+    "flex-layout.row#team": {
+        "props": {
+            "blockClass": "team-container"
+        },
+        "children": [
+            "flex-layout.col#team"
+        ]
+    },
+    "flex-layout.col#team": {
+        "children": [
+            "flex-layout.row#team-title",
+            "flex-layout.row#team-description",
+            "slider-layout#team-slider"
+        ]
+    },
+    "flex-layout.row#team-title": {
+        "children": [
+            "rich-text#team-title"
+        ]
+    },
+    "rich-text#team-title": {
+		"props": {
+			"text": "### Time",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": [
+                "headline",
+                "headline-team"
+            ]
+		}
+	},
+    "flex-layout.row#team-description": {
+        "children": [
+            "rich-text#team-description"
+        ]
+    },
+    "rich-text#team-description": {
+		"props": {
+			"text": "###### **A ACCT tem uma equipe interna de alto desempenho** com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "headline-description"
+		}
+	},
+    "slider-layout#team-slider": {
+		"children": [
+			"flex-layout.row#member1",
+			"flex-layout.row#member2",
+            "flex-layout.row#member3",
+            "flex-layout.row#member4",
+            "flex-layout.row#member5",
+            "flex-layout.row#member6",
+            "flex-layout.row#member7",
+            "flex-layout.row#member8",
+            "flex-layout.row#member9",
+            "flex-layout.row#member10",
+            "flex-layout.row#member11",
+            "flex-layout.row#member12",
+            "flex-layout.row#member13",
+            "flex-layout.row#member14",
+            "flex-layout.row#member15",
+            "flex-layout.row#member16",
+            "flex-layout.row#member17",
+            "flex-layout.row#member18",
+            "flex-layout.row#member19"
+		],
+		"props": {
+			"itemsPerPage": {
+				"desktop": 5,
+				"tablet": 2,
+				"phone": 2
+			},
+			"infinite": true,
+			"showPaginationDots": "never",
+
+			"arrowSize": {
+				"desktop": 14,
+				"tablet": 14,
+				"phone": 12
+			},
+			"blockClass": "team-slider"
+		}
+	}
+}

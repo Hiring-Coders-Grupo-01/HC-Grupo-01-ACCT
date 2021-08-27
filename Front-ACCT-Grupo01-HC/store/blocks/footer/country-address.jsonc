@@ -1,0 +1,200 @@
+{
+    "flex-layout.col#address-brazil-desktop": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "35%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#address-brazil-title",
+            "rich-text#address-brazil-content"
+        ]
+    },
+    "flex-layout.col#address-brazil-tablet": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "28%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#address-brazil-title",
+            "rich-text#address-brazil-content"
+        ]
+    },
+    //Endereço Brasil
+    "flex-layout.col#address-brazil": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "28%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#address-brazil-title",
+            "rich-text#address-brazil-content"
+        ]
+    },
+    "rich-text#address-brazil-title": {
+        "props": {
+            "blockClass": "country",
+            "text": "##### Brasil",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
+        }
+    },
+    "rich-text#address-brazil-content": {
+        "props": {
+            "blockClass": "address",
+            "text": "Al. Prof. Lucas Nogueira Garcez, \n1395 - Atibaia - SP\n\nAv. das Nações Unidas, 11.857\n8º Andar - Brooklin – São Paulo - SP",
+            "textPosition": "LEFT",
+            "font": "p"
+        }
+    },
+    //Endereço Espanha Genérico
+    "flex-layout.col#address-spain": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "25%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#address-spain-title",
+            "rich-text#address-spain-content"
+        ]
+    },
+    "rich-text#address-spain-title": {
+        "props": {
+            "blockClass": "country",
+            "text": "##### Espanha",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
+        }
+    },
+    "rich-text#address-spain-content": {
+        "props": {
+            "blockClass": "address",
+            "text": "Carrer Provença, 339\n08037 - Barcelona",
+            "textPosition": "LEFT",
+            "font": "p"
+        }
+    },
+    //Endereço Estados Unidos Genérico
+    "flex-layout.col#address-usa": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "25%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#address-usa-title",
+            "rich-text#address-usa-content"
+        ]
+    },
+    "rich-text#address-usa-title": {
+        "props": {
+            "blockClass": "country",
+            "text": "##### Estados Unidos",
+            "textPosition": "LEFT",
+            "font": "t-heading-5"
+        }
+    },
+    "rich-text#address-usa-content": {
+        "props": {
+            "blockClass": "address",
+            "text": "12 East 49th Street NY\n10017 - New York",
+            "textPosition": "LEFT",
+            "font": "p"
+        }
+    },
+    //Endereço Brasil - Phone
+    "flex-layout.col#address-brazil-phone": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "28%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#address-brazil-title-phone",
+            "rich-text#address-brazil-content-phone"
+        ]
+    },
+    //Título Brasil Phone
+    "rich-text#address-brazil-title-phone": {
+        "props": {
+            "blockClass": "country",
+            "text": "##### Brasil",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "t-heading-5"
+        }
+    },
+    //Endereço Brasil Phone
+    "rich-text#address-brazil-content-phone": {
+        "props": {
+            "blockClass": "address",
+            "text": "Al. Prof. Lucas Nogueira Garcez, \n1395 - Atibaia - SP\n\nAv. das Nações Unidas, 11.857\n8º Andar - Brooklin – São Paulo - SP",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "p"
+        }
+    },
+    //Endereço Espanha Genérico
+    "flex-layout.col#address-spain-phone": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "25%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#address-spain-title-phone",
+            "rich-text#address-spain-content-phone"
+        ]
+    },
+    "rich-text#address-spain-title-phone": {
+        "props": {
+            "blockClass": "country",
+            "text": "##### Espanha",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "t-heading-5"
+        }
+    },
+    "rich-text#address-spain-content-phone": {
+        "props": {
+            "blockClass": "address",
+            "text": "Carrer Provença, 339\n08037 - Barcelona",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "p"
+        }
+    },
+    //Endereço Estados Unidos Genérico
+    "flex-layout.col#address-usa-phone": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "25%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#address-usa-title-phone",
+            "rich-text#address-usa-content-phone"
+        ]
+    },
+    "rich-text#address-usa-title-phone": {
+        "props": {
+            "blockClass": "country",
+            "text": "##### Estados Unidos",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "t-heading-5"
+        }
+    },
+    "rich-text#address-usa-content-phone": {
+        "props": {
+            "blockClass": "address",
+            "text": "12 East 49th Street NY\n10017 - New York",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "font": "p"
+        }
+    }
+}

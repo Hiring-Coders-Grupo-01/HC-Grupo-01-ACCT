@@ -1,0 +1,17 @@
+{
+    //Logo
+    "flex-layout.row#logo-footer": {
+        "props": {
+            "blockClass": "logo-footer"
+        },
+        "children": [
+            "image#logo-footer"
+        ]
+    },
+    "image#logo-footer": {
+        "props": {
+            "blockClass": "logo-footer",
+            "src": "assets/brand/logo-acct-black.svg"
+        }
+    }
+}

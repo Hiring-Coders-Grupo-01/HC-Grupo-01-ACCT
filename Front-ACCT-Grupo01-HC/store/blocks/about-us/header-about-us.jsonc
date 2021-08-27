@@ -1,0 +1,18 @@
+{
+	"flex-layout.row#header-about-us": {
+        "props": {
+            "blockClass": "header-about-us"
+        },
+        "children": [
+            "rich-text#title-about-us"
+        ]
+    },	
+	"rich-text#title-about-us": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "# SOBRE NÓS",
+			"blockClass": ["page-header", "blink"]
+		}
+	}
+}

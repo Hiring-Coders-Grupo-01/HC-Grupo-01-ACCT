@@ -1,0 +1,38 @@
+{
+    //Selo Genérico
+    "flex-layout.col#stamp-footer": {
+        "props": {
+            "width": "35%"
+        },
+        "children": [
+            "image#stamp-footer"
+        ]
+    },
+    //Selo Tablet
+    "flex-layout.col#stamp-footer-tablet": {
+        "children": [
+            "image#stamp-footer-tablet"
+        ]
+    },
+    //Selo Phone
+    "flex-layout.row#stamp-footer-phone": {
+        "props": {
+            "blockClass": "stamp-footer-phone",
+            "horizontalAlign": "left"
+        },
+        "children": [
+            "image#stamp-footer"
+        ]
+    },
+    "image#stamp-footer": {
+        "props": {
+            "src": "assets/brand/selo-gptw-2021.svg"
+        }
+    },
+    "image#stamp-footer-tablet": {
+        "props": {
+            "blockClass": "stamp-footer-tablet",
+            "src": "assets/brand/selo-gptw-2021.svg"
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.flexRowContent--intro-about-us,
+.flexRowContent--header-about-us,
+.flexRowContent--porque-acct-container,
+.flexRowContent--team-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexRow--header-about-us {
+    background: url("assets/title/about-us.jpg");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexRow--porque-acct-container,
+.flexRowContent--team-container {
+    padding: 4em 2em 8em 2em;
+}
+
+.flexRowContent--intro-about-us {
+    padding: 8em 2em 4em 2em;
+}
+
+.flexRowContent--intro-details {
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    display: flex;
+}
+
+.flexRow--intro-image {
+    margin: auto 0;
+}
+
+.flexRowContent--porque-acct-itens {
+    flex-wrap: wrap;
+}
+
+.flexRowContent--porque-acct-row {
+    display: flex;
+}
+
+.flexColChild--porque-acct-item {
+    text-align: center;
+}

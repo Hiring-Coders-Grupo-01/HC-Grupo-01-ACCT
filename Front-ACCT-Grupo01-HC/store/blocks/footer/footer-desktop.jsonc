@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#footer-desktop": {
+        "props": {
+            "blockClass": "footer-desktop",
+            "paddingTop": 8,
+            "paddingBottom": 8
+        },
+        "children": [
+            "flex-layout.row#brand-container-desktop",
+            "flex-layout.col#address-brazil",
+            "flex-layout.col#address-spain",
+            "flex-layout.col#address-usa"
+        ]
+    },
+    //Flex Layout Brand Container Desktop (Logo ACCT + Selo + Redes Sociais + Contato)
+    "flex-layout.row#brand-container-desktop": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "32%"
+        },
+        "children": [
+            "flex-layout.col#stamp-footer",
+            "flex-layout.col#brand-details-footer-desktop"
+        ]
+    },
+    //Brand Details Desktop (Brand + Redes Sociais + Contato)
+    "flex-layout.col#brand-details-footer-desktop": {
+        "props": {
+            "width": "65%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "flex-layout.row#logo-footer",
+            "flex-layout.row#social-footer",
+            "flex-layout.row#contact-footer"
+        ]
+    }
+}

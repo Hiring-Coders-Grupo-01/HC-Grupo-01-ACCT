@@ -1,0 +1,41 @@
+{
+    "responsive-layout.tablet#footer-tablet": {
+        "children": [
+            "flex-layout.row#footer-tablet"
+        ]
+    },
+    "flex-layout.row#footer-tablet": {
+        "props": {
+            "blockClass": "footer-tablet",
+            "paddingTop": 8,
+            "paddingBottom": 8
+        },
+        "children": [
+            "flex-layout.col#brand-container-tablet",
+            "flex-layout.col#address-brazil",
+            "flex-layout.col#address-spain",
+            "flex-layout.col#address-usa"
+        ]
+    },
+    "flex-layout.col#brand-container-tablet": {
+        "props": {
+            "blockClass": "footer-content",
+            "width": "30%"
+        },
+        "children": [
+            "flex-layout.col#stamp-footer-tablet",
+            "flex-layout.col#brand-details-footer-tablet"
+        ]
+    },
+    "flex-layout.col#brand-details-footer-tablet": {
+        "props": {
+            "width": "220px",
+            "verticalAlign": "center"
+        },
+        "children": [
+            "flex-layout.row#logo-footer",
+            "flex-layout.row#social-footer",
+            "flex-layout.row#contact-footer"
+        ]
+    }
+}

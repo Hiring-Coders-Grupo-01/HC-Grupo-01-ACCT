@@ -1,0 +1,21 @@
+
+.sliderLayoutContainer--team-slider {
+    margin: 3em 0em 0em 0em;
+}
+
+.sliderTrackContainer--team-slider {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.caretIcon--team-slider {
+    opacity: 1;
+	border: 2px solid #aaa;
+	color: #aaa;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.caretIcon--team-slider:hover {
+	opacity: .8;
+}

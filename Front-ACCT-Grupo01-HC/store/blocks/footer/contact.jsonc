@@ -1,0 +1,26 @@
+{
+    "flex-layout.row#contact-footer": {
+        "props": {
+            "blockClass": "contact-footer"
+        },
+        "children": [
+            "link#email-footer"
+        ]
+    },
+    "flex-layout.row#contact-footer-phone": {
+        "props": {
+            "blockClass": "contact-footer-phone"
+        },
+        "children": [
+            "link#email-footer"
+        ]
+    },
+    "link#email-footer": {
+        "props": {
+            "blockClass": "email-footer",
+            "href": "mailto:contato@acct.global",
+            "label": "contato@acct.global",
+            "target": "_blank"
+        }
+    }
+}

@@ -1,0 +1,439 @@
+{
+    "flex-layout.row#member1": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member1"
+        ]
+    },
+    "flex-layout.row#member2": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member2"
+        ]
+    },
+    "flex-layout.row#member3": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member3"
+        ]
+    },
+    "flex-layout.row#member4": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member4"
+        ]
+    },
+    "flex-layout.row#member5": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member5"
+        ]
+    },
+    "flex-layout.row#member6": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member6"
+        ]
+    },
+    "flex-layout.row#member7": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member7"
+        ]
+    },
+    "flex-layout.row#member8": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member8"
+        ]
+    },
+    "flex-layout.row#member9": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member9"
+        ]
+    },
+    "flex-layout.row#member10": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member10"
+        ]
+    },
+    "flex-layout.row#member11": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member11"
+        ]
+    },
+    "flex-layout.row#member12": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member12"
+        ]
+    },
+    "flex-layout.row#member13": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member13"
+        ]
+    },
+    "flex-layout.row#member14": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member14"
+        ]
+    },
+    "flex-layout.row#member15": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member15"
+        ]
+    },
+    "flex-layout.row#member16": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member16"
+        ]
+    },
+    "flex-layout.row#member17": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member17"
+        ]
+    },
+    "flex-layout.row#member18": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member18"
+        ]
+    },
+    "flex-layout.row#member19": {
+        "props": {
+            "width": "228px"
+        },
+        "children": [
+            "flex-layout.col#member19"
+        ]
+    },
+    "flex-layout.col#member1": {
+		"children": [
+            "image#member1", 
+            "rich-text#member1",
+            "rich-text#office-design-experience"
+        ]
+	},
+    "flex-layout.col#member2": {
+		"children": [
+            "image#member2", 
+            "rich-text#member2",
+            "rich-text#office-sales-analist"
+        ]
+	},
+    "flex-layout.col#member3": {
+		"children": [
+            "image#member3", 
+            "rich-text#member3",
+            "rich-text#office-designer"
+        ]
+	},
+    "flex-layout.col#member4": {
+		"children": [
+            "image#member4", 
+            "rich-text#member4",
+            "rich-text#office-sales-analist"
+        ]
+	},
+    "flex-layout.col#member5": {
+		"children": [
+            "image#member5", 
+            "rich-text#member5",
+            "rich-text#office-developer"
+        ]
+	},
+    "flex-layout.col#member6": {
+		"children": [
+            "image#member6", 
+            "rich-text#member6",
+            "rich-text#office-ceo"
+        ]
+	},
+    "flex-layout.col#member7": {
+		"children": [
+            "image#member7", 
+            "rich-text#member7",
+            "rich-text#office-cto"
+        ]
+	},
+    "flex-layout.col#member8": {
+		"children": [
+            "image#member8", 
+            "rich-text#member8",
+            "rich-text#office-director"
+        ]
+	},
+    "flex-layout.col#member9": {
+		"children": [
+            "image#member9", 
+            "rich-text#member9",
+            "rich-text#office-head-rh"
+        ]
+	},
+    "flex-layout.col#member10": {
+		"children": [
+            "image#member10", 
+            "rich-text#member10",
+            "rich-text#office-head-marketing"
+        ]
+	},
+    "flex-layout.col#member11": {
+		"children": [
+            "image#member11", 
+            "rich-text#member11",
+            "rich-text#office-head-controladoria"
+        ]
+	},
+    "flex-layout.col#member12": {
+		"children": [
+            "image#member12", 
+            "rich-text#member12",
+            "rich-text#office-general-manager-europe"
+        ]
+	},
+    "flex-layout.col#member13": {
+		"children": [
+            "image#member13", 
+            "rich-text#member13",
+            "rich-text#office-svp-global-sales"
+        ]
+	},
+    "flex-layout.col#member14": {
+		"children": [
+            "image#member14", 
+            "rich-text#member14",
+            "rich-text#office-sales-manager-brazil"
+        ]
+	},
+    "flex-layout.col#member15": {
+		"children": [
+            "image#member15", 
+            "rich-text#member15",
+            "rich-text#office-head-trainning"
+        ]
+	},
+    "flex-layout.col#member16": {
+		"children": [
+            "image#member16", 
+            "rich-text#member16",
+            "rich-text#office-head-quality-assurance"
+        ]
+	},
+    "flex-layout.col#member17": {
+		"children": [
+            "image#member17", 
+            "rich-text#member17",
+            "rich-text#office-head-engineering"
+        ]
+	},
+    "flex-layout.col#member18": {
+		"children": [
+            "image#member18", 
+            "rich-text#member18",
+            "rich-text#office-design-experience-director"
+        ]
+	},
+    "flex-layout.col#member19": {
+		"children": [
+            "image#member19", 
+            "rich-text#member19",
+            "rich-text#office-head-business-intelligence"
+        ]
+	},
+    "rich-text#member1": {
+		"props": {
+			"text": "#### Bárbara Cruz",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member2": {
+		"props": {
+			"text": "#### Ana Lebre",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member3": {
+		"props": {
+			"text": "#### Victor Angelotti",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member4": {
+		"props": {
+			"text": "#### Camila Santos",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member5": {
+		"props": {
+			"text": "#### Rafael Rossini",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member6": {
+		"props": {
+			"text": "#### Frederico Heitmann",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member7": {
+		"props": {
+			"text": "#### Fábio Feichtinger",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member8": {
+		"props": {
+			"text": "#### André Dudek",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member9": {
+		"props": {
+			"text": "#### Fátima Raizaro",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member10": {
+		"props": {
+			"text": "#### Juan Nader",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member11": {
+		"props": {
+			"text": "#### Anna Chimenes",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member12": {
+		"props": {
+			"text": "#### Marcos Cipriani",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member13": {
+		"props": {
+			"text": "#### Rafael Esberard",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member14": {
+		"props": {
+			"text": "#### Carlos Oliveira",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member15": {
+		"props": {
+			"text": "#### Cecília Pereira",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member16": {
+		"props": {
+			"text": "#### Urânia Reis",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member17": {
+		"props": {
+			"text": "#### Guilherme Cardoso",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member18": {
+		"props": {
+			"text": "#### Rodrigo de Gouveia",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	},
+    "rich-text#member19": {
+		"props": {
+			"text": "#### Ammon Cunha",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+            "blockClass": "team-member-name"
+		}
+	}
+}

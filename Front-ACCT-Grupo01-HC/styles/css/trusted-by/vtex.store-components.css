@@ -1,0 +1,12 @@
+.imageElement--trusted-by-client {
+    filter: saturate(0);
+    transition: all 0.6s;
+    max-width: 120px;
+    margin: 0 auto 25px;
+}
+
+.imageElement--trusted-by-client:hover {
+    filter: saturate(1);
+    transform: scale(0.9, 0.9);
+    opacity: 0.8;
+}

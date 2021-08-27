@@ -1,0 +1,66 @@
+{
+    "flex-layout.row#social-footer": {
+        "props": {
+            "blockClass": "social-footer",
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "link#linkedin",
+            "link#youtube",
+            "link#instagram"
+        ]
+    },
+    "link#linkedin": {
+        "props": {
+            "blockClass": "social",
+            "href": "https://www.linkedin.com/company/acctglobal/",
+            "target": "_blank"
+        },
+        "children": [
+            "image#linkedin"
+        ]
+    },
+    "link#youtube": {
+        "props": {
+            "blockClass": "social",
+            "href": "https://www.youtube.com/channel/UCv-y0Z8ZIu6kP-MpebdIVZA",
+            "target": "_blank"
+        },
+        "children": [
+            "image#youtube"
+        ]
+    },
+    "link#instagram": {
+        "props": {
+            "blockClass": "social",
+            "href": "https://www.instagram.com/acct.global",
+            "target": "_blank"
+        },
+        "children": [
+            "image#instagram"
+        ]
+    },
+    "image#linkedin": {
+        "props": {
+            "blockClass": "social-icon",
+            "href": "https://www.linkedin.com/company/acctglobal/",
+            "target": "_blank",
+            "src": "assets/social/linkedin_icon.svg",
+            "maxWidth": 14
+        }
+    },
+    "image#youtube": {
+        "props": {
+            "blockClass": "social-icon",
+            "src": "assets/social/youtube_icon.svg",
+            "maxWidth": 17
+        }
+    },
+    "image#instagram": {
+        "props": {
+            "blockClass": "social-icon",
+            "src": "assets/social/instagram_icon.svg",
+            "maxWidth": 16
+        }
+    }
+}

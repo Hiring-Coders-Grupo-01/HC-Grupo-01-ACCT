@@ -1,0 +1,259 @@
+{
+    "flex-layout.row#porque-acct": {
+        "props": {
+            "blockClass": "porque-acct-container"
+        },
+        "children": [
+            "flex-layout.col#porque-acct"
+        ]
+    },
+    "flex-layout.col#porque-acct": {
+        "children": [
+            "flex-layout.row#porque-acct-title",
+            "responsive-layout.desktop#porque-acct",
+            "responsive-layout.tablet#porque-acct",
+            "responsive-layout.phone#porque-acct"
+        ]
+    },
+    "flex-layout.row#porque-acct-title": {
+        "props": {
+            "marginBottom": "7"
+        },
+        "children": [
+            "rich-text#porque-acct-title"
+        ]
+    },
+    "rich-text#porque-acct-title": {
+		"props": {
+			"text": "### Por que a ACCT?",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "headline"
+		}
+	},
+    "responsive-layout.desktop#porque-acct": {
+        "children": [
+            "flex-layout.row#porque-acct-itens"   
+        ]
+    },
+    "responsive-layout.tablet#porque-acct": {
+        "children": [
+            "flex-layout.row#porque-acct-itens"   
+        ]
+    },
+    "responsive-layout.phone#porque-acct": {
+        "children": [
+            "flex-layout.row#porque-acct-itens-phone"   
+        ]
+    },
+    "flex-layout.row#porque-acct-itens": {
+        "props": {
+            "blockClass": "porque-acct-itens"
+        },
+        "children": [
+            "flex-layout.row#porque-acct-row1",
+            "flex-layout.row#porque-acct-row2",
+            "flex-layout.row#porque-acct-row3",
+            "flex-layout.row#porque-acct-row4",
+            "flex-layout.row#porque-acct-row5"
+        ]
+    },
+    "flex-layout.row#porque-acct-itens-phone": {
+        "props": {
+            "blockClass": "porque-acct-itens"
+        },
+        "children": [
+            "flex-layout.row#porque-acct-row1-phone",
+            "flex-layout.row#porque-acct-row2-phone",
+            "flex-layout.row#porque-acct-row3-phone"
+        ]
+    },
+    "flex-layout.row#porque-acct-row1": {
+        "props": {
+            "blockClass": "porque-acct-row",
+            "width": "20%"
+        },
+        "children": [
+            "flex-layout.col#engenhariadados"  
+        ]
+    },
+    "flex-layout.row#porque-acct-row1-phone": {
+        "props": {
+            "blockClass": "porque-acct-row"
+        },
+        "children": [
+            "flex-layout.col#engenhariadados",
+            "flex-layout.col#habilidades"
+        ]
+    },
+    "flex-layout.row#porque-acct-row2": {
+        "props": {
+            "blockClass": "porque-acct-row",
+            "width": "20%"
+        },
+        "children": [
+            "flex-layout.col#habilidades"   
+        ]
+    },
+    "flex-layout.row#porque-acct-row2-phone": {
+        "props": {
+            "blockClass": "porque-acct-row",
+            "width": "50%"
+        },
+        "children": [
+            "flex-layout.col#lider",
+            "flex-layout.col#suporte"
+        ]
+    },
+    "flex-layout.row#porque-acct-row3": {
+        "props": {
+            "blockClass": "porque-acct-row",
+            "width": "20%"
+        },
+        "children": [
+            "flex-layout.col#lider"  
+        ]
+    },
+    "flex-layout.row#porque-acct-row3-phone": {
+        "props": {
+            "blockClass": "porque-acct-row",
+            "width": "50%"
+        },
+        "children": [
+            "flex-layout.col#seguranca"
+        ]
+    },
+    "flex-layout.row#porque-acct-row4": {
+        "props": {
+            "blockClass": "porque-acct-row",
+            "width": "20%"
+        },
+        "children": [
+            "flex-layout.col#suporte" 
+        ]
+    },
+    "flex-layout.row#porque-acct-row5": {
+        "props": {
+            "blockClass": "porque-acct-row",
+            "width": "20%"
+        },
+        "children": [
+            "flex-layout.col#seguranca"  
+        ]
+    },
+	"flex-layout.col#engenhariadados": {
+        "props": {
+            "blockClass": "porque-acct-item"
+        },
+		"children": [
+            "image#engenhariadados", 
+            "rich-text#engenhariadados"
+        ]		
+	},
+	"flex-layout.col#habilidades": {
+        "props": {
+            "blockClass": "porque-acct-item"
+        },
+		"children": [
+            "image#habilidades", 
+            "rich-text#habilidades"
+        ]
+	},
+	"flex-layout.col#lider": {
+        "props": {
+            "blockClass": "porque-acct-item"
+        },
+		"children": [
+            "image#lider", 
+            "rich-text#lider"
+        ]
+	},
+	"flex-layout.col#suporte": {
+        "props": {
+            "blockClass": "porque-acct-item"
+        },
+		"children": [
+            "image#suporte", 
+            "rich-text#suporte"
+        ]
+	},
+    "flex-layout.col#seguranca": {
+        "props": {
+            "blockClass": "porque-acct-item"
+        },
+		"children": [
+            "image#seguranca", 
+            "rich-text#seguranca"
+        ]
+	},
+	"image#engenhariadados": {
+		"props": {
+			"src": "assets/icons/dashboard.svg",
+            "blockClass": "porque-acct-item"
+		}
+	},
+	"image#habilidades": {
+		"props": {
+			"src": "assets/icons/habilidades.svg",
+            "blockClass": "porque-acct-item"
+		}
+	},
+	"image#lider": {
+		"props": {
+			"src": "assets/icons/desktop.svg",
+            "blockClass": "porque-acct-item"
+		}
+	},
+	"image#suporte": {
+		"props": {
+			"src": "assets/icons/suporte.svg",
+            "blockClass": "porque-acct-item"
+		}
+	},
+    "image#seguranca": {
+		"props": {
+			"src": "assets/icons/seguranca.svg",
+            "blockClass": "porque-acct-item"
+		}
+	},
+	"rich-text#engenhariadados": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "### Engenharia de Dados de Alta Complexidade",
+            "blockClass": "porque-acct-item-description"
+		}
+	},
+	"rich-text#habilidades": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "### Habilidades Técnicas",
+            "blockClass": "porque-acct-item-description"
+		}
+	},
+	"rich-text#lider": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "### Líder de Mercado em Implementações VTEX IO",
+            "blockClass": "porque-acct-item-description"
+		}
+	},
+	"rich-text#suporte": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "### Excelente Suporte ao Cliente",
+            "blockClass": "porque-acct-item-description"
+		}
+	},
+    "rich-text#seguranca": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "### Segurança e confiabilidade",
+            "blockClass": "porque-acct-item-description"
+		}
+	}
+}

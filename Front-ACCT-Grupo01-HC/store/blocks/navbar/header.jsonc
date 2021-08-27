@@ -1,21 +1,22 @@
 {
   "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
   },
   "header-layout.desktop": {
     "children": [
-     
-      
       "flex-layout.row#1-desktop",
       "sticky-layout#2-desktop"
     ]
   },
-
-
-  
   "flex-layout.row#1-desktop": {
     "props": {
       "blockClass": "menu-link",
@@ -25,9 +26,7 @@
       "fullWidth": true
     },
     "children": [
-      
       "flex-layout.col#spacer"
-     
     ]
   },
   "flex-layout.col#spacer": {
@@ -39,7 +38,9 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#2-desktop"]
+    "children": [
+      "flex-layout.row#2-desktop"
+    ]
   },
   "flex-layout.row#2-desktop": {
     "props": {
@@ -54,25 +55,24 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "flex-layout.col#category-menu",
-      
-     
       "locale-switcher"
-     
-     
-     
     ]
   },
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
+    "children": [
+      "logo#desktop"
+    ]
   },
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
   },
   "logo#desktop": {
     "props": {
@@ -83,10 +83,14 @@
     }
   },
   "header-layout.mobile": {
-    "children": ["sticky-layout#1-mobile"]
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
   },
   "sticky-layout#1-mobile": {
-    "children": ["flex-layout.row#1-mobile"]
+    "children": [
+      "flex-layout.row#1-mobile"
+    ]
   },
   "flex-layout.row#1-mobile": {
     "children": [
@@ -104,21 +108,20 @@
     }
   },
   "drawer": {
-    "children": ["menu#drawer"]
+    "children": [
+      "menu#drawer"
+    ]
   },
-
   "menu#drawer": {
     "children": [
-      "menu-item#category-acct",
+      "menu-item#category-sobre-nos",
       "menu-item#category-blog",
       "menu-item#category-parceiros"
-      
     ],
     "props": {
       "orientation": "vertical"
     }
   },
-
   "logo#mobile": {
     "props": {
       "title": "Logo",
@@ -127,6 +130,4 @@
       "width": "70"
     }
   }
-
 }
- 

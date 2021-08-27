@@ -1,0 +1,38 @@
+{
+    "responsive-layout.phone#footer-phone": {
+        "children": [
+            "flex-layout.row#footer-phone"
+        ]
+    },
+    "flex-layout.row#footer-phone": {
+        "props": {
+            "blockClass": "footer-phone",
+            "width": "30rem",
+            "paddingTop": 9,
+            "paddingBottom": 8
+        },
+        "children": [
+            "flex-layout.col#footer-phone"
+        ]
+    },
+    "flex-layout.col#footer-phone": {
+        "children": [
+            "flex-layout.row#stamp-footer-phone",
+            "flex-layout.col#brand-details-footer-phone",
+            "flex-layout.col#address-brazil-phone",
+            "flex-layout.col#address-spain-phone",
+            "flex-layout.col#address-usa-phone"
+        ]
+    },
+    "flex-layout.col#brand-details-footer-phone": {
+        "props": {
+            "width": "65%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "flex-layout.row#logo-footer",
+            "flex-layout.row#social-footer",
+            "flex-layout.row#contact-footer-phone"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+.imageElement--logo-footer {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.imageElement--social-icon {
+    background-color: black;
+}
+
+.imageElement--stamp-footer-tablet {
+    max-width: 140px;
+}

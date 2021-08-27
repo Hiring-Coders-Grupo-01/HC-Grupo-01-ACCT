@@ -1,0 +1,142 @@
+{
+    "flex-layout.row#trusted-by-row1": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client1"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row1-phone": {
+        "props": {
+            "blockClass": "trusted-by-row"
+        },
+        "children": [
+            "image#trusted-by-client1",
+            "image#trusted-by-client2"
+        ]
+    },
+
+    "flex-layout.row#trusted-by-row2": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client2"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row2-phone": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "50%"
+        },
+        "children": [
+            "image#trusted-by-client3",
+            "image#trusted-by-client4"
+        ]
+    },
+    "flex-layout.row#trusted-by-row3": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client3"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row3-phone": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "50%"
+        },
+        "children": [
+            "image#trusted-by-client5",
+            "image#trusted-by-client6"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row4": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client4"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row4-phone": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "50%"
+        },
+        "children": [
+            "image#trusted-by-client7",
+            "image#trusted-by-client8"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row5": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client5"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row5-phone": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "50%"
+        },
+        "children": [
+            "image#trusted-by-client9",
+            "image#trusted-by-client10"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row6": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client6"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row7": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client7"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row8": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client8"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row9": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client9"   
+        ]
+    },
+    "flex-layout.row#trusted-by-row10": {
+        "props": {
+            "blockClass": "trusted-by-row",
+            "width": "20%"
+        },
+        "children": [
+            "image#trusted-by-client10"   
+        ]
+    }      
+}

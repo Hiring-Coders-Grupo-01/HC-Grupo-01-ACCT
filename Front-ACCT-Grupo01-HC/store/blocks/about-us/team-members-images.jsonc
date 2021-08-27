@@ -1,0 +1,116 @@
+{
+    "image#member1": {
+        "props": {
+            "src": "assets/team/member01.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member2": {
+        "props": {
+            "src": "assets/team/member02.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member3": {
+        "props": {
+            "src": "assets/team/member03.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member4": {
+        "props": {
+            "src": "assets/team/member04.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member5": {
+        "props": {
+            "src": "assets/team/member05.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member6": {
+        "props": {
+            "src": "assets/team/member06.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member7": {
+        "props": {
+            "src": "assets/team/member07.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member8": {
+        "props": {
+            "src": "assets/team/member08.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member9": {
+        "props": {
+            "src": "assets/team/member09.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member10": {
+        "props": {
+            "src": "assets/team/member10.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member11": {
+        "props": {
+            "src": "assets/team/member11.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member12": {
+        "props": {
+            "src": "assets/team/member12.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member13": {
+        "props": {
+            "src": "assets/team/member13.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member14": {
+        "props": {
+            "src": "assets/team/member14.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member15": {
+        "props": {
+            "src": "assets/team/member15.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member16": {
+        "props": {
+            "src": "assets/team/member16.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member17": {
+        "props": {
+            "src": "assets/team/member17.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member18": {
+        "props": {
+            "src": "assets/team/member18.png",
+            "blockClass": "team-member-image"
+        }
+    },
+    "image#member19": {
+        "props": {
+            "src": "assets/team/member19.jpg",
+            "blockClass": "team-member-image"
+        }
+    }
+}

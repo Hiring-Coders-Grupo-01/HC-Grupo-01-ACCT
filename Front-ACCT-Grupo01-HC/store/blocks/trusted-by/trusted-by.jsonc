@@ -1,0 +1,75 @@
+{
+    "flex-layout.row#trusted-by": {
+        "props": {
+            "blockClass": "trusted-by-container"
+        },
+        "children": [
+            "flex-layout.col#trusted-by"
+        ]
+    },
+    "flex-layout.col#trusted-by": {
+        "children": [
+            "flex-layout.row#trusted-by-title",
+            "responsive-layout.desktop#trusted-by-clients",
+            "responsive-layout.tablet#trusted-by-clients",
+            "responsive-layout.phone#trusted-by-clients"
+        ]
+    },
+    "flex-layout.row#trusted-by-title": {
+        "children": [
+            "rich-text#trusted-by-title"   
+        ]
+    },
+    "rich-text#trusted-by-title": {
+		"props": {
+			"text": "### Trusted by",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "headline"
+		}
+	},
+    "responsive-layout.desktop#trusted-by-clients": {
+        "children": [
+            "flex-layout.row#trusted-by-clients"   
+        ]
+    },
+    "responsive-layout.tablet#trusted-by-clients": {
+        "children": [
+            "flex-layout.row#trusted-by-clients"   
+        ]
+    },
+    "responsive-layout.phone#trusted-by-clients": {
+        "children": [
+            "flex-layout.row#trusted-by-clients-phone"   
+        ]
+    },
+    "flex-layout.row#trusted-by-clients": {
+        "props": {
+            "blockClass": "trusted-by-clients"
+        },
+        "children": [
+            "flex-layout.row#trusted-by-row1",
+            "flex-layout.row#trusted-by-row2",
+            "flex-layout.row#trusted-by-row3",
+            "flex-layout.row#trusted-by-row4",
+            "flex-layout.row#trusted-by-row5",
+            "flex-layout.row#trusted-by-row6",
+            "flex-layout.row#trusted-by-row7",
+            "flex-layout.row#trusted-by-row8",
+            "flex-layout.row#trusted-by-row9",
+            "flex-layout.row#trusted-by-row10"
+        ]
+    },
+    "flex-layout.row#trusted-by-clients-phone": {
+        "props": {
+            "blockClass": "trusted-by-clients"
+        },
+        "children": [
+            "flex-layout.row#trusted-by-row1-phone",
+            "flex-layout.row#trusted-by-row2-phone",
+            "flex-layout.row#trusted-by-row3-phone",
+            "flex-layout.row#trusted-by-row4-phone",
+            "flex-layout.row#trusted-by-row5-phone"
+        ]
+    }
+}

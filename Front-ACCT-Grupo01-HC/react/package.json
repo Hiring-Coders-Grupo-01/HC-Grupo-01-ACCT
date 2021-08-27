@@ -1,0 +1,14 @@
+{
+    "name": "hc01-react",
+    "version": "0.0.1",
+    "scripts": {
+      "test": "vtex-test-tools test"
+    },
+    "dependencies": {
+
+    },
+    "devDependencies": {
+
+    }
+  }
+  

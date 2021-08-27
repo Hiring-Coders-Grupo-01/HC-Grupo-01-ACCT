@@ -1,238 +1,171 @@
 {
-    "vtex.menu@2.x:menu#category-menu": {
-      "props": {
-        "experimentalOptimizeRendering": true
-      },
-      "children": [
-        "menu-item#category-inicio",
-        "menu-item#category-acct",
-        "menu-item#category-oquefazemos",
-        "menu-item#category-blog",
-        "menu-item#category-parceiros",
-        "menu-item#category-contato"
-      ]
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
     },
-    "menu-item#category-inicio": {
-        "props": {
-          "id": "menu-item-category-inicio",
-          "type": "custom",
-          "iconId": null,
-          "highlight": true,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "tagTitle": "INÍCIO",
-            "text": "INÍCIO"
-          }
-        }
-      },
-    "menu-item#category-acct": {
-      "props": {
-        "id": "menu-item-category-acct",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/acct/",
-          "noFollow": false,
-          "tagTitle": "ACCT",
-          "text": "ACCT" 
-        }
-      },
-      "blocks": [
-        "vtex.menu@2.x:submenu#category-acct"
-      ]
-    },
-    "vtex.menu@2.x:submenu#category-acct": {
-      "props": {
-        "width": "auto"
-      },
-      "children": [
-        "vtex.menu@2.x:menu#category-acct"
-      ]
-    },
-    "vtex.menu@2.x:menu#category-acct": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#category-sobrenos",
-        "menu-item#category-imprensa-midia",
-        "menu-item#category-carreiras"
-      ]
-    },
-    "menu-item#category-sobrenos": {
-      "props": {
-        "id": "menu-item-category-sobrenos",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/acct/sobre-nos/",
-          "noFollow": false,
-          "tagTitle": "SOBRE NÓS",
-          "text": "SOBRE NÓS"
-        }
-      }
-    },
-    "menu-item#category-imprensa-midia": {
-      "props": {
-        "id": "menu-item-category-imprensa-midia",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/acct/imprensa/",
-          "noFollow": false,
-          "tagTitle": "IMPRENSA E MÍDIA",
-          "text": "IMPRENSA E MÍDIA"
-        }
-      }
-    },
-    "menu-item#category-carreiras": {
-      "props": {
-        "id": "menu-item-category-carreiras",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/acct/carreira/",
-          "noFollow": false,
-          "tagTitle": "CARREIRA",
-          "text": "CARREIRA"
-        }
-      }
-    },
-    "menu-item#category-oquefazemos": {
-      "props": {
-        "id": "menu-item-category-oquefazemos",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/oquefazemos/",
-          "noFollow": false,
-          "tagTitle": "O QUE FAZEMOS",
-          "text": "O QUE FAZEMOS"
-        }
-      },
-      "blocks": [
-        "vtex.menu@2.x:submenu#category-oquefazemos"
-      ]
-    },
-    "vtex.menu@2.x:submenu#category-oquefazemos": {
-      "props": {
-        "width": "auto"
-      },
-      "children": [
-        "vtex.menu@2.x:menu#category-oquefazemos"
-      ]
-    },
-    "vtex.menu@2.x:menu#category-oquefazemos": {
-      "props": {
-        "orientation": "vertical"
-      },
-      "children": [
-        "menu-item#category-servicos",
-        "menu-item#category-categorias-industriais",
-        "menu-item#category-cases"
-      ]
-    },
-    "menu-item#category-servicos": {
-      "props": {
-        "id": "menu-item-category-servicos",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/oquefazemos/servicos/",
-          "noFollow": false,
-          "tagTitle": "SERVIÇOS",
-          "text": "SERVIÇOS"
-        }
-      }
-    },
-    "menu-item#category-categorias-industriais": {
-      "props": {
-        "id": "menu-item-category-categorias-industriais",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/oquefazemos/categorias/",
-          "noFollow": false,
-          "tagTitle": "CATEGORIAS INDUSTRIAIS",
-          "text": "CATEGORIAS INDUSTRIAIS"
-        }
-      }
-    },
-    "menu-item#category-cases": {
-      "props": {
-        "id": "menu-item-category-cases",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/oquefazemos/cases/",
-          "noFollow": false,
-          "tagTitle": "CASES",
-          "text": "CASES"
-        }
-      }
-    },
-    "menu-item#category-blog": {
-      "props": {
-        "id": "menu-item-category-blog",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/blog/",
-          "noFollow": false,
-          "tagTitle": "BLOG",
-          "text": "BLOG"
-        }
-      }
-    },
-    "menu-item#category-parceiros": {
-      "props": {
-        "id": "menu-item-category-parceiros",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/parceiros/",
-          "noFollow": false,
-          "tagTitle": "PARCEIROS",
-          "text": "PARCEIROS"
-        }
-      }
-    },
-    "menu-item#category-contato": {
-      "props": {
-        "id": "menu-item-category-contato",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/cadastro",
-          "noFollow": false,
-          "tagTitle": "CONTATO",
-          "text": "CONTATO"
-        }
+    "children": [
+      "menu-item#category-inicio",
+      "menu-item#category-sobre-nos",
+      "menu-item#category-oquefazemos",
+      "menu-item#category-blog",
+      "menu-item#category-parceiros",
+      "menu-item#category-contato"
+    ]
+  },
+  "menu-item#category-inicio": {
+    "props": {
+      "id": "menu-item-category-inicio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "INÍCIO",
+        "text": "INÍCIO"
       }
     }
-
+  },
+  "menu-item#category-sobre-nos": {
+    "props": {
+      "id": "menu-item-category-sobre-nos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre-nos",
+        "noFollow": false,
+        "tagTitle": "SOBRE NÓS",
+        "text": "SOBRE NÓS"
+      }
+    }
+  },
+  "menu-item#category-oquefazemos": {
+    "props": {
+      "id": "menu-item-category-oquefazemos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos/",
+        "noFollow": false,
+        "tagTitle": "O QUE FAZEMOS",
+        "text": "O QUE FAZEMOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-oquefazemos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-oquefazemos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-oquefazemos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-oquefazemos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-servicos",
+      "menu-item#category-categorias-industriais",
+      "menu-item#category-cases"
+    ]
+  },
+  "menu-item#category-servicos": {
+    "props": {
+      "id": "menu-item-category-servicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos/servicos/",
+        "noFollow": false,
+        "tagTitle": "SERVIÇOS",
+        "text": "SERVIÇOS"
+      }
+    }
+  },
+  "menu-item#category-categorias-industriais": {
+    "props": {
+      "id": "menu-item-category-categorias-industriais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos/categorias/",
+        "noFollow": false,
+        "tagTitle": "CATEGORIAS INDUSTRIAIS",
+        "text": "CATEGORIAS INDUSTRIAIS"
+      }
+    }
+  },
+  "menu-item#category-cases": {
+    "props": {
+      "id": "menu-item-category-cases",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oquefazemos/cases/",
+        "noFollow": false,
+        "tagTitle": "CASES",
+        "text": "CASES"
+      }
+    }
+  },
+  "menu-item#category-blog": {
+    "props": {
+      "id": "menu-item-category-blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog/",
+        "noFollow": false,
+        "tagTitle": "BLOG",
+        "text": "BLOG"
+      }
+    }
+  },
+  "menu-item#category-parceiros": {
+    "props": {
+      "id": "menu-item-category-parceiros",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/parceiros/",
+        "noFollow": false,
+        "tagTitle": "PARCEIROS",
+        "text": "PARCEIROS"
+      }
+    }
+  },
+  "menu-item#category-contato": {
+    "props": {
+      "id": "menu-item-category-contato",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cadastro",
+        "noFollow": false,
+        "tagTitle": "CONTATO",
+        "text": "CONTATO"
+      }
+    }
   }
+}

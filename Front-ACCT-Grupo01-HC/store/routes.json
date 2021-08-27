@@ -1,5 +1,8 @@
 {
     "store.custom#cadastro": {
         "path": "/cadastro"
+    },
+    "store.custom#about-us": {
+        "path": "/sobre-nos"
     }
 }

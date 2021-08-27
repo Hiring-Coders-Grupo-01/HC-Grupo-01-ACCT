@@ -1,0 +1,72 @@
+{
+    //Cliente Carrefour
+    "image#trusted-by-client1": {
+        "props": {
+            "src": "assets/clients/carrefour.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente Samsung 
+    "image#trusted-by-client2": {
+        "props": {
+            "src": "assets/clients/samsung.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente Abinbev    
+    "image#trusted-by-client3": {
+        "props": {
+            "src": "assets/clients/abinbev.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente Stanley Black Decker
+    "image#trusted-by-client4": {
+        "props": {
+            "src": "assets/clients/stanley-black-decker.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente Motorola
+    "image#trusted-by-client5": {
+        "props": {
+            "src": "assets/clients/motorola.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente Unilever 
+    "image#trusted-by-client6": {
+        "props": {
+            "src": "assets/clients/unilever.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente Whirlpool
+    "image#trusted-by-client7": {
+        "props": {
+            "src": "assets/clients/whirlpool.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente Universal Mg
+    "image#trusted-by-client8": {
+        "props": {
+            "src": "assets/clients/universal-mg.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente Decathlon
+    "image#trusted-by-client9": {
+        "props": {
+            "src": "assets/clients/decathlon.svg",
+            "blockClass": "trusted-by-client"
+        }
+    },
+    //Cliente C&A
+    "image#trusted-by-client10": {
+        "props": {
+            "src": "assets/clients/cea.svg",
+            "blockClass": "trusted-by-client"
+        }
+    }
+}
