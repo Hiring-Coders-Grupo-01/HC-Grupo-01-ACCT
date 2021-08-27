@@ -1,0 +1,573 @@
+{
+	"store.custom#aboutus": {
+		"blocks": [
+			"stack-layout#aboutus",
+			"flex-layout.row#title",
+			"flex-layout.row#future",
+			"__fold__",
+			"flex-layout.row#why",
+			"flex-layout.row#icons",
+			"flex-layout.row#trusted",
+			"flex-layout.row#clients",
+			"__fold__",
+			"flex-layout.row#team",
+			"slider-layout#team"
+		]
+	},
+
+	//------------------------ABOUT US----------------------------------
+	"stack-layout#aboutus": {
+		"children": ["rich-text#aboutus"],
+
+		"props": {
+			"blockClass": "stackLayout"
+		}
+	},
+	"rich-text#aboutus": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "# SOBRE NÓS  <span class='vtex-rich-text-0-x-heading--blink'></span>",
+			"blockClass": "textAboutus"
+		}
+	},
+
+	"flex-layout.row#title": {
+		"children": ["rich-text#title"]
+	},
+	"rich-text#title": {
+		"props": {
+			"text": " ## Projetando o <span class='vtex-rich-text-0-x-heading--future'> futuro do comércio digital </span>",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "futureTitle"
+		}
+	},
+
+	"flex-layout.row#future": {
+		"children": ["flex-layout.col#textaboutus", "flex-layout.col#imageaboutus"],
+		"props": {
+			"blockClass": "futureRow"
+		}
+	},
+	"flex-layout.col#textaboutus": {
+		"children": ["rich-text#textaboutus"],
+		"props": {
+			"blockClass": "futureCol"
+		}
+	},
+	"flex-layout.col#imageaboutus": {
+		"children": ["image#textaboutus"],
+		"props": {
+			"blockClass": "image_future"
+		}
+	},
+
+	"rich-text#textaboutus": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "Somos uma empresa de arquitetura e engenharia de software com 11 anos de história solucionando problemas de negócios com tecnologia.  \n \n  A **ACCT** passou por um rápido crescimento nos últimos 5 anos e hoje tem mais de 200 funcionários, em 3 países diferentes. \n \n Nós também temos o orgulho de dizer que a **ACCT** esteve envolvida em algumas das maiores implementações e projetos de e-commerce do mundo. \n \n Clientes globais como Unilever, Ab-Inbev, Carrefour e Whirpool nos escolheram para desenvolver seus produtos digitais porque confiam em nossa capacidade de fornecer soluções com a mais alta qualidade de design, engenharia e desenvolvimento",
+			"blockClass": "description"
+		}
+	},
+	"image#textaboutus": {
+		"props": {
+			"src": "assets/img-aboutus.jpg"
+		}
+	},
+
+	//-----------------WHY ACCT?-------------------------------------
+	"flex-layout.row#why": {
+		"children": ["rich-text#why"],
+		"props": {
+			"blockClass": "whyRow"
+		}
+	},
+	"rich-text#why": {
+		"props": {
+			"text": "### Por que a ACCT? <span class='vtex-rich-text-0-x-heading--future'> _ </span>",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "whyTitle"
+		}
+	},
+
+	//--------------------------------ICONS-----------------------------------
+	"flex-layout.row#icons": {
+		"children": [
+			"flex-layout.col#integration",
+			"flex-layout.col#dashboard",
+			"flex-layout.col#development",
+			"flex-layout.col#shield",
+			"flex-layout.col#customerservice"
+		],
+		"props": {
+			"blockClass": "iconsRow"
+		}
+	},
+	"flex-layout.col#integration": {
+		"children": ["image#integration", "rich-text#integration"],
+		"props": {
+			"blockClass": "iconsCol"
+		}
+	},
+	"flex-layout.col#dashboard": {
+		"children": ["image#dashboard", "rich-text#dashboard"],
+		"props": {
+			"blockClass": "iconsCol"
+		}
+	},
+
+	"flex-layout.col#development": {
+		"children": ["image#development", "rich-text#development"],
+		"props": {
+			"blockClass": "iconsCol"
+		}
+	},
+
+	"flex-layout.col#shield": {
+		"children": ["image#shield", "rich-text#shield"],
+		"props": {
+			"blockClass": "iconsCol"
+		}
+	},
+
+	"flex-layout.col#customerservice": {
+		"children": ["image#customerservice", "rich-text#customerservice"],
+		"props": {
+			"blockClass": "iconsCol"
+		}
+	},
+
+	"image#integration": {
+		"props": {
+			"src": "assets/icons/icon_integration.svg",
+			"blockClass": "icon_aboutus"
+		}
+	},
+	"image#dashboard": {
+		"props": {
+			"src": "assets/icons/icon_dashboard.svg",
+			"blockClass": "icon_aboutus"
+		}
+	},
+	"image#development": {
+		"props": {
+			"src": "assets/icons/icon_development.svg",
+			"blockClass": "icon_aboutus"
+		}
+	},
+	"image#shield": {
+		"props": {
+			"src": "assets/icons/icon_shield.svg",
+			"blockClass": "icon_aboutus"
+		}
+	},
+	"image#customerservice": {
+		"props": {
+			"src": "assets/icons/icon_customer-service.svg",
+			"blockClass": "icon_aboutus"
+		}
+	},
+	"rich-text#integration": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Cursos acessíveis",
+			"blockClass": "textIcons"
+		}
+	},
+	"rich-text#dashboard": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Gráficos de aprendizagem",
+			"blockClass": "textIcons"
+		}
+	},
+	"rich-text#development": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Incentivamos ideias geniais",
+			"blockClass": "textIcons"
+		}
+	},
+	"rich-text#shield": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Segurança e confiabilidade",
+			"blockClass": "textIcons"
+		}
+	},
+	"rich-text#customerservice": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Foco no cliente",
+			"blockClass": "textIcons"
+		}
+	},
+	"flex-layout.row#trusted": {
+		"children": ["rich-text#trusted"]
+	},
+	"rich-text#trusted": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "### Confiado por",
+			"blockClass": "trustedTitle"
+		}
+	},
+	//--------------------CLIENTS-------------------------
+	"flex-layout.row#clients": {
+		"children": [
+			"flex-layout.col#client1",
+			"flex-layout.col#client2",
+			"flex-layout.col#client3",
+			"flex-layout.col#client4",
+			"flex-layout.col#client5"
+		],
+		"props": {
+			"blockClass": "clientsRow"
+		}
+	},
+	"flex-layout.col#client1": {
+		"children": ["image#client1", "image#client2"],
+		"props": {
+			"blockClass": "clientsCol"
+		}
+	},
+	"flex-layout.col#client2": {
+		"children": ["image#client3", "image#client4"],
+		"props": {
+			"blockClass": "clientsCol"
+		}
+	},
+	"flex-layout.col#client3": {
+		"children": ["image#client5", "image#client6"],
+		"props": {
+			"blockClass": "clientsCol"
+		}
+	},
+	"flex-layout.col#client4": {
+		"children": ["image#client7", "image#client8"],
+		"props": {
+			"blockClass": "clientsCol"
+		}
+	},
+	"flex-layout.col#client5": {
+		"children": ["image#client9", "image#client10"],
+		"props": {
+			"blockClass": "clientsCol"
+		}
+	},
+
+	"image#client1": {
+		"props": {
+			"src": "assets/clients/clients_carrefour.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client2": {
+		"props": {
+			"src": "assets/clients/clients_samsung.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client3": {
+		"props": {
+			"src": "assets/clients/clients_abinbev.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client4": {
+		"props": {
+			"src": "assets/clients/clients_stanley-black-decker.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client5": {
+		"props": {
+			"src": "assets/clients/clients_motorola.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client6": {
+		"props": {
+			"src": "assets/clients/clients_unilever.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client7": {
+		"props": {
+			"src": "assets/clients/clients_whirlpool.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client8": {
+		"props": {
+			"src": "assets/clients/clients_universal-mg.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client9": {
+		"props": {
+			"src": "assets/clients/clients_decathlon.svg",
+			"blockClass": "image_clients"
+		}
+	},
+	"image#client10": {
+		"props": {
+			"src": "assets/clients/clients_cea.svg",
+			"blockClass": "image_clients"
+		}
+	},
+
+	//--------------------------TEAM-----------------------------
+	"flex-layout.row#team": {
+		"children": ["rich-text#team"]
+	},
+
+	"rich-text#team": {
+		"props": {
+			"text": "### Conheça nosso time \n A ACCT tem uma equipe interna de alto desempenho com recursos de 360 graus para fornecer soluções de tecnologia de alta complexidade.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "teamTitle"
+		}
+	},
+	"slider-layout#team": {
+		"children": [
+			"flex-layout.row#group1",
+			"flex-layout.row#group2",
+			"flex-layout.row#group3"
+		],
+		"props": {
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"showPaginationDots": "never",
+			"autoplay": {
+				"timeout": 3000,
+				"stopOnHover": true
+			},
+			"arrowSize": {
+				"desktop": 25,
+				"tablet": 20,
+				"phone": 10
+			},
+			"blockClass": "sliderTeam"
+		}
+	},
+	"flex-layout.row#group1": {
+		"children": [
+			"flex-layout.col#person1",
+			"flex-layout.col#person2",
+			"flex-layout.col#person3"
+		],
+		"props": {
+			"blockClass": "personRow"
+		}
+	},
+	"flex-layout.row#group2": {
+		"children": [
+			"flex-layout.col#person4",
+			"flex-layout.col#person5",
+			"flex-layout.col#person6"
+		],
+		"props": {
+			"blockClass": "personRow"
+		}
+	},
+
+	"flex-layout.row#group3": {
+		"children": [
+			"flex-layout.col#person7",
+			"flex-layout.col#person8",
+			"flex-layout.col#person9"
+		],
+		"props": {
+			"blockClass": "personRow"
+		}
+	},
+	"flex-layout.col#person1": {
+		"children": ["image#person1", "rich-text#person1"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+	"flex-layout.col#person2": {
+		"children": ["image#person2", "rich-text#person2"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+	"flex-layout.col#person3": {
+		"children": ["image#person3", "rich-text#person3"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+	"flex-layout.col#person4": {
+		"children": ["image#person4", "rich-text#person4"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+	"flex-layout.col#person5": {
+		"children": ["image#person5", "rich-text#person5"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+	"flex-layout.col#person6": {
+		"children": ["image#person6", "rich-text#person6"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+	"flex-layout.col#person7": {
+		"children": ["image#person7", "rich-text#person7"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+	"flex-layout.col#person8": {
+		"children": ["image#person8", "rich-text#person8"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+	"flex-layout.col#person9": {
+		"children": ["image#person9", "rich-text#person9"],
+		"props": {
+			"blockClass": "infoPerson"
+		}
+	},
+
+	"image#person1": {
+		"props": {
+			"src": "assets/team/fb.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+	"image#person2": {
+		"props": {
+			"src": "assets/img-aboutus.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+	"image#person3": {
+		"props": {
+			"src": "assets/img-aboutus.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+	"image#person4": {
+		"props": {
+			"src": "assets/img-aboutus.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+	"image#person5": {
+		"props": {
+			"src": "assets/img-aboutus.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+	"image#person6": {
+		"props": {
+			"src": "assets/img-aboutus.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+	"image#person7": {
+		"props": {
+			"src": "assets/img-aboutus.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+	"image#person8": {
+		"props": {
+			"src": "assets/img-aboutus.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+	"image#person9": {
+		"props": {
+			"src": "assets/img-aboutus.jpg",
+			"blockClass": "imageTeam"
+		}
+	},
+
+	"rich-text#person1": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#person2": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+
+	"rich-text#person3": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#person4": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#person5": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#person6": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#person7": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#person8": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"rich-text#person9": {
+		"props": {
+			"text": "#### Fabricio Brazil \n Desenvolvedor de alguma coisa",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	}
+}

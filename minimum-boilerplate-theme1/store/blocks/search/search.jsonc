@@ -162,7 +162,7 @@
   "image#lp": {
     "props": {
       "maxWidth": 24,
-     "src": "assets/play.png",
+     "src": "",
       "text": "play"
     }
   },
