@@ -18,11 +18,11 @@ https://styleguide.vtex.com/#/Components/Display/Table
 ## Estrutura do projeto
 ``` bash
   / # pasta raiz
-    |__ minimum-boilerplate-theme1 # Componentes Nativos em Vtex.io
+    |__ ACCT-Grupo01-HC # Componentes Nativos em Vtex.io
     |__ store-block-template1 # Componente Customizados em React
     |__ admin-template1 # Componente Customizado com React para ser Exibido no Painel Administrativo
 ```
 
 ## Desenvolvedores
-- [x] [Guilhana Mucelin Korb](https://www.linkedin.com/in/guilhana-mucelin-korb/);
-- [x] [Thiago Oliveira Teberga](https://www.linkedin.com/in/thiagoteberga).
+- [Guilhana Mucelin Korb](https://www.linkedin.com/in/guilhana-mucelin-korb/);
+- [Thiago Oliveira Teberga](https://www.linkedin.com/in/thiagoteberga).
