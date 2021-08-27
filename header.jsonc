@@ -1,0 +1,109 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [           
+      "sticky-layout#2-desktop"
+    ]
+  },   
+  "sticky-layout#2-desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#2-desktop"]
+  },
+  //---------------------DESKTOP----------------
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "flex-layout.col#category-menu",   
+      "minicart.v2"     
+    ]
+  }, 
+  //----------------------ColSpacer--------------------------
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }, 
+  //----------------------ACCT Logo---------------------------
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
+      "width": "180"
+    }
+  },
+  //-------------------------MENU Category ----------------
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  //-----------------------MOBILE-----------------------------
+  "header-layout.mobile": {
+    "children": ["sticky-layout#1-mobile"]
+  },
+  "sticky-layout#1-mobile": {
+    "children": ["flex-layout.row#1-mobile"]
+  },
+  "flex-layout.row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "flex-layout.col#spacer",     
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  //-----------------MENU DRAWER----------------------------
+  "drawer": {
+    "children": ["menu#drawer"]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-acct",
+      "menu-item#category-nossos-cursos",
+      "menu-item#category-parceiros"      
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  //--------------------------LOGO MOBILE------------------------
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://acct.global/wp-content/uploads/2021/06/logo-acct-black.svg",
+      "width": "70"
+    }
+  }
+}
+ 
