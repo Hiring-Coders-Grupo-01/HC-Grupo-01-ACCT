@@ -48,7 +48,7 @@ function ProgressWraper() {
             color: "#fcc200",
           }}
         />
-        <h3 style={{ color: "red", zIndex: 99999 }}>$</h3>
+        <h3 style={{ color: "white", zIndex: 99999, position: "fixed", bottom: 93, right: 117 }}>$</h3>
       </div>
     </div>
   );
