@@ -1,14 +1,11 @@
 {
-    "name": "hc01-react",
-    "version": "0.0.1",
-    "scripts": {
-      "test": "vtex-test-tools test"
-    },
-    "dependencies": {
-
-    },
-    "devDependencies": {
-
-    }
-  }
-  
+  "name": "hc01-react",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "vtex-test-tools test"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3"
+  },
+  "devDependencies": {}
+}

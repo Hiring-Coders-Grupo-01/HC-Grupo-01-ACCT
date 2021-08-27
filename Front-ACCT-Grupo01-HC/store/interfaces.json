@@ -4,5 +4,11 @@
     },
     "title": {
       "component": "Title"
+    },
+    "h1test": {
+      "component": "ComponentH1test"
+    },
+    "progress-wraper": {
+      "component": "ComponentProgressWraper"
     }
 }

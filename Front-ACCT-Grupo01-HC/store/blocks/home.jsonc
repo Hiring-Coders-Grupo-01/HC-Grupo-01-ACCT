@@ -1,7 +1,9 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#trusted-by"
+      "flex-layout.row#trusted-by",
+      "h1test",
+      "progress-wraper"
     ]
   }
 }
