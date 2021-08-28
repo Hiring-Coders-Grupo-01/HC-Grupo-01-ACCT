@@ -1,47 +1,22 @@
 {
   "header": {
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header.full": {
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "flex-layout.row#1-desktop",
+    "children": [           
       "sticky-layout#2-desktop"
     ]
-  },
-  "flex-layout.row#1-desktop": {
-    "props": {
-      "blockClass": "menu-link",
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#spacer"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
+  },   
   "sticky-layout#2-desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": [
-      "flex-layout.row#2-desktop"
-    ]
+    "children": ["flex-layout.row#2-desktop"]
   },
+  //---------------------DESKTOP----------------
   "flex-layout.row#2-desktop": {
     "props": {
       "blockClass": "main-header",
@@ -54,25 +29,22 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
-      "flex-layout.col#category-menu",
-      "locale-switcher"
+      "flex-layout.col#category-menu",   
+      "minicart.v2"     
     ]
-  },
+  }, 
+  //----------------------ColSpacer--------------------------
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  }, 
+  //----------------------ACCT Logo---------------------------
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": [
-      "logo#desktop"
-    ]
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-menu"
-    ]
+    "children": ["logo#desktop"]
   },
   "logo#desktop": {
     "props": {
@@ -82,22 +54,25 @@
       "width": "180"
     }
   },
+  //-------------------------MENU Category ----------------
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["vtex.menu@2.x:menu#category-menu"]
+  },
+  //-----------------------MOBILE-----------------------------
   "header-layout.mobile": {
-    "children": [
-      "sticky-layout#1-mobile"
-    ]
+    "children": ["sticky-layout#1-mobile"]
   },
   "sticky-layout#1-mobile": {
-    "children": [
-      "flex-layout.row#1-mobile"
-    ]
+    "children": ["flex-layout.row#1-mobile"]
   },
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
+      "flex-layout.col#spacer",     
       "minicart.v2"
     ],
     "props": {
@@ -107,21 +82,21 @@
       "fullWidth": true
     }
   },
+  //-----------------MENU DRAWER----------------------------
   "drawer": {
-    "children": [
-      "menu#drawer"
-    ]
+    "children": ["menu#drawer"]
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-sobre-nos",
-      "menu-item#category-blog",
-      "menu-item#category-parceiros"
+      "menu-item#category-acct",
+      "menu-item#category-nossos-cursos",
+      "menu-item#category-parceiros"      
     ],
     "props": {
       "orientation": "vertical"
     }
   },
+  //--------------------------LOGO MOBILE------------------------
   "logo#mobile": {
     "props": {
       "title": "Logo",
@@ -131,3 +106,4 @@
     }
   }
 }
+ 
