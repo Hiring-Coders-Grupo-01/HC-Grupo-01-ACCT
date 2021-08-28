@@ -5,7 +5,8 @@
                   "flex-layout.row#intro-about-us",
                   "flex-layout.row#porque-acct",
                   "flex-layout.row#trusted-by",
-                  "flex-layout.row#team"
+                  "flex-layout.row#team",
+                  "progress-wraper"
             ]
       }
 }
