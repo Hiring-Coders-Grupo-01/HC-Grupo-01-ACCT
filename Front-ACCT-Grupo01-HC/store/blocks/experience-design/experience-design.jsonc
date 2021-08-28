@@ -15,7 +15,8 @@
             "info-card#eight",
             "flex-layout.row#card-tablet",
             "image#citacao",
-            "flex-layout.row#nine"
+            "flex-layout.row#nine",
+            "progress-wraper"
         ]
     }
 }
