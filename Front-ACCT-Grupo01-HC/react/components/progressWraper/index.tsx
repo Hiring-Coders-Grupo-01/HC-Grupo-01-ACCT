@@ -56,6 +56,7 @@ function ProgressWraper() {
             width: "45px",
             height: "45px",
             color: "#fcc200",
+            zIndex: 99998
           }}
         />
         <div style={{
