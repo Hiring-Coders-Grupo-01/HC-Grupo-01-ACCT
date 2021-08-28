@@ -92,7 +92,7 @@
             "width": "20%"
         },
         "children": [
-            "flex-layout.col#skill"   
+            "flex-layout.col#skills"   
         ]
     },
     "flex-layout.row#why-acct-row2-phone": {
