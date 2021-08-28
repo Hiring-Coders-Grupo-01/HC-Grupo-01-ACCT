@@ -2,8 +2,6 @@
   "store.home": { 
     "blocks": [   
           "progress-wraper",
-          "mapa-slide",
-          "computer-slide",
           "flex-layout.row#hometitle",
           "flex-layout.row#hometext",
           "flex-layout.row#homemore",
