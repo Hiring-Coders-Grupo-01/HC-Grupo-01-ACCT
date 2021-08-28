@@ -7,5 +7,11 @@
     },
     "progress-wraper": {
       "component": "ComponentProgressWraper"
+    },
+    "mapa-slide": {
+      "component": "ComponentMapaSlide"
+    },
+    "computer-slide": {
+      "component": "ComponentComputerSlide"
     }
 }
