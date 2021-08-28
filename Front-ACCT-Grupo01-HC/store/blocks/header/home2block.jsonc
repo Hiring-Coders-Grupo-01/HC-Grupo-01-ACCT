@@ -1,7 +1,7 @@
 {
   "store.home": { 
     "blocks": [   
-          "progress-wraper",     
+          "progress-wraper",
           "flex-layout.row#hometitle",
           "flex-layout.row#hometext",
           "flex-layout.row#homemore",
