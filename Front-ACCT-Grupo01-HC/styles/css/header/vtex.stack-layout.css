@@ -1,0 +1,11 @@
+
+.stackItem--stackLayout {
+	background: url("assets/cover-contact.jpg");
+	background-size: cover;
+	background-position: center center;
+	padding: 56px;
+	min-height: 300px;
+}
+
+
+
