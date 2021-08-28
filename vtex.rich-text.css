@@ -1,0 +1,50 @@
+.heading--textContact {
+	color: #fff;
+}
+
+.heading--blink::after {
+	color: #fcc200;
+	animation: blink 1s infinite;
+	content: "_";
+}
+
+@keyframes blink {
+	0% {
+		content: "";
+	}
+
+	100% {
+		content: "_";
+	}
+}
+
+.wrapper--futureTitle {
+	margin: 70px 0px 40px 0px;
+	color: #000;
+}
+
+.heading--future {
+	color: #fcc200;
+}
+
+.wrapper--description {
+	padding: 0px 50px;
+	color: #000;
+}
+.wrapper--whyTitle,
+.wrapper--trustedTitle,
+.wrapper--teamTitle {
+	margin-bottom: 60px;
+}
+
+.heading--whyTitle,
+.heading--trustedTitle,
+.heading--teamTitle {
+	color: #000;
+}
+
+@media (max-width: 850px) {
+	.wrapper--futureTitle {
+		margin: 50px 0px 30px 0px;
+	}
+}
