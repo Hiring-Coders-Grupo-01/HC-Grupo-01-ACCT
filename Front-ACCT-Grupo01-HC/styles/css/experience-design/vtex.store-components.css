@@ -1,0 +1,36 @@
+.infoCardHeadline--card {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 2.25rem;
+	font-weight: bold;
+	color: #000;
+	margin: 0;
+}
+
+.infoCardContainer--card {
+	margin-top: 80px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 80px;
+}
+
+.infoCardCallActionContainer--card :global(.vtex-button) {
+	color: #5974c7;
+	border: 2px solid #5974c7;
+	background-color: transparent;
+}
+
+.infoCardCallActionContainer--card :global(.vtex-button):hover {
+	color: #fff;
+	background-color: #5974c7;
+}
+
+.infoCardImage--card {
+	height: 550px;
+	width: 95%;
+	border-radius: 25px;
+}
+
+.imageElement--img_citacao {
+	margin-top: 100px;
+	padding-left: 50px;
+}

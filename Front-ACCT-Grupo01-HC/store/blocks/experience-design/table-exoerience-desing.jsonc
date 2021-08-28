@@ -1,0 +1,90 @@
+{
+    "flex-layout.col#one": {
+        "props": {
+            "width": "28%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#one-title",
+            "rich-text#one-content"
+        ]
+    },
+    "rich-text#one-title": {
+        "props": {
+            "text": "##### Métricas e KPI’s",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#one-content": {
+        "props": {
+            "text": "Existem diversos padrões de métricas e KPI’s de acompanhamento quando o assunto é observar os dados que são importantes na jornada de nosso consumidor. Estudamos brevemente no Google Analytics o comportamento padrão do consumidor e propomos alguns tipos de abordagens sob os dados na tentativa de ser mais assertivo no que encontra nosso consumidor em sua jornada.",
+            "textPosition": "LEFT"
+        }
+    },
+    "flex-layout.col#two": {
+        "props": {
+            "width": "25%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#two-title",
+            "rich-text#two-content"
+        ]
+    },
+    "rich-text#two-title": {
+        "props": {
+            "text": "##### Comunicação Contínua",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#two-content": {
+        "props": {
+            "text": "Comunicar bem é uma das premissas de sucesso do produto. Produzimos nosso protótipo pensando em toda a comunicação, desde a oferta do produto, até a entrega do benefício no ato da compra.",
+            "textPosition": "LEFT"
+        }
+    },
+    "flex-layout.col#three": {
+        "props": {
+            "width": "25%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#three-title",
+            "rich-text#three-content"
+        ]
+    },
+    "rich-text#three-title": {
+        "props": {
+            "text": "##### Engajamento e Conteúdo",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#three-content": {
+        "props": {
+            "text": "Nossos designers analisaram toda a comunicação presente durante a experiência do usuário, planejando as melhores maneiras de atrair, instruir, informar, converter, embarcar, engajar e dar suporte para os usuários do produto, além é claro, de seguir as boas práticas de SEO.",
+            "textPosition": "LEFT"
+        }
+    },
+     "flex-layout.col#four": {
+        "props": {
+            "width": "25%",
+            "verticalAlign": "top"
+        },
+        "children": [
+            "rich-text#four-title",
+            "rich-text#four-content"
+        ]
+    },
+    "rich-text#four-title": {
+        "props": {
+            "text": "##### Testes e KPIs",
+            "textPosition": "LEFT"
+        }
+    },
+    "rich-text#four-content": {
+        "props": {
+            "text": "Com base em todos os processos e decisões da criação dos protótipos, listamos alguns testes e KPI´s de acompanhamento para medir e garantir o sucesso do produto criado.",
+            "textPosition": "LEFT"
+        }
+    }
+}
