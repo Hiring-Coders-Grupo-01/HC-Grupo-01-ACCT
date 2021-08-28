@@ -3,7 +3,7 @@
             "blocks": [
                   "flex-layout.row#header-about-us",
                   "flex-layout.row#intro-about-us",
-                  "flex-layout.row#porque-acct",
+                  "flex-layout.row#why-acct",
                   "flex-layout.row#trusted-by",
                   "flex-layout.row#team",
                   "progress-wraper"

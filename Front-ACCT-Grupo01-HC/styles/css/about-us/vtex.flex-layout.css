@@ -1,6 +1,6 @@
 .flexRowContent--intro-about-us,
 .flexRowContent--header-about-us,
-.flexRowContent--porque-acct-container,
+.flexRowContent--why-acct-container,
 .flexRowContent--team-container {
     max-width: 1170px;
     margin: 0 auto;
@@ -12,7 +12,7 @@
 	background-position: center center;
 }
 
-.flexRow--porque-acct-container,
+.flexRow--why-acct-container,
 .flexRowContent--team-container {
     padding: 4em 2em 8em 2em;
 }
@@ -31,14 +31,14 @@
     margin: auto 0;
 }
 
-.flexRowContent--porque-acct-itens {
+.flexRowContent--why-acct-itens {
     flex-wrap: wrap;
 }
 
-.flexRowContent--porque-acct-row {
+.flexRowContent--why-acct-row {
     display: flex;
 }
 
-.flexColChild--porque-acct-item {
+.flexColChild--why-acct-item {
     text-align: center;
 }
