@@ -1,0 +1,18 @@
+.flexRowContent--header--experience-desing {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.flexRow--header-experience-desing {
+	background: url("assets/title/experience-desing.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+.flexRow--bloco_componetizacao {
+	border: 2px solid black;
+}
+
+.flexRowContent--bloco_componetizacao {
+	border: 2px solid black;
+}
