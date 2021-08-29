@@ -1,12 +1,10 @@
 import React from 'react'
-import { GlobalStyle } from '../../assets/global'
 import { Container, FormContainer, Grid2Labels, Label, Paragraph, Input, LastInput, LabelsGroup, Button } from './styled'
 
 function ContactForm() {
     return (
         <Container>
             <div>
-                <GlobalStyle />
             </div>
             <FormContainer>
                 <Paragraph>Solicite nosso contato:</Paragraph>

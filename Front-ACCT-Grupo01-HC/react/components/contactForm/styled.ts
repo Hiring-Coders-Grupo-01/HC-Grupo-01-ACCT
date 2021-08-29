@@ -13,6 +13,12 @@ export const Container = styled.div`
 
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
+
+  * {
+    font-family: "Open Sans Condensed", sans-serif;
+  }
 `;
 
 export const FormContainer = styled.div`
