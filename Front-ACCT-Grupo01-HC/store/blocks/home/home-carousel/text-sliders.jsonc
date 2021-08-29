@@ -1,0 +1,31 @@
+{
+    "rich-text#slide1": {
+        "props": {
+          "text": "Test1"
+        }
+      },
+      
+      "rich-text#slide2": {
+        "props": {
+          "text": "Test2"
+        }
+      },
+      
+      "rich-text#slide3": {
+        "props": {
+          "text": "Test3"
+        }
+      },
+      
+      "rich-text#slide4": {
+        "props": {
+          "text": "Test4"
+        }
+      },
+      
+      "rich-text#slide5": {
+        "props": {
+          "text": "Test5"
+        }
+      }
+}

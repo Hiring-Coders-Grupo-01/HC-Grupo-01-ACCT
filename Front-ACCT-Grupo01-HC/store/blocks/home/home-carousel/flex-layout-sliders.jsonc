@@ -1,0 +1,46 @@
+{
+    "flex-layout.row#slide1": {
+        "props": {
+            
+        },
+        "children": [
+            "rich-text#slide1"
+        ]
+    },
+
+    "flex-layout.row#slide2": {
+        "props": {
+            
+        },
+        "children": [
+            "rich-text#slide2"
+        ]
+    },
+
+    "flex-layout.row#slide3": {
+        "props": {
+            
+        },
+        "children": [
+            "rich-text#slide3"
+        ]
+    },
+
+    "flex-layout.row#slide4": {
+        "props": {
+            
+        },
+        "children": [
+            "rich-text#slide4"
+        ]
+    },
+
+    "flex-layout.row#slide5": {
+        "props": {
+            
+        },
+        "children": [
+            "rich-text#slide5"
+        ]
+    }
+}
