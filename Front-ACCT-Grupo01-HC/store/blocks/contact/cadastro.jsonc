@@ -1,6 +1,7 @@
 {
 	"store.custom#cadastro": {
 		"blocks": [
+			"progress-wraper",
 			"stack-layout#contact",
 			"flex-layout.row#contact",
 			"flex-layout.row#title",
