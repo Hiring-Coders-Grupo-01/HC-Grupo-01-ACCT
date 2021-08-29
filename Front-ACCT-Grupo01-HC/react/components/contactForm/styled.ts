@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
+
+  * {
+    font-family: "Open Sans Condensed", sans-serif;
+  }
+
   background: url("https://acct.global/wp-content/uploads/2021/01/bg-form.jpg") no-repeat bottom center scroll;
   background-size: cover;
   width: 100%;
@@ -14,16 +20,18 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap");
-
-  * {
-    font-family: "Open Sans Condensed", sans-serif;
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
   }
 `;
 
 export const FormContainer = styled.div`
   width: 70%;
   margin: auto;
+
+  @media (max-width: 1024px) {
+    width: 50%;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -67,6 +75,10 @@ export const Input = styled.input`
     box-shadow: 0 0 0 0;
     border: 0 none;
     outline: 0;
+  }
+
+  @media (max-width: 1024px) {
+    width: 100%;
   }
 `;
 
