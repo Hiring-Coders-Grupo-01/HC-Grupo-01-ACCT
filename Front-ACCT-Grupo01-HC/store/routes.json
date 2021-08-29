@@ -5,6 +5,9 @@
     "store.custom#quality-assurance": {
         "path": "/servicos/quality-assurance"
     },
+    "store.custom#data-growth": {
+        "path": "/servicos/data-e-growth"
+    },
     "store.custom#experience-design": {
         "path": "/servicos/experience-design"
     },

@@ -1,0 +1,7 @@
+{
+    "store.custom#data-growth": {
+        "blocks": [
+            "flex-layout.row#header-data-growth"
+        ]
+    }
+}
