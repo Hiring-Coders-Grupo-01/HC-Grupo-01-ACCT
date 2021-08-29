@@ -63,11 +63,11 @@ function ProgressWraper() {
           color: "white",
           zIndex: 99999,
           position: "fixed",
-          bottom: 112,
-          right: 118
+          bottom: 114,
+          right: 117
         }}>
           <a href="#" style={{ scrollBehavior: "smooth" }}>
-            <FontAwesomeIcon icon="angle-double-up" style={{ color: "#fff" }} />
+            <FontAwesomeIcon icon="angle-double-up" style={{ color: "#fcc200" }} />
           </a>
         </div>
       </div>
