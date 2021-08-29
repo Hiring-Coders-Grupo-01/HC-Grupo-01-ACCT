@@ -8,9 +8,6 @@
     "store.custom#data-growth": {
         "path": "/servicos/data-e-growth"
     },
-    "store.custom#data-e-growth": {
-        "path": "/data-e-growth"
-    },
     "store.custom#experience-design": {
         "path": "/servicos/experience-design"
     },
