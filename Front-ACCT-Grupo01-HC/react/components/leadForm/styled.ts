@@ -6,7 +6,7 @@ export const FormContainer = styled.div`
 
   display: flex;
   flex-direction: column;
-  border: 1.5px solid #5974c7;
+  //border: 1.5px solid #5974c7;
 
   @media (max-width: 1024px) {
     width: 50%;
