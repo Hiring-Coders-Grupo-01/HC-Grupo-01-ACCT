@@ -9,7 +9,7 @@
     "infinite": true,
     "showPaginationDots": "never",
     "showNavigationArrows": "desktopOnly",
-    "blockClass": "carousel"
+    "blockClass": "home-carousel"
   },
   "children": ["flex-layout.row#slide1", "flex-layout.row#slide2", "flex-layout.row#slide3", "flex-layout.row#slide4", "flex-layout.row#slide5"]
 }
