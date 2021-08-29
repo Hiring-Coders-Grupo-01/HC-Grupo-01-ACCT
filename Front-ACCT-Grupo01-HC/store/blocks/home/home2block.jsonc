@@ -2,6 +2,7 @@
   "store.home": { 
     "blocks": [   
           "progress-wraper",
+          "list-context.image-list#home-carousel",
           "flex-layout.row#hometitle",
           "flex-layout.row#hometext",
           "flex-layout.row#homemore",

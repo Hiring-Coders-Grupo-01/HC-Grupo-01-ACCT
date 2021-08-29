@@ -10,5 +10,8 @@
     },
     "contact-form": {
       "component": "ComponentContactForm"
+    },
+    "contact-form-separated": {
+      "component": "ComponentFormSeparated"
     }
 }

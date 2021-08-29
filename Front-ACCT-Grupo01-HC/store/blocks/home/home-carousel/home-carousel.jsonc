@@ -1,0 +1,43 @@
+{
+  "list-context.image-list#home-carousel": {
+  "children": ["slider-layout#home-slide-images"],
+  "props": {
+    "height": 720,
+    "images": [
+      {
+        "image": "assets/banners/gradiente01.webp",
+        "blockClass": "carousel-image"
+      },
+      {
+        "image": "assets/banners/gradiente02.webp",
+        "blockClass": "carousel-image"
+      },
+      {
+        "image": "assets/banners/slider-home-technology.webp",
+        "blockClass": "carousel-image"
+      },
+      {
+        "image": "assets/banners/slider-home-engineering.webp",
+        "blockClass": "carousel-image"
+      },
+      {
+        "image": "assets/banners/slider-home-product.webp",
+        "blockClass": "carousel-image"
+      }
+    ]
+  }
+},
+
+"slider-layout#home-slide-images": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "carousel"
+  }
+}
+}
