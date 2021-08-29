@@ -4,11 +4,8 @@
 			"stack-layout#contact",
 			"flex-layout.row#contact",
 			"flex-layout.row#title",
+			"contact-form",
 			"flex-layout.row#map"
-			
-					
-			
-           
 		]
 	},
 	//------------------------CONTACT----------------------------------
