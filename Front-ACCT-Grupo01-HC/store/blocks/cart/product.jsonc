@@ -7,7 +7,8 @@
   },
   "flex-layout.row#main": {
     "props": {
-      "marginTop": 6
+      "marginTop": 6, 
+      "blockClass": "containerProductDetails"
     },
     "children": [
       "flex-layout.col#left",
@@ -25,40 +26,10 @@
       "verticalAlign": "middle"
     },
     "children": [
-      "condition-layout.product",
-   
-      "product-identifier.product",
       "product-price",
       "flex-layout.row#qty-sku",
-      "shipping-simulator",
-      "buy-button",
-      "share#default"
+      "buy-button"
     ]
-  },
-  "condition-layout.product": {
-    "children": [
-      "condition.product#retro-mixer"
-    ]
-  },
-  "condition.product#retro-mixer": {
-     "props": {
-       "conditions": [
-         {
-           "subject": "productId",
-           "verb": "is",
-           "object": "20"
-         }
-       ]
-     },
-     "children": ["image#retro-mixer-banner"]
-   },
-   "image#retro-mixer-banner": {
-      "props": {
-        "src": "https://appliancetheme.vtexassets.com/assets/app/src/retroimage___92a8271aac7c51d2059193bdbe019016.jpg",
-        "width": "100%",
-        "height": "200px",
-        "blockClass": "cover"
-      }
   },
   "product-price": {
     "props": {
@@ -71,16 +42,6 @@
       "sku-selector",
       "product-quantity"
     ]
-  },
-  "share#default": {
-    "props": {
-      "social": {
-        "Facebook": true,
-        "WhatsApp": true,
-        "Twitter": false,
-        "Pinterest": true
-      }
-    }
   }
 
 }
