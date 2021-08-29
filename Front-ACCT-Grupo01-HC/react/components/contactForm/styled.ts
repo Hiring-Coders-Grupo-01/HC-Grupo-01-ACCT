@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background: url("https://acct.global/wp-content/uploads/2021/01/bg-form.jpg");
+  background: url("https://acct.global/wp-content/uploads/2021/01/bg-form.jpg") no-repeat bottom center scroll;
+  background-size: cover;
   width: 100%;
   height: 802px;
 
