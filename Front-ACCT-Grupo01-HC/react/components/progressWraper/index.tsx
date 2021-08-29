@@ -1,27 +1,15 @@
 import React, { useState, useEffect } from "react";
 
 //progress circle wraper
-import { makeStyles } from "@material-ui/core/styles";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 //font awesome icons
 import '../../assets/icons/fontawesome'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-// make circle styles
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    "& > * + *": {
-      marginLeft: theme.spacing(2),
-    },
-  },
-}));
-
 function ProgressWraper() {
   // set scroll top
   const [scrollTop, setScrollTop] = useState(0);
-  const classes = useStyles();
 
   // get scroll location and transform in percent
   const onScroll = () => {
@@ -41,7 +29,7 @@ function ProgressWraper() {
 
   return (
     <div>
-      <div className={classes.root}>
+      <div>
         <CircularProgress
           variant="determinate"
           value={scrollTop}
