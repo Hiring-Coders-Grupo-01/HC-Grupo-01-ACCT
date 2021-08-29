@@ -4,15 +4,16 @@
             "blockClass": "header-quality-assurance"
         },
         "children": [
-            "rich-text#title-header-quality-assurance"
+            "rich-text#title-quality-assurance"
         ]
     },
-    "rich-text#title-header-quality-assurance": {
+    "rich-text#title-quality-assurance": {
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "# SERVIÇOS: QUALITY ASSURANCE ",
+            "text": "## SERVIÇOS: \n # QUALITY ASSURANCE ",
             "blockClass": [
+                "page-header",
                 "blink"
             ]
         }

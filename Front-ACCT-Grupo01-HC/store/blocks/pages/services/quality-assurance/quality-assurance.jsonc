@@ -2,8 +2,10 @@
     "store.custom#quality-assurance": {
         "blocks": [
             "flex-layout.row#header-quality-assurance",
-            "info-card#garantindo",
-            "info-card#automatizando",
+            "flex-layout.row#block-garantindo-melhor-tecnologia",
+            "flex-layout.row#block-automatizando-testes",
+
+            //TODO NECESSIDADE DE REFATORAÇÃO DO CÓDIGO DA SCARLET
             "flex-layout.row#piramide",            
             "flex-layout.row#card-piramide",
             "flex-layout.row#planejamento",
@@ -17,7 +19,9 @@
             "flex-layout.row#infraestrutura",
             //Faltou adicionar cards da infra estrutura
             // Faltou adicionar o texto Notificação
-            "info-card#report"
+            //FIM TODO NECESSIDADE DE REFATORAÇÃO DO CÓDIGO DA SCARLET
+
+            "flex-layout.row#block-report"
         ]
     }       
 }

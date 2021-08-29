@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-garantindo-melhor-tecnologia": {
+        "props": {
+            "blockClass": "block-garantindo-melhor-tecnologia"
+        },
+        "children": [
+            "flex-layout.col#block-garantindo-melhor-tecnologia-text-content",
+            "flex-layout.row#block-garantindo-melhor-tecnologia-image"            
+        ]
+    },
+    "flex-layout.row#block-garantindo-melhor-tecnologia-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-garantindo-melhor-tecnologia-image"
+        },
+        "children": [
+            "image#block-garantindo-melhor-tecnologia-image"
+        ]
+    },
+    "image#block-garantindo-melhor-tecnologia-image": {
+        "props": {
+            "src": "assets/services/card-garantindo-melhor-tecnologia.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-garantindo-melhor-tecnologia-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-garantindo-melhor-tecnologia-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-garantindo-melhor-tecnologia-title",
+            "rich-text#block-garantindo-melhor-tecnologia-text"
+        ]
+    },
+    "rich-text#block-garantindo-melhor-tecnologia-title": {
+        "props": {
+            "text": "#### Garantindo a melhor tecnologia",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-garantindo-melhor-tecnologia-text": {
+        "props": {
+            "text": "Um sistema de garantia de qualidade visa aumentar a confiança e a credibilidade de produtos, processos e serviços.<br>Ao mesmo tempo, melhora os processos de trabalho e a eficiência, além de permitir que a empresa tenha o máximo controle e prevenção contra defeitos e avarias.<br><br> ***O controle de qualidade é uma necessidade porque todos cometemos erros.***<br><br>**Pense assim:** você compraria um carro, telefone celular ou fogão que não tivesse sido testado ao limite de forma programática e aleatória?",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}
