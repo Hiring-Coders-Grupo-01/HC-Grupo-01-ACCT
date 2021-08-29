@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#header-experience-design": {
+        "props": {
+            "blockClass": "header-experience-design"
+        },
+        "children": [
+            "rich-text#title-experience-design"
+        ]
+    },
+    "rich-text#title-experience-design": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "## SERVIÇOS: \n # EXPERIENCE DESIGN ",
+            "blockClass": [
+                "page-header",
+                "blink"
+            ]
+        }
+    }
+}

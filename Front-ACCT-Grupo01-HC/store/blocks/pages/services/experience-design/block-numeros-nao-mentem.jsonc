@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-numeros-nao-mentem": {
+        "props": {
+            "blockClass": "block-numeros-nao-mentem"
+        },
+        "children": [
+            "flex-layout.row#block-numeros-nao-mentem-image",
+            "flex-layout.col#block-numeros-nao-mentem-text-content"                      
+        ]
+    },
+    "flex-layout.row#block-numeros-nao-mentem-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-numeros-nao-mentem-image"
+        },
+        "children": [
+            "image#block-numeros-nao-mentem-image"
+        ]
+    },
+    "image#block-numeros-nao-mentem-image": {
+        "props": {
+            "src": "assets/services/card-numeros-nao-mentem.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-numeros-nao-mentem-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-numeros-nao-mentem-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-numeros-nao-mentem-title",
+            "rich-text#block-numeros-nao-mentem-text"
+        ]
+    },
+    "rich-text#block-numeros-nao-mentem-title": {
+        "props": {
+            "text": "### Os números não mentem.",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-numeros-nao-mentem-text": {
+        "props": {
+            "text": "• Um atraso de um segundo no carregamento da página gera uma diminuição de 16% na satisfação do cliente; <br/><br/> • No caso de e-commerce, criar uma plataforma que funcione bem em dispositivos móveis (tablets, celulares) pode gerar um aumento de <br/> até 70% nas vendas; <br/><br/> • Uma experiência de usuário bem projetada pode aumentar as <br/> conversões em 400%; <br/><br/> • 88% dos clientes online estão menos abertos a retornar a um site depois de uma experiência ruim.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

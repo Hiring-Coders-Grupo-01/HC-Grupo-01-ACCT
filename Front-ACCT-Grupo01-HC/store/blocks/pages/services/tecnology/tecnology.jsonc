@@ -1,0 +1,12 @@
+{
+    "store.custom#tecnology": {
+        "blocks": [
+            "flex-layout.row#header-tecnology",
+            "flex-layout.row#block-criando-futuro",
+            "flex-layout.row#block-plataformas",            
+            "flex-layout.row#block-vtex",
+            "flex-layout.row#block-integracoes",
+            "flex-layout.row#block-cloud-arquitetura"
+        ]
+    }       
+}

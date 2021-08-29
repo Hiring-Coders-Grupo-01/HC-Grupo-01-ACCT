@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-impactos-projeto": {
+        "props": {
+            "blockClass": "block-impactos-projeto"
+        },
+        "children": [
+            "flex-layout.col#block-impactos-projeto-text-content",
+            "flex-layout.row#block-impactos-projeto-image"            
+        ]
+    },
+    "flex-layout.row#block-impactos-projeto-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-impactos-projeto-image"
+        },
+        "children": [
+            "image#block-impactos-projeto-image"
+        ]
+    },
+    "image#block-impactos-projeto-image": {
+        "props": {
+            "src": "assets/services/card-impactos-projeto.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-impactos-projeto-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-impactos-projeto-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-impactos-projeto-title",
+            "rich-text#block-impactos-projeto-text"
+        ]
+    },
+    "rich-text#block-impactos-projeto-title": {
+        "props": {
+            "text": "### Impactos positivos no projeto.",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-impactos-projeto-text": {
+        "props": {
+            "text": "• Abaixamos a curva de risco de desenvolver algo que seus usuários não veem valor (teste de protótipos); <br/><br/> • Ideias e insights diretamente dos seus usuários (entrevistas e pesquisa); <br/><br/> • Descobrimos como eles preferem navegar no seu produto para facilitar a decisão de compra; <br/><br/> • Usuários satisfeitos = Maior taxa de conversão; <br/><br/> • Suas ideias podem ser testadas antes de entrarem para o desenvolvimento usando nossos protótipos.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

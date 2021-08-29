@@ -1,0 +1,24 @@
+{
+    "flex-layout.row#block-vtex": {
+        "props": {
+            "blockClass": "block-vtex"
+        },
+        "children": [
+            "image#vtex-logo-white",
+            "rich-text#vtex-text"
+        ]
+    },
+    "image#vtex-logo-white": {
+        "props": {
+            "src": "assets/services/vtex-logo-white.svg",
+            "width": "300px"
+        }
+    },
+    "rich-text#vtex-text": {
+        "props": {
+            "text": "### Somos a maior equipe especializada em desenvolvimento e implementação de VTEX IO.",
+            "textPosition": "CENTER",
+            "blockClass": "vtex-text"
+        }
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-analise-heatmaps": {
+        "props": {
+            "blockClass": "block-analise-heatmaps"
+        },
+        "children": [
+            "flex-layout.row#block-analise-heatmaps-image",
+            "flex-layout.col#block-analise-heatmaps-text-content"                      
+        ]
+    },
+    "flex-layout.row#block-analise-heatmaps-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-analise-heatmaps-image"
+        },
+        "children": [
+            "image#block-analise-heatmaps-image"
+        ]
+    },
+    "image#block-analise-heatmaps-image": {
+        "props": {
+            "src": "assets/services/card-analise-heatmaps.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-analise-heatmaps-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-analise-heatmaps-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-analise-heatmaps-title",
+            "rich-text#block-analise-heatmaps-text"
+        ]
+    },
+    "rich-text#block-analise-heatmaps-title": {
+        "props": {
+            "text": "### Análise de Heatmaps",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-analise-heatmaps-text": {
+        "props": {
+            "text": "Todas as decisões de design são tomadas a partir de dados reais captados do comportamento de navegação do usuário no site atual e de heurísticas de design. <br/><br/> Através do Hotjar, obtivemos insights de usuários para propor melhorias e criar novas soluções: <br/><br/> • Exemplo de conteúdo e página quente; <br/><br/> • Tipos de Interações e Movimentações do Usuário na Página; <br/><br/> • Gravações que indicam que o usuário quer explorar o conteúdo.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

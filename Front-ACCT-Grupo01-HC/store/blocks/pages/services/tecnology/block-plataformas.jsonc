@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-plataformas": {
+        "props": {
+            "blockClass": "block-plataformas"
+        },
+        "children": [
+            "flex-layout.row#block-plataformas-image",
+			"flex-layout.col#block-plataformas-text-content"			
+		]     
+    },
+    "flex-layout.row#block-plataformas-image": {
+		"props": {
+			"width": "48%",
+			"blockClass": "block-plataformas-image"
+		},
+		"children": [
+			"image#block-plataformas-image"
+		]
+	},
+    "image#block-plataformas-image": {
+		"props": {
+			"src": "assets/services/card-platforms.jpg",
+            "blockClass": "service-card-image"
+		}
+	},
+	"flex-layout.row#block-plataformas-text": {
+		"props": {
+			"width": "48%"
+		}
+	},
+    "flex-layout.col#block-plataformas-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-plataformas-title",
+            "rich-text#block-plataformas-text"
+        ]
+    },
+    "rich-text#block-plataformas-title": {
+        "props": {
+            "text": "### Plataformas",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-plataformas-text": {
+        "props": {
+            "text": "As implementações de plataformas de e-commerce o estão entre os investimentos mais discutidos em TI de varejo e, não surpreendentemente, há um grande crescimento nesta área. Aqui na ACCT trabalhamos com várias implementações de plataformas, com especialização em e-commerce.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

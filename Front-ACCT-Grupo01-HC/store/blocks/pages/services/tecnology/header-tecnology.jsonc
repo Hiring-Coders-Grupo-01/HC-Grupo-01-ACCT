@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#header-tecnology": {
+        "props": {
+            "blockClass": "header-tecnology"
+        },
+        "children": [
+            "rich-text#title-header-tecnology"
+        ]
+    },
+    "rich-text#title-header-tecnology": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "## SERVIÇOS: \n # TECNOLOGIA ",
+            "blockClass": [
+                "page-header",
+                "blink"
+            ]
+        }
+    }
+}

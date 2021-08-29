@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#block-citacao": {
+        "props": {
+            "blockClass": "block-citacao"
+        },
+        "children": [
+            "flex-layout.col#block-citacao"   
+        ]
+    },
+    "flex-layout.col#block-citacao": {
+        "children": [
+            "image#quotes",
+            "rich-text#citacao"
+        ]
+    },
+    "image#quotes": {
+        "props": {
+            "src": "assets/services/quotes.svg",
+            "maxHeight": 80
+          }
+    },
+    "rich-text#citacao": {
+        "props": {
+            "text": "## Cuide da experiência dos seus usuários e com isso melhore engajamento e conversões.",
+            "textPosition": "LEFT",
+            "blockClass": "page-title"
+        }
+    }
+}

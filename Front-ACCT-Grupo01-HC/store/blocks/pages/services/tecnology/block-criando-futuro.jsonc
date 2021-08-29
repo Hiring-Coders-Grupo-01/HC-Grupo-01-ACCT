@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#block-criando-futuro": {
+        "props": {
+            "blockClass": "block-criando-futuro"
+        },
+        "children": [
+            "flex-layout.col#block-criando-futuro-content"
+        ]
+    },
+    "flex-layout.col#block-criando-futuro-content": {
+        "children": [
+            "rich-text#block-criando-futuro-title",
+            "rich-text#block-criando-futuro-text"
+        ]
+    },
+    "rich-text#block-criando-futuro-title": {
+        "props": {
+            "text": "## Criando o Futuro",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-criando-futuro-text": {
+        "props": {
+            "text": "Na ACCT vivemos e respiramos o desenvolvimento de software. Mais de 60% de nossos funcionários são engenheiros de software. Como uma empresa enraizada nas melhores práticas de desenvolvimento, nossa responsabilidade como engenheiros e criadores se expressa através do desenvolvimento de soluções digitais. <br><br> Na ACCT desenvolvemos soluções de software excepcionais para algumas das maiores marcas do mundo, especializadas em comércio digital. O serviço de integração de sistemas é um aspecto central dos nossos atributos. Na ACCT, temos um longo histórico de projetos de soluções integradas confiáveis e escaláveis.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

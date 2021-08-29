@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-auto-layout": {
+        "props": {
+            "blockClass": "block-auto-layout"
+        },
+        "children": [
+            "flex-layout.row#block-auto-layout-image",
+            "flex-layout.col#block-auto-layout-text-content"                      
+        ]
+    },
+    "flex-layout.row#block-auto-layout-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-auto-layout-image"
+        },
+        "children": [
+            "image#block-auto-layout-image"
+        ]
+    },
+    "image#block-auto-layout-image": {
+        "props": {
+            "src": "assets/services/card-auto-layout.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-auto-layout-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-auto-layout-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-auto-layout-title",
+            "rich-text#block-auto-layout-text"
+        ]
+    },
+    "rich-text#block-auto-layout-title": {
+        "props": {
+            "text": "### Auto Layout",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-auto-layout-text": {
+        "props": {
+            "text": "Auto Layout define a interface usando uma série de restrições. As restrições geralmente representam um relacionamento entre dois elementos. <br><br> O auto layout então calcula o tamanho e a localização de cada elemento com base nessas restrições. Isso produz layouts que respondem dinamicamente às mudanças internas e externas, sendo uma ganho considerável quando pensamos em responsividade.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

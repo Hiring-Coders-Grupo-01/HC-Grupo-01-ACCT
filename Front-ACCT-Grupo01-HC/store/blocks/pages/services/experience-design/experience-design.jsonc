@@ -1,0 +1,20 @@
+{
+    "store.custom#experience-design": {
+        "blocks": [
+            "flex-layout.row#header-experience-design",
+            "flex-layout.row#block-o-que-e-experience-design",
+            "flex-layout.row#block-profissional-ux-ui",
+            "flex-layout.row#block-importancia-ux-ui-entenda-o-usuario",
+            "flex-layout.row#block-impactos-projeto",
+            "flex-layout.row#block-numeros-nao-mentem",
+            "flex-layout.row#block-componentizacao",
+            "flex-layout.row#block-mobile-first",
+            "flex-layout.row#block-performance-mobile",
+            "flex-layout.row#block-auto-layout",
+            "flex-layout.row#block-styleguide",
+            "flex-layout.row#block-analise-heatmaps",
+            "flex-layout.row#block-cards-metricas-kpis",
+            "flex-layout.row#block-citacao"
+        ]
+    }
+}

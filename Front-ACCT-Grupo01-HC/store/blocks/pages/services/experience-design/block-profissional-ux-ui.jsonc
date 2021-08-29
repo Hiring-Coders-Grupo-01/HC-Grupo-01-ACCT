@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-profissional-ux-ui": {
+        "props": {
+            "blockClass": "block-profissional-ux-ui"
+        },
+        "children": [
+            "flex-layout.row#block-profissional-ux-ui-image",
+            "flex-layout.col#block-profissional-ux-ui-text-content"                      
+        ]
+    },
+    "flex-layout.row#block-profissional-ux-ui-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-profissional-ux-ui-image"
+        },
+        "children": [
+            "image#block-profissional-ux-ui-image"
+        ]
+    },
+    "image#block-profissional-ux-ui-image": {
+        "props": {
+            "src": "assets/services/card-profissional-ux-ui.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-profissional-ux-ui-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-profissional-ux-ui-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-profissional-ux-ui-title",
+            "rich-text#block-profissional-ux-ui-text"
+        ]
+    },
+    "rich-text#block-profissional-ux-ui-title": {
+        "props": {
+            "text": "### O que o profissional de UX e UI faz?",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-profissional-ux-ui-text": {
+        "props": {
+            "text": "O profissional de UX e UI passa muito tempo pesquisando, descobrindo as necessidades do usuário e criando soluções de design que seguem princípios psicológicos fundamentais. <br><br> Ele é responsável por executar todas as pesquisas necessárias para o desenvolvimento do projeto, criando e entregando protótipos navegáveis que tangibilizam as soluções, além de conduzir testes com nossos clientes, parceiros e stakeholders.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

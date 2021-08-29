@@ -1,0 +1,102 @@
+.flexRowContent--header-quality-assurance,
+.flexRowContent--header-data-growth,
+.flexRowContent--header-experience-design,
+.flexRowContent--header-tecnology,
+.flexRowContent--block-criando-futuro,
+.flexRowContent--block-plataformas,
+.flexRowContent--block-vtex,
+.flexRowContent--block-integracoes,
+.flexRowContent--block-cloud-arquitetura,
+.flexRowContent--block-o-que-e-experience-design,
+.flexRowContent--block-profissional-ux-ui,
+.flexRowContent--block-importancia-ux-ui-entenda-o-usuario,
+.flexRowContent--block-impactos-projeto,
+.flexRowContent--block-numeros-nao-mentem,
+.flexRowContent--block-componentizacao,
+.flexRowContent--block-mobile-first,
+.flexRowContent--block-performance-mobile,
+.flexRowContent--block-auto-layout,
+.flexRowContent--block-styleguide,
+.flexRowContent--block-analise-heatmaps,
+.flexRowContent--block-cards-metricas-kpis,
+.flexRowContent--block-citacao {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexRowContent--block-o-que-e-experience-design,
+.flexRowContent--block-impactos-projeto,
+.flexRowContent--block-mobile-first,
+.flexRowContent--block-styleguide {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexRowContent--block-plataformas,
+.flexRowContent--block-profissional-ux-ui,
+.flexRowContent--block-numeros-nao-mentem,
+.flexRowContent--block-auto-layout,
+.flexRowContent--block-analise-heatmaps {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    display: flex;
+}
+
+.flexRowContent--block-cloud-arquitetura,
+.flexRowContent--block-importancia-ux-ui-entenda-o-usuario,
+.flexRowContent--block-cards-metricas-kpis {
+    align-items: start;
+    justify-content: space-between;
+}
+
+.flexRow--header-quality-assurance,
+.flexRow--header-data-growth,
+.flexRow--header-experience-design,
+.flexRow--header-tecnology {
+    background: url("assets/title/services.jpg");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexRow--block-plataformas,
+.flexRow--block-citacao {
+    background-color: #ffffff;
+    padding: 6em 2em 6em 2em;
+}
+
+.flexRow--block-criando-futuro,
+.flexRow--block-importancia-ux-ui-entenda-o-usuario,
+.flexRow--block-componentizacao,
+.flexRow--block-performance-mobile,
+.flexRow--block-cards-metricas-kpis {
+    background-color: #f5f5f5;
+    padding: 6em 2em 6em 2em;
+}
+
+.flexRow--block-vtex {
+    background-color: #ff3366;
+    padding: 4em 2em 4em 2em;
+}
+
+.flexRow--block-integracoes {
+    background-color: #ffffff;
+    padding: 8em 2em 4em 2em;
+}
+
+.flexRow--block-cloud-arquitetura {
+    background-color: #ffffff;
+    padding: 1em 2em 8em 2em;
+}
+
+.flexRow--block-o-que-e-experience-design,
+.flexRow--block-profissional-ux-ui,
+.flexRow--block-impactos-projeto,
+.flexRow--block-numeros-nao-mentem,
+.flexRow--block-mobile-first,
+.flexRow--block-auto-layout,
+.flexRow--block-styleguide,
+.flexRow--block-analise-heatmaps {
+    background-color: #ffffff;
+    padding: 6em 2em 6em 2em;
+}

@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-o-que-e-experience-design": {
+        "props": {
+            "blockClass": "block-o-que-e-experience-design"
+        },
+        "children": [
+            "flex-layout.col#block-o-que-e-experience-design-text-content",
+            "flex-layout.row#block-o-que-e-experience-design-image"            
+        ]
+    },
+    "flex-layout.row#block-o-que-e-experience-design-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-o-que-e-experience-design-image"
+        },
+        "children": [
+            "image#block-o-que-e-experience-design-image"
+        ]
+    },
+    "image#block-o-que-e-experience-design-image": {
+        "props": {
+            "src": "assets/services/card-experience-design.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-o-que-e-experience-design-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-o-que-e-experience-design-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-o-que-e-experience-design-title",
+            "rich-text#block-o-que-e-experience-design-text"
+        ]
+    },
+    "rich-text#block-o-que-e-experience-design-title": {
+        "props": {
+            "text": "### O que é Experience Design?",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-o-que-e-experience-design-text": {
+        "props": {
+            "text": "**Experience Design** é o departamento com o foco em Experiência do Usuário em Interfaces de E-commerce, é sobre o uso do **Design Thinking** para resolver problemas nos produtos digitais, combinando empatia, criatividade e racionalidade para atender as necessidades do usuário e criar soluções bem sucedidas, prevendo cenários de forma inovadora. <br><br> Nosso time conta com profissionais de **UX** (User Experience) e **UI** (User Interface), que facilitam o mapeamento de novas ideias e soluções de forma colaborativa, com um processo guiado pela metodologia **Better Together**, mesclando o **Design Thinking** e metodologias ágeis, envolvendo a nossa equipe interna, o cliente e os usuários nas etapas de criação do produto.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

@@ -1,0 +1,105 @@
+{
+    "flex-layout.row#block-cards-metricas-kpis": {
+        "props": {
+            "blockClass": "block-cards-metricas-kpis"
+        },
+        "children": [
+            "flex-layout.col#block-metricas-kpis-content",
+            "flex-layout.col#block-comunicacao-continua-content",
+            "flex-layout.col#block-engajamento-content",
+            "flex-layout.col#block-testes-kpis-content"
+        ]
+    },
+    "flex-layout.col#block-metricas-kpis-content": {
+        "props": {
+            "width": "22%"
+        },
+        "children": [
+            "rich-text#block-metricas-kpis-title",
+            "rich-text#block-metricas-kpis-text"
+        ]
+    },
+    "rich-text#block-metricas-kpis-title": {
+        "props": {
+            "text": "#### Métricas e KPI’s",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-metricas-kpis-text": {
+        "props": {
+            "text": "Existem diversos padrões de métricas e KPI’s de acompanhamento quando o assunto é observar os dados que são importantes na jornada de nosso consumidor. Estudamos brevemente no Google Analytics o comportamento padrão do consumidor e propomos alguns tipos de abordagens sob os dados na tentativa de ser mais assertivo no que encontra nosso consumidor em sua jornada.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    },
+    "flex-layout.col#block-comunicacao-continua-content": {
+        "props": {
+            "width": "22%"
+        },
+        "children": [
+            "rich-text#block-comunicacao-continua-title",
+            "rich-text#block-comunicacao-continua-text"
+        ]
+    },
+    "rich-text#block-comunicacao-continua-title": {
+        "props": {
+            "text": "#### Comunicação Contínua",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-comunicacao-continua-text": {
+        "props": {
+            "text": "Comunicar bem é uma das premissas de sucesso do produto. Produzimos nosso protótipo pensando em toda a comunicação, desde a oferta do produto, até a entrega do benefício no ato da compra.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    },
+    "flex-layout.col#block-engajamento-content": {
+        "props": {
+            "width": "22%"
+        },
+        "children": [
+            "rich-text#block-engajamento-title",
+            "rich-text#block-engajamento-text"
+        ]
+    },
+    "rich-text#block-engajamento-title": {
+        "props": {
+            "text": "#### Engajamento e Conteúdo",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-engajamento-text": {
+        "props": {
+            "text": "Nossos designers analisaram toda a comunicação presente durante a experiência do usuário, planejando as melhores maneiras de atrair, instruir, informar, converter, embarcar, engajar e dar suporte para os usuários do produto, além é claro, de seguir as boas práticas de SEO.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    },
+    "flex-layout.col#block-testes-kpis-content": {
+        "props": {
+            "width": "22%"
+        },
+        "children": [
+            "rich-text#block-testes-kpis-title",
+            "rich-text#block-testes-kpis-text"
+        ]
+    },
+    "rich-text#block-testes-kpis-title": {
+        "props": {
+            "text": "#### Testes e KPIs",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-testes-kpis-text": {
+        "props": {
+            "text": "Com base em todos os processos e decisões da criação dos protótipos, listamos alguns testes e KPI´s de acompanhamento para medir e garantir o sucesso do produto criado.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

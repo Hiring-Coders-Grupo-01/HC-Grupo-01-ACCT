@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-styleguide": {
+        "props": {
+            "blockClass": "block-styleguide"
+        },
+        "children": [
+            "flex-layout.col#block-styleguide-text-content",
+            "flex-layout.row#block-styleguide-image"            
+        ]
+    },
+    "flex-layout.row#block-styleguide-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-styleguide-image"
+        },
+        "children": [
+            "image#block-styleguide-image"
+        ]
+    },
+    "image#block-styleguide-image": {
+        "props": {
+            "src": "assets/services/card-styleguide.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-styleguide-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-styleguide-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-styleguide-title",
+            "rich-text#block-styleguide-text"
+        ]
+    },
+    "rich-text#block-styleguide-title": {
+        "props": {
+            "text": "### Style Guide",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-styleguide-text": {
+        "props": {
+            "text": "A partir das diretrizes de marca passadas para nós pela equipe de marketing, iniciamos o processo de criação de um style guide para a interface do projeto. <br><br> Com o style guide desenvolvido, definimos regras a respeito de detalhes como tamanho das fontes e cores dos botões. <br><br> Assim, a equipe de desenvolvimento obedece essas normas e cria consistência entre o que foi pensado pelos designers e desenvolvido pelo time de tecnologia. O style guide é orgânico e ainda pode evoluir e ser insumos para a criação de um Design System.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

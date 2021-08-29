@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#block-componentizacao": {
+        "props": {
+            "blockClass": "block-componentizacao"
+        },
+        "children": [
+            "flex-layout.col#block-componentizacao-content"
+        ]
+    },
+    "flex-layout.col#block-componentizacao-content": {
+        "children": [
+            "rich-text#block-componentizacao-title",
+            "rich-text#block-componentizacao-text"
+        ]
+    },
+    "rich-text#block-componentizacao-title": {
+        "props": {
+            "text": "### Componentização",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-componentizacao-text": {
+        "props": {
+            "text": "Componentes são elementos que podemos reutilizar no Figma. Eles ajudam a criar e gerenciar designs consistentes entre projetos. <br><br> Quando utilizamos componentização obtemos ganhos de produtividade e agilidade, pois cada parte da interface foi pensada para ser reutilizada e minimizar os impactos de melhorias e alterações.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

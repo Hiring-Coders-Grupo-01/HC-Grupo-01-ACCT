@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-mobile-first": {
+        "props": {
+            "blockClass": "block-mobile-first"
+        },
+        "children": [
+            "flex-layout.col#block-mobile-first-text-content",
+            "flex-layout.row#block-mobile-first-image"            
+        ]
+    },
+    "flex-layout.row#block-mobile-first-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-mobile-first-image"
+        },
+        "children": [
+            "image#block-mobile-first-image"
+        ]
+    },
+    "image#block-mobile-first-image": {
+        "props": {
+            "src": "assets/services/card-mobile-first.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-mobile-first-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-mobile-first-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-mobile-first-title",
+            "rich-text#block-mobile-first-text"
+        ]
+    },
+    "rich-text#block-mobile-first-title": {
+        "props": {
+            "text": "### Mobile First",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-mobile-first-text": {
+        "props": {
+            "text": "Criamos as melhores experiências para os usuários, iniciando o processo de design a partir da menor das telas: **o celular**. <br><br> Projetar e prototipar para dispositivos móveis primeiro ajuda a garantir que a experiência dos usuários seja perfeita em qualquer dispositivo.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#block-cloud-arquitetura": {
+        "props": {
+            "blockClass": "block-cloud-arquitetura"
+        },
+        "children": [
+            "flex-layout.col#block-cloud-content",
+            "flex-layout.col#block-arquitetura-content"
+        ]
+    },
+    "flex-layout.col#block-cloud-content": {
+        "props": {
+            "width": "45%"
+        },
+        "children": [
+            "rich-text#block-cloud-title",
+            "rich-text#block-cloud-text"
+        ]
+    },
+    "flex-layout.col#block-arquitetura-content": {
+        "props": {
+            "width": "45%"
+        },
+        "children": [
+            "rich-text#block-arquitetura-title",
+            "rich-text#block-arquitetura-text"
+        ]
+    },
+    "rich-text#block-cloud-title": {
+        "props": {
+            "text": "### Cloud",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-cloud-text": {
+        "props": {
+            "text": "Os serviços em nuvem consistem em fornecer recursos de TI sob demanda através da internet com preço de pagamento definido de acordo com o uso. A grande maioria dos serviços modernos de Internet são oferecidos ao público em um modelo de negócios de computação em nuvem. A ACCT tem um histórico de sucesso de integrações em nuvem, desenvolvimento de aplicativos e desenvolvimento de infraestrutura.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    },
+    "rich-text#block-arquitetura-title": {
+        "props": {
+            "text": "### Arquitetura Corporativa",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-arquitetura-text": {
+        "props": {
+            "text": "Arquitetura corporativa (Enterprise architecture ou EA) é a prática de analisar, projetar, planejar e implementar análises corporativas para executar com sucesso as estratégias de negócios. A EA ajuda as empresas a estruturar projetos e políticas de TI para atingir os resultados de negócios desejados e ficar por dentro das tendências e interrupções do setor usando princípios e práticas de arquitetura, um processo também conhecido como planejamento de arquitetura corporativa.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

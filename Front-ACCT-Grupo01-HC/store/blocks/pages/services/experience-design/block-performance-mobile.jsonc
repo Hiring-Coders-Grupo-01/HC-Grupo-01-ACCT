@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#block-performance-mobile": {
+        "props": {
+            "blockClass": "block-performance-mobile"
+        },
+        "children": [
+            "flex-layout.col#block-performance-mobile-content"
+        ]
+    },
+    "flex-layout.col#block-performance-mobile-content": {
+        "children": [
+            "rich-text#block-performance-mobile-title",
+            "rich-text#block-performance-mobile-text"
+        ]
+    },
+    "rich-text#block-performance-mobile-title": {
+        "props": {
+            "text": "### Performance Mobile",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-performance-mobile-text": {
+        "props": {
+            "text": "Apostamos em algo que seja simples e claro, apesar do apelo premium do produto e fazendo essa analogia ao carregamento do site, ou seja, estamos falando que ele precisa ser rápido. <br><br> Portanto, reduzimos interações e animações na experiência mobile, buscando o equilíbrio entre ser atrativo, desejável, mas tendo uma interface muito boa para o convencimento da compra.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

@@ -9,9 +9,9 @@
         "path": "/quality-assurance"
     },
     "store.custom#experience-design": {
-        "path": "/experience-design"
+        "path": "/servicos/experience-design"
     },
-    "store.custom#tecnologia": {
-        "path": "/tecnologia"
+    "store.custom#tecnology": {
+        "path": "/servicos/tecnologia"
     }
 }

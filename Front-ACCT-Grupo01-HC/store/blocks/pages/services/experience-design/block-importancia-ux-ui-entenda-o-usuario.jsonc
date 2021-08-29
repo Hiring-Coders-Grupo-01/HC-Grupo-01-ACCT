@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#block-importancia-ux-ui-entenda-o-usuario": {
+        "props": {
+            "blockClass": "block-importancia-ux-ui-entenda-o-usuario"
+        },
+        "children": [
+            "flex-layout.col#block-importancia-ux-ui-content",
+            "flex-layout.col#block-entenda-o-usuario-content"
+        ]
+    },
+    "flex-layout.col#block-importancia-ux-ui-content": {
+        "props": {
+            "width": "45%"
+        },
+        "children": [
+            "rich-text#block-importancia-ux-ui-title",
+            "rich-text#block-importancia-ux-ui-text"
+        ]
+    },
+    "flex-layout.col#block-entenda-o-usuario-content": {
+        "props": {
+            "width": "45%"
+        },
+        "children": [
+            "rich-text#block-entenda-o-usuario-title",
+            "rich-text#block-entenda-o-usuario-text"
+        ]
+    },
+    "rich-text#block-importancia-ux-ui-title": {
+        "props": {
+            "text": "#### Importância do profissional de UX e UI nos projetos.",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-importancia-ux-ui-text": {
+        "props": {
+            "text": "A experiência do usuário é uma ferramenta comercial estratégica e, e você adicioná-la em seu projeto, verá muitas mudanças positivas, como: <br/><br/>  • Aumento nas vendas devido à navegação simplificada e fluxo de  compras.  <br/><br/> • Clientes mais engajados traduzem para compras repetidas e mais interações com seu conteúdo. Maior lealdade à marca, credibilidade e reconhecimento, pois as pessoas têm mais chances de voltar se sua <br/> primeira experiência for estelar. <br/><br/> • Custos reduzidos de treinamento e atendimento ao cliente, porque o excelente UX é intuitivo e não precisa de documentação excessiva.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    },
+    "rich-text#block-entenda-o-usuario-title": {
+        "props": {
+            "text": "#### Entenda o seu usuário e crie produtos melhores.",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-entenda-o-usuario-text": {
+        "props": {
+            "text": "O profissional de UX e UI é responsável por algumas atividades no <br/> projeto: <br/><br/> • **Explorar** - por meio de análises, descobrimos o comportamento do usuário; <br/><br/>   • **Recomendar** - com pesquisas e muitos estudos, encontramos a jornada do usuário do seu cliente verticalizando para recomendações de boas práticas, onde surgem as hipóteses para a causa do problema nessa jornada;  <br/><br/>  • **Planejar e testar** - Com o levantamento das recomendações, devemos agir e testar a todo momento.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

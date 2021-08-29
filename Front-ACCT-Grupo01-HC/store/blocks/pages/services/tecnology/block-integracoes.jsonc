@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#block-integracoes": {
+        "props": {
+            "blockClass": "block-integracoes"
+        },
+        "children": [
+            "flex-layout.col#block-integracoes-content"
+        ]
+    },
+    "flex-layout.col#block-integracoes-content": {
+        "children": [
+            "rich-text#block-integracoes-title",
+            "rich-text#block-integracoes-text"
+        ]
+    },
+    "rich-text#block-integracoes-title": {
+        "props": {
+            "text": "### Integrações",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-integracoes-text": {
+        "props": {
+            "text": "Para desenvolver soluções de software excepcionais, é obrigatório ser especialista em integrações. O serviço de interligação de sistemas é parte integrante e contínua dos nossos projetos. Na ACCT, temos um longo histórico de desenvolvimento de integrações confiáveis e escaláveis para algumas das marcas mais conhecidas do mundo. Entre nossas funções estão a identificação e documentação de aspectos técnicos significativos do ponto de vista arquitetônico, incluindo a visualização do design do sistema, implementação e requisitos de organização. Oferecemos squads multidisciplinares e de desenvolvimento ágil com base técnica completa para cada etapa do processo.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}
