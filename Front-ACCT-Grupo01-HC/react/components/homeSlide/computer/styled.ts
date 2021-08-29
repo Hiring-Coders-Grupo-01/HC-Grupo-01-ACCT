@@ -175,7 +175,7 @@ export const Folha = styled.img`
   z-index: 8;
   position: absolute;
 
-  animation: ${leftImgAnimation} 3s forwards ease-in-out;
+  animation: ${rightImgAnimation} 3s forwards ease-in-out;
 
   height: 300px;
   top: -50px;
