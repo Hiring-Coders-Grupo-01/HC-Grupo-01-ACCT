@@ -19,7 +19,10 @@
 .flexRowContent--block-styleguide,
 .flexRowContent--block-analise-heatmaps,
 .flexRowContent--block-cards-metricas-kpis,
-.flexRowContent--block-citacao {
+.flexRowContent--block-citacao,
+.flexRowContent--block-garantindo-melhor-tecnologia,
+.flexRowContent--block-automatizando-testes,
+.flexRowContent--block-report {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -27,7 +30,9 @@
 .flexRowContent--block-o-que-e-experience-design,
 .flexRowContent--block-impactos-projeto,
 .flexRowContent--block-mobile-first,
-.flexRowContent--block-styleguide {
+.flexRowContent--block-styleguide,
+.flexRowContent--block-garantindo-melhor-tecnologia,
+.flexRowContent--block-report {
     align-items: center;
     justify-content: space-between;
 }
@@ -36,7 +41,8 @@
 .flexRowContent--block-profissional-ux-ui,
 .flexRowContent--block-numeros-nao-mentem,
 .flexRowContent--block-auto-layout,
-.flexRowContent--block-analise-heatmaps {
+.flexRowContent--block-analise-heatmaps,
+.flexRowContent--block-automatizando-testes {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
@@ -91,12 +97,16 @@
 
 .flexRow--block-o-que-e-experience-design,
 .flexRow--block-profissional-ux-ui,
+.flexRow--block-automatizando-testes,
 .flexRow--block-impactos-projeto,
 .flexRow--block-numeros-nao-mentem,
 .flexRow--block-mobile-first,
 .flexRow--block-auto-layout,
 .flexRow--block-styleguide,
-.flexRow--block-analise-heatmaps {
+.flexRow--block-analise-heatmaps,
+.flexRow--block-garantindo-melhor-tecnologia,
+.flexRow--block-automatizando-testes,
+.flexRow--block-report {
     background-color: #ffffff;
     padding: 6em 2em 6em 2em;
 }

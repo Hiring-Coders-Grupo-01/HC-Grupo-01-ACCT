@@ -1,0 +1,70 @@
+{
+    "flex-layout.row#block-report": {
+        "props": {
+            "blockClass": "block-report"
+        },
+        "children": [
+            "flex-layout.col#block-report-text-content",
+            "flex-layout.row#block-report-image"            
+        ]
+    },
+    "flex-layout.row#block-report-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-report-image"
+        },
+        "children": [
+            "image#block-report-image"
+        ]
+    },
+    "image#block-report-image": {
+        "props": {
+            "src": "assets/services/card-report.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-report-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-report-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-report-title",
+            "rich-text#block-report-text",
+            "rich-text#block-notification-title",
+            "rich-text#block-notification-text"
+        ]
+    },
+    "rich-text#block-report-title": {
+        "props": {
+            "text": "#### Report",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-report-text": {
+        "props": {
+            "text": "O Cypress Dashboard Service é um componente opcional baseado na web que fornece vários recursos relacionados a projetos e execuções de teste no Cypress. Ele fornece a representação visual das execuções de teste, seus relatórios e status em uma única janela da web. Além disso, é útil no planejamento e visualização das execuções de teste dos scripts de teste Cypress.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    },
+    "rich-text#block-notification-title": {
+        "props": {
+            "text": "#### Notificação",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-notification-text": {
+        "props": {
+            "text": "A arquitetura da ferramenta permite, ainda, enviar notificações para todas as execuções de testes. Contendo nessas notificações todos os artefatos de resultados positivos/negativos e link direto para o dashboard e pipeline, para consultar uma visão mais detalhada da execução.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

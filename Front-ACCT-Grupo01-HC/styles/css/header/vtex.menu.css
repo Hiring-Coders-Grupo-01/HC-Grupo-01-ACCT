@@ -1,0 +1,11 @@
+.styledLinkContainer {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.styledLink {
+    font-family: "OpenSans";
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+}

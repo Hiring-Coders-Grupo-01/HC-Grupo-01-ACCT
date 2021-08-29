@@ -1,0 +1,171 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-inicio",
+      "menu-item#category-sobre-nos",
+      "menu-item#category-servicos",
+      "menu-item#category-cursos",
+      "menu-item#category-contato"
+    ]
+  },
+  "menu-item#category-inicio": {
+    "props": {
+      "id": "menu-item-category-inicio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "INÍCIO",
+        "text": "INÍCIO"
+      }
+    }
+  },
+  "menu-item#category-sobre-nos": {
+    "props": {
+      "id": "menu-item-category-sobre-nos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sobre-nos",
+        "noFollow": false,
+        "tagTitle": "SOBRE NÓS",
+        "text": "SOBRE NÓS"
+      }
+    }
+  },
+
+  "menu-item#category-servicos": {
+    "props": {
+      "id": "menu-item-category-servicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "SERVIÇOS",
+        "text": "SERVIÇOS"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-servicos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-servicos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-servicos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-servicos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-quality-assurance",
+      "menu-item#category-data-growth",
+      "menu-item#category-experience-design",
+      "menu-item#category-tecnologia"
+    ]
+  },
+  "menu-item#category-quality-assurance": {
+    "props": {
+      "id": "menu-item-category-servicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicos/quality-assurance",
+        "noFollow": false,
+        "tagTitle": "QUALITY ASSURANCE",
+        "text": "QUALITY ASSURANCE"
+      }
+    }
+  },
+  "menu-item#category-data-growth": {
+    "props": {
+      "id": "menu-item-category-data-growth",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicos/data-e-growth",
+        "noFollow": false,
+        "tagTitle": "DATA E GROWTH",
+        "text": "DATA E GROWTH"
+      }
+    }
+  },
+  "menu-item#category-experience-design": {
+    "props": {
+      "id": "menu-item-category-experience-design",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicos/experience-design",
+        "noFollow": false,
+        "tagTitle": "EXPERIENCE DESIGN",
+        "text": "EXPERIENCE DESIGN"
+      }
+    }
+  },
+  "menu-item#category-tecnologia": {
+    "props": {
+      "id": "menu-item-category-tecnologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/servicos/tecnologia",
+        "noFollow": false,
+        "tagTitle": "TECNOLOGIA",
+        "text": "TECNOLOGIA"
+      }
+    }
+  },
+  "menu-item#category-cursos": {
+    "props": {
+      "id": "menu-item-category-cursos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/nossos-cursos",
+        "noFollow": false,
+        "tagTitle": "CURSOS",
+        "text": "CURSOS"
+      }
+    }
+  },
+  "menu-item#category-contato": {
+    "props": {
+      "id": "menu-item-category-contato",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contato",
+        "noFollow": false,
+        "tagTitle": "CONTATO",
+        "text": "CONTATO"
+      }
+    }
+  }
+}
