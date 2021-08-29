@@ -1,0 +1,235 @@
+{
+    "flex-layout.row#service-quadrants": {
+        "props": {
+            "blockClass": "service-quadrants-container"
+        },
+        "children": [
+            "flex-layout.col#service-quadrants"
+        ]
+    },
+    "flex-layout.col#service-quadrants": {
+        "children": [
+            "responsive-layout.desktop#service-quadrants",
+            "responsive-layout.tablet#service-quadrants",
+            "responsive-layout.phone#service-quadrants"
+        ]
+    },
+    "responsive-layout.desktop#service-quadrants": {
+        "children": [
+            "flex-layout.row#service-quadrants-itens"
+        ]
+    },
+    "responsive-layout.tablet#service-quadrants": {
+        "children": [
+            "flex-layout.col#service-quadrants-itens-phone"   
+        ]
+    },
+    "responsive-layout.phone#service-quadrants": {
+        "children": [
+            "flex-layout.col#service-quadrants-itens-phone"
+        ]
+    },
+    "flex-layout.row#service-quadrants-itens": {
+        "props": {
+            "blockClass": "service-quadrants-itens"
+        },
+        "children": [
+            "flex-layout.row#service-quadrants-row1",
+            "flex-layout.row#service-quadrants-row2"
+        ]
+    },
+    "flex-layout.col#service-quadrants-itens-phone": {
+        "props": {
+            "blockClass": "service-quadrants-itens"
+        },
+        "children": [
+            "flex-layout.row#service-quadrants-row1-phone",
+            "flex-layout.row#service-quadrants-row2-phone",
+            "flex-layout.row#service-quadrants-row3-phone",
+            "flex-layout.row#service-quadrants-row4-phone"
+        ]
+    },
+    "flex-layout.row#service-quadrants-row1": {
+        "props": {
+            "blockClass": "service-quadrants-row",
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.col#quadrant1",
+            "flex-layout.col#quadrant2"
+        ]
+    },
+    "flex-layout.row#service-quadrants-row2": {
+        "props": {
+            "blockClass": "service-quadrants-row",
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.col#quadrant3",
+            "flex-layout.col#quadrant4"
+        ]
+    },
+    "flex-layout.row#service-quadrants-row1-phone": {
+        "props": {
+            "blockClass": "service-quadrants-row"
+        },
+        "children": [
+            "flex-layout.col#quadrant1"
+        ]
+    },
+    "flex-layout.row#service-quadrants-row2-phone": {
+        "props": {
+            "blockClass": "service-quadrants-row"
+        },
+        "children": [
+            "flex-layout.col#quadrant2"
+        ]
+    },
+    "flex-layout.row#service-quadrants-row3-phone": {
+        "props": {
+            "blockClass": "service-quadrants-row"
+        },
+        "children": [
+            "flex-layout.col#quadrant3"
+        ]
+    },
+    "flex-layout.row#service-quadrants-row4-phone": {
+        "props": {
+            "blockClass": "service-quadrants-row"
+        },
+        "children": [
+            "flex-layout.col#quadrant4"
+        ]
+    },
+    "flex-layout.col#quadrant1": {
+        "props": {
+            "blockClass": "quadrant-container"
+        },
+        "children": [
+            "info-card#quadrant-quality-assurance-title",
+            "info-card#quadrant-quality-assurance-text"
+        ]
+    },
+    "flex-layout.col#quadrant2": {
+        "props": {
+            "blockClass": "quadrant-container",
+            "minWidth": "500px"
+        },
+        "children": [
+            "info-card#quadrant-growth-data-title",
+            "info-card#quadrant-growth-data-text"
+        ]
+    },
+    "flex-layout.col#quadrant3": {
+        "props": {
+            "blockClass": "quadrant-container",
+            "minWidth": "500px"
+        },
+        "children": [
+            "info-card#quadrant-experience-design-title",
+            "info-card#quadrant-experience-design-text"
+        ]
+    },
+    "flex-layout.col#quadrant4": {
+        "props": {
+            "blockClass": "quadrant-container",
+            "minWidth": "500px"
+        },
+        "children": [
+            "info-card#quadrant-tecnology-title",
+            "info-card#quadrant-tecnology-text"
+        ]
+    },
+    "info-card#quadrant-quality-assurance-title": {
+        "props": {
+            "isFullModeStyle": true,
+            "imageUrl": "assets/quadrants/quality-assurance.jpg",
+            "textPosition": "center",
+            "headline": "Quality Assurance",
+            "callToActionMode": "none",
+            "blockClass": "quadrant-title",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#quadrant-quality-assurance-text": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "headline": "Confiança e credibilidade",
+            "subhead": "Um sistema de garantia de qualidade tem como objetivo aumentar a confiança e a credibilidade de produtos, processos e serviços. Ao mesmo tempo que melhora os processos de trabalho e a eficiência, além de permitir que a empresa tenha máximo controle e prevenção contra defeitos e mal funcionamento.",
+            "callToActionMode": "link",
+            "callToActionText": "SAIBA MAIS",
+            "callToActionUrl": "/servicos/quality-assurance",
+            "blockClass": "quadrant-text"
+        }
+    },
+    "info-card#quadrant-growth-data-title": {
+        "props": {
+            "isFullModeStyle": true,
+            "imageUrl": "assets/quadrants/growth-data.jpg",
+            "textPosition": "center",
+            "headline": "Growth e Data",
+            "callToActionMode": "none",
+            "blockClass": "quadrant-title",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#quadrant-growth-data-text": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "headline": "Insights para o amanhã",
+            "subhead": "Os dados são a nova moeda, portanto, a aplicação de um processo de análise de dados é fundamental para as empresas na era digital. O processo de coleta, organização, descrição, análise e interpretação de dados pode fornecer aos tomadores de decisão as informações necessárias para prever o futuro.",
+            "callToActionMode": "link",
+            "callToActionText": "SAIBA MAIS",
+            "callToActionUrl": "/servicos/growth-e-data",
+            "blockClass": "quadrant-text"
+        }
+    },
+    "info-card#quadrant-experience-design-title": {
+        "props": {
+            "isFullModeStyle": true,
+            "imageUrl": "assets/quadrants/experience-design.jpg",
+            "textPosition": "center",
+            "headline": "Experience Design",
+            "callToActionMode": "none",
+            "blockClass": "quadrant-title",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#quadrant-experience-design-text": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "headline": "Conectando com pessoas",
+            "subhead": "Experience design é uma questão de empatia. Ao criar experiências, estamos tentando ver o mundo através dos olhos do cliente e imaginar o que ele estará procurando ao navegar em nossos sistemas. A experiência do usuário é uma ferramenta estratégica de negócios se você aplicar aos seus projetos e processos de forma inteligente.",
+            "callToActionMode": "link",
+            "callToActionText": "SAIBA MAIS",
+            "callToActionUrl": "/servicos/experience-design",
+            "blockClass": "quadrant-text"
+        }
+    },
+    "info-card#quadrant-tecnology-title": {
+        "props": {
+            "isFullModeStyle": true,
+            "imageUrl": "assets/quadrants/tecnology.jpg",
+            "textPosition": "center",
+            "headline": "Tecnologia",
+            "callToActionMode": "none",
+            "blockClass": "quadrant-title",
+            "textAlignment": "center"
+        }
+    },
+    "info-card#quadrant-tecnology-text": {
+        "props": {
+            "isFullModeStyle": true,
+            "textPosition": "center",
+            "headline": "Criando o futuro",
+            "subhead": "Na ACCT vivemos e respiramos o desenvolvimento de software. Mais de 60% de nossos funcionários são engenheiros de software. Como uma empresa enraizada nas melhores práticas de desenvolvimento, nossa responsabilidade como engenheiros e criadores se expressa através do desenvolvimento de soluções digitais.",
+            "callToActionMode": "link",
+            "callToActionText": "SAIBA MAIS",
+            "callToActionUrl": "/servicos/tecnologia",
+            "blockClass": "quadrant-text"
+        }
+    }
+}

@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "flex-layout.row#service-quadrants",
       "flex-layout.row#trusted-by"
     ]
   }
