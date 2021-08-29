@@ -1,7 +1,7 @@
 {
     "store.custom#data-e-growth": {
         "blocks": [
-            "flex-layout.row#header-data-e-growth",
+            //"flex-layout.row#header-data-e-growth",
             "info-card#data",
             "info-card#objetivos",
             // Faltou os ícones
@@ -9,7 +9,7 @@
             // Faltou as sessões 
             "info-card#metricas",        
             "flex-layout.row#perfil"
-            // Faltoua as sessões         
+            // Faltoua as sessões          
         ]
     }       
 }
