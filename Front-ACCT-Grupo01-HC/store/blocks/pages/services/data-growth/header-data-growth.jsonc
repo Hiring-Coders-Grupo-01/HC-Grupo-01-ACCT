@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#header-data-growth": {
+        "props": {
+            "blockClass": "header-data-growth"
+        },
+        "children": [
+            "rich-text#title-data-growth"
+        ]
+    },
+    "rich-text#title-data-growth": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "## SERVIÇOS: \n # DATA & GROWTH ",
+            "blockClass": [
+                "page-header",
+                "blink"
+            ]
+        }
+    }
+}
