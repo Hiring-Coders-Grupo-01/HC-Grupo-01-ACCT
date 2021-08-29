@@ -25,7 +25,7 @@
 			"text": "### Trusted by",
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"blockClass": "headline"
+			"blockClass": "block-title"
 		}
 	},
     "responsive-layout.desktop#trusted-by-clients": {

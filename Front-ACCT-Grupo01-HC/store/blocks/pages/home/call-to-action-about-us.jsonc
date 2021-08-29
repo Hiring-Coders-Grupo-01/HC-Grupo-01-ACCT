@@ -1,0 +1,72 @@
+{
+    "flex-layout.row#call-to-action": {
+        "props": {
+            "blockClass": "call-to-action-container"
+        },
+        "children": [
+            "flex-layout.col#call-to-action"
+        ]
+    },
+    "flex-layout.col#call-to-action": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "flex-layout.row#call-to-action-title",
+            "flex-layout.row#call-to-action-text",
+            "flex-layout.row#call-to-action-button"
+        ]
+    },
+    "flex-layout.row#call-to-action-title": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#call-to-action-title"
+        ]
+    },
+    "rich-text#call-to-action-title": {
+        "props": {
+            "text": "### Buscamos constantemente a **liderança global** <br> quando se trata de **soluções para comércio digital**.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "page-title"
+        }
+    },
+    "flex-layout.row#call-to-action-text": {
+        "props": {
+            "width": "100%",
+            "blockClass": "call-to-action-text-container"    
+        },
+        "children": [
+            "rich-text#call-to-action-text"
+        ]
+    },
+    "rich-text#call-to-action-text": {
+        "props": {
+            "text": "###### Quando o assunto é e-commerce, somos líderes! Desenvolvemos soluções para empresas que buscam crescimento. Seja a criação de um aplicativo móvel, um site totalmente novo ou aumentar o desempenho e a inteligência da sua organização, nós oferecemos o suporte necessário às empresas na era digital.",
+            "textAlignment": "LEFT",
+            "textPosition": "CENTER",
+            "blockClass": "slogan"
+        }
+    },
+    "flex-layout.row#call-to-action-button": {
+        "props": {
+            "textAlign": "center",
+            "width": "auto",
+            "blockClass": "call-to-action-button-container"
+        },
+        "children": [
+            "link#about-us"
+        ]
+    },
+    "link#about-us": {
+        "props": {
+            "label": "Saiba mais sobre nós",
+            "href": "/sobre-nos",
+            "target": "_self",
+            "displayMode": "button",
+            "blockClass": "btn-primary"
+        }
+    }
+}

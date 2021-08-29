@@ -1,0 +1,16 @@
+.flexRow--call-to-action-container {
+    padding: 8em 4em 4em 4em;
+}
+
+.flexRowContent--call-to-action-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexRow--call-to-action-text-container {
+    margin-bottom: 30px;
+}
+
+.flexRow--call-to-action-button-container {
+    display: inline-block;
+}

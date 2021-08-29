@@ -2,12 +2,6 @@
 	color: #fff;
 }
 
-.heading--blink::after {
-	color: #fcc200;
-	animation: blink 1s infinite;
-	content: "_";
-}
-
 @keyframes blink {
 	0% {
 		content: "";

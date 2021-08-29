@@ -1,0 +1,12 @@
+{
+  "store.home": {
+    "blocks": [
+      "progress-wraper",
+      "slider-layout#home-carousel",
+      "flex-layout.row#call-to-action",
+      "flex-layout.row#service-quadrants",
+      "flex-layout.row#trusted-by",
+      "contact-form"
+    ]
+  }
+}
