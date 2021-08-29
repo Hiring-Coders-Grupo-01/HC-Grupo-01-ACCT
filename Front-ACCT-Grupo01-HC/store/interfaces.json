@@ -13,5 +13,8 @@
     },
     "contact-form-separated": {
       "component": "ComponentFormSeparated"
+    }, 
+    "lead-form": {
+      "component": "ComponentLeadForm"
     }
 }

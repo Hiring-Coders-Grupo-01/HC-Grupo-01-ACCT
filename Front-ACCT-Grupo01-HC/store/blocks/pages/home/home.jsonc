@@ -6,6 +6,7 @@
       "flex-layout.row#call-to-action",
       "flex-layout.row#service-quadrants",
       "flex-layout.row#trusted-by",
+      "lead-form",
       "contact-form"
     ]
   }
