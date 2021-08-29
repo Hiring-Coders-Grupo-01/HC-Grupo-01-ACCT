@@ -1,10 +1,4 @@
 {
-    "countdown": {
-      "component": "Countdown"
-    },
-    "title": {
-      "component": "Title"
-    },
     "progress-wraper": {
       "component": "ComponentProgressWraper"
     },
