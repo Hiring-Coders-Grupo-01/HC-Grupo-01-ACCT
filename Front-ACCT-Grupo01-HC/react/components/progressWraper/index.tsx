@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Container } from './styled'
 
 //progress circle wraper
 import CircularProgress from "@material-ui/core/CircularProgress";
@@ -28,7 +29,7 @@ function ProgressWraper() {
   }, []);
 
   return (
-    <div>
+    <Container>
       <div>
         <CircularProgress
           variant="determinate"
@@ -48,18 +49,17 @@ function ProgressWraper() {
           }}
         />
         <div style={{
-          color: "white",
           zIndex: 99999,
           position: "fixed",
           bottom: 114,
           right: 117
         }}>
-          <a href="#" style={{ scrollBehavior: "smooth" }}>
+          <a href="#" >
             <FontAwesomeIcon icon="angle-double-up" style={{ color: "#fcc200" }} />
           </a>
         </div>
       </div>
-    </div>
+    </Container>
   );
 }
 
