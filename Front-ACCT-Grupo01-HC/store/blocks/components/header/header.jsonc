@@ -1,0 +1,105 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  //Layout Desktop
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#header-desktop"
+    ]
+  },
+  "sticky-layout#header-desktop": {
+    "props": {
+      "blockClass": "header-sticky"
+    },
+    "children": [
+      "flex-layout.row#header-desktop-container"
+    ]
+  },
+  "flex-layout.row#header-desktop-container": {
+    "props": {
+      "blockClass": "header-desktopcontainer"
+    },
+    "children": [
+      "flex-layout.col#header-desktop-container"  
+    ]
+  },
+  "flex-layout.col#header-desktop-container": {
+    "props": {
+      "verticalAlign": "center"
+    },
+    "children": [
+      "flex-layout.row#header-desktop" 
+    ]
+  },
+  //Header Desktop
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "blockClass": "header-container",
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer"
+    ]
+  },    
+  //Logo Desktop
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/brand/logo-acct-black.svg",
+      "width": "150"
+    }
+  },
+  //Spacer
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-sobre-nos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-automatizando-testes": {
+        "props": {
+            "blockClass": "block-automatizando-testes"
+        },
+        "children": [
+            "flex-layout.row#block-automatizando-testes-image",
+            "flex-layout.col#block-automatizando-testes-text-content"                      
+        ]
+    },
+    "flex-layout.row#block-automatizando-testes-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-automatizando-testes-image"
+        },
+        "children": [
+            "image#block-automatizando-testes-image"
+        ]
+    },
+    "image#block-automatizando-testes-image": {
+        "props": {
+            "src": "assets/services/card-automatizando-testes.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-automatizando-testes-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-automatizando-testes-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-automatizando-testes-title",
+            "rich-text#block-automatizando-testes-text"
+        ]
+    },
+    "rich-text#block-automatizando-testes-title": {
+        "props": {
+            "text": "### Automatizando testes de qualidade",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-automatizando-testes-text": {
+        "props": {
+            "text": "Automação de testes é o **uso de software** para controlar a execução de testes de software através da **aplicação de estratégias e ferramentas**, comparando os resultados esperados com os resultados reais. <br/><br/> Seus objetivos são: <br/><br/> • A redução do envolvimento humano em atividades manuais; <br/><br/> • A redução de tempo requerido e de custo final.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}
