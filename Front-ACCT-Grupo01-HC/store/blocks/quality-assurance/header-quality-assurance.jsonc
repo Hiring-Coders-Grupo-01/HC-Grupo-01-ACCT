@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#header-quality-assurance": {
+        "props": {
+            "blockClass": "header-quality-assurance"
+        },
+        "children": [
+            "rich-text#title-header-quality-assurance"
+        ]
+    },
+    "rich-text#title-header-quality-assurance": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "# SERVIÇOS: QUALITY ASSURANCE ",
+            "blockClass": [
+                "blink"
+            ]
+        }
+    }
+}

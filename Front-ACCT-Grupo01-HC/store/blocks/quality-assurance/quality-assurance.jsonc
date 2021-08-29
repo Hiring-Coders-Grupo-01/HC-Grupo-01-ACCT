@@ -1,0 +1,23 @@
+{
+    "store.custom#quality-assurance": {
+        "blocks": [
+            "flex-layout.row#header-quality-assurance",
+            "info-card#garantindo",
+            "info-card#automatizando",
+            "flex-layout.row#piramide",            
+            "flex-layout.row#card-piramide",
+            "flex-layout.row#planejamento",
+            // Faltou adicionar tabela Módulos Funcionais e Módulos Visuais de Testes Sugeridos
+            "flex-layout.row#arquitetura-automatizadas",
+            // Faltou adicionar Ícones e descrição da arquitetura Funcionais Automatizados
+            "flex-layout.row#info-arquitetura-automatizadas",
+            "flex-layout.row#arquitetura-visuais",
+            "flex-layout.row#cards-arquitetura-visuais",
+            // Faltou adicionar cards da arquitetura Automatizado Visuais
+            "flex-layout.row#infraestrutura",
+            //Faltou adicionar cards da infra estrutura
+            // Faltou adicionar o texto Notificação
+            "info-card#report"
+        ]
+    }       
+}
