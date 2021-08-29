@@ -1,12 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Container } from './styled'
+import { Container, LinkA } from './styled'
 
 //progress circle wraper
 import CircularProgress from "@material-ui/core/CircularProgress";
-
-//font awesome icons
-import '../../assets/icons/fontawesome'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function ProgressWraper() {
   // set scroll top
@@ -48,15 +44,13 @@ function ProgressWraper() {
             zIndex: 99998
           }}
         />
-        <div style={{
-          zIndex: 99999,
-          position: "fixed",
-          bottom: 114,
-          right: 117
-        }}>
-          <a href="#" >
-            <FontAwesomeIcon icon="angle-double-up" style={{ color: "#fcc200" }} />
-          </a>
+        <div>
+          <LinkA href="#" style={{
+            zIndex: 99999,
+            position: "fixed",
+            bottom: 101,
+            right: 115
+          }}></LinkA>
         </div>
       </div>
     </Container>

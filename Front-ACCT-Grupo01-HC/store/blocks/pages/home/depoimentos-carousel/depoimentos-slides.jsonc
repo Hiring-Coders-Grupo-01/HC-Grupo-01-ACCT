@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#depoimento1": {
+        "children": [""],
+        "props": {
+          "blockClass": ["slide-depoimento1"]
+        }
+      },
+
+      "flex-layout.row#depoimento2": {
+        "children": [""],
+        "props": {
+          "blockClass": ["slide-depoimento2"]
+        }
+      },
+
+      "flex-layout.row#depoimento3": {
+        "children": [""],
+        "props": {
+          "blockClass": ["slide-depoimento3"]
+        }
+      },
+
+      "flex-layout.row#depoimento4": {
+        "children": [""],
+        "props": {
+          "blockClass": ["slide-depoimento4"]
+        }
+      },
+
+      "flex-layout.row#depoimento5": {
+        "children": [""],
+        "props": {
+          "blockClass": ["slide-depoimento5"]
+        }
+      }
+}
