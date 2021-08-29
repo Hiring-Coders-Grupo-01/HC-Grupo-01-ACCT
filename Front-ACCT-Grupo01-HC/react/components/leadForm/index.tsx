@@ -8,7 +8,7 @@ function LeadForm() {
 
             <LabelsGroup>
                 <Label>Nome:<span>*</span></Label>
-                <Input type="name" placeholder="Nome" required />
+                <Input type="text" placeholder="Nome" required />
             </LabelsGroup>
 
             <LabelsGroup >
@@ -18,7 +18,7 @@ function LeadForm() {
 
             <LabelsGroup>
                 <Label>Telefone:<span>*</span></Label>
-                <Input type="telefone" placeholder="991234567891" required />
+                <Input type="text" placeholder="991234567891" required />
             </LabelsGroup>
 
             <Button type="submit">Enviar</Button>
