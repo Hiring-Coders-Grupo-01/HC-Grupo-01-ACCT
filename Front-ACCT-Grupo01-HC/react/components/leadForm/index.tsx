@@ -8,17 +8,17 @@ function LeadForm() {
 
             <LabelsGroup>
                 <Label>Nome:<span>*</span></Label>
-                <Input />
+                <Input type="name" placeholder="Nome" required />
             </LabelsGroup>
 
             <LabelsGroup >
                 <Label>E-mail:<span>*</span></Label>
-                <Input />
+                <Input type="email" placeholder="email@example.com" required />
             </LabelsGroup>
 
             <LabelsGroup>
                 <Label>Telefone:<span>*</span></Label>
-                <Input />
+                <Input type="telefone" placeholder="(99)1234567891" required />
             </LabelsGroup>
 
             <Button type="submit">Enviar</Button>
