@@ -9,7 +9,9 @@
           "info-card#button-left",
 
           "flex-layout.row#1images",
-          "flex-layout.row#2images"
+          "flex-layout.row#2images",
+
+          "contact-form"
     ]
   },
   "flex-layout.row#hometitle":{

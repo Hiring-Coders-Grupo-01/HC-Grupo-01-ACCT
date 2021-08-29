@@ -13,5 +13,8 @@
     },
     "computer-slide": {
       "component": "ComponentComputerSlide"
+    },
+    "contact-form": {
+      "component": "ComponentContactForm"
     }
 }
