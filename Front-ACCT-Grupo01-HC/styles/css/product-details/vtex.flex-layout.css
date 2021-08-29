@@ -1,0 +1,23 @@
+.flexRowContent--product-details {
+	margin-bottom: 40px;
+	padding: 20px;
+	gap: 20px;
+}
+
+.flexCol--info-product {
+	display: flex;
+	justify-content: space-around;
+}
+
+.flexRowContent--description-product {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 760px) {
+	.flexRowContent--product-details {
+	display: flex;
+	flex-wrap: wrap;}
+}
