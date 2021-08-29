@@ -18,7 +18,7 @@ function LeadForm() {
 
             <LabelsGroup>
                 <Label>Telefone:<span>*</span></Label>
-                <Input type="telefone" placeholder="(99)1234567891" required />
+                <Input type="telefone" placeholder="991234567891" required />
             </LabelsGroup>
 
             <Button type="submit">Enviar</Button>
