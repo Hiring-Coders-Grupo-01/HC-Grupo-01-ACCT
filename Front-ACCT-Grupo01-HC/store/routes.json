@@ -8,6 +8,9 @@
     "store.custom#quality-assurance": {
         "path": "/quality-assurance"
     },
+    "store.custom#data-e-growth": {
+        "path": "/data-e-growth"
+    },
     "store.custom#experience-design": {
         "path": "/experience-design"
     },
