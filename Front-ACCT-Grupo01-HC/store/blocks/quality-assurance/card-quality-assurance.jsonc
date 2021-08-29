@@ -1,0 +1,124 @@
+{
+    "flex-layout.row#piramide": {
+        "children": [
+            "image#piramide",
+            "rich-text#txt-piramide"
+        ],
+        "props":{
+            "blockClass": "img-piramide"
+        }
+    },
+    "image#piramide": {
+        "props": {
+            "src": "https://acct.global/wp-content/uploads/2021/06/tests-piramyd-274x300.png",
+            "maxHeight": 450,
+            "blockClass": "piramide"            
+          }
+    },
+    "rich-text#txt-piramide": {
+        "props": {
+            "text": "**Pirâmide ideal de teste de softwares** <br/><br/> • Seção baseada em testes manuais; <br/><br/> • Testes automatizados de interface; <br/><br/> • Testes automatizados de API; • Testes automatizados de integração; <br/><br/> • Testes automatizados de componentes; <br/><br/> • Testes automatizados unitários. ",
+            "textPosition": "CENTER",
+            "blockClass": "piramide"
+        }
+    },
+    "flex-layout.row#card-piramide":{
+        "children": [
+            "rich-text#testes-funcionais",
+            "rich-text#testes-visuais"
+        ]
+    },
+    "rich-text#testes-funcionais": {
+        "props": {
+            "text": "**Testes Funcionais** <br/><br/> Execução das principais funcionalidades apresentadas no site: <br/><br/> 1. Calcular frete <br/><br/> 2. Cadastrar cliente <br/><br/> 3. Efetuar pedido",
+            "textPosition": "CENTER",
+            "blockClass": "testes-funcionais"
+        }
+    },
+    "rich-text#testes-visuais":{
+        "props": {
+            "text": "**Testes Visuais** <br/><br/> Verificação do template padrão com o apresentado no momento da execução do teste, exemplo: <br/><br/> 1. Validação de alinhamentos e posições <br/><br/> 2. Validação de fontes e tamanhos <br/><br/> 3. Validação de cores e conteúdos",
+            "textPosition": "CENTER",
+            "blockClass": "testes-visuais"
+        }
+    },
+    "flex-layout.row#planejamento": {
+        "children": [
+            "rich-text#one",
+            "rich-text#two"
+
+        ]
+    },
+    "rich-text#one": {
+        "props": {
+            "text": "**Por onde começar?** <br/><br/> Funcionalidades consideradas críticas devem ser um dos focos iniciais das atividades de automação, pois são partes do sistema de muita importância, que certamente serão muito utilizadas e terão alta visibilidade. <br/><br/> Exatamente por isso, essas funcionalidades requerem cuidados especiais.",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "rich-text#two":{
+        "props": {
+            "text": "**Planejamento** <br/><br/> 1. Entender o contexto; <br/><br/> 2. Escrever casos de testes antes de automatizar; <br/><br/> 3. Focar nas regras de negócios; <br/><br/> 4. Avaliar bloqueios; <br/><br/> 5. Usar boas práticas. ",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-planejamento"
+        }
+    },
+    // Faltou adicionar tabela Módulos Funcionais e Módulos Visuais de Testes Sugeridos
+    "flex-layout.row#arquitetura-automatizadas":{
+        "children": [
+            "rich-text#txt-arquitetura-automatizadas"
+        ]
+    },
+    "rich-text#txt-arquitetura-automatizadas":{
+        "props": {
+            "text": "**Arquitetura de uma Ferramenta de Testes Funcionais Automatizados** <br/><br/>  Utilizamos as melhores tecnologias disponíveis no mercado para otimizar cenários de testes automatizados. Com o foco de minimizar e otimizar o trabalho de todo o ciclo de desenvolvimento.",
+            "textPosition": "CENTER",
+            "blockClass": "arquitetura-automatizadas"
+        }
+    },
+    // Faltou adicionar Ícones e descrição da arquitetura Funcionais Automatizados
+    "flex-layout.row#info-arquitetura-automatizadas":{
+        "children": [
+            "rich-text#info-arquitetura-automatizadas",
+            "rich-text#info-arquitetura-two"
+        ]
+    },
+    "rich-text#info-arquitetura-automatizadas":{
+
+    },
+    "rich-text#info-arquitetura-two":{
+        
+    },
+    "flex-layout.row#arquitetura-visuais":{
+        "children": [
+            "rich-text#txt-arquitetura-visuais"
+        ]
+    },
+    "rich-text#txt-arquitetura-visuais":{
+        "props": {
+            "text": "**Arquitetura de uma ferramenta de Testes Automatizado Visuais** <br/><br/>  Nesse fluxo de testes visuais, uma vez que o script de testes está codificado no Cypress e versionado no Gitlab, construímos por meio do CI/CD um pipeline de execução onde será construído o ambiente para execução dos testes, quando um teste for iniciado, irá chamar o serviço externo do Percy.io que irá gerar no seu App um build com os resultados das execuções. ",
+            "textPosition": "CENTER",
+            "blockClass": "arquitetura-visuais"
+        }
+    },
+    // Faltou adicionar cards da arquitetura Automatizado Visuais
+    "flex-layout.row#cards-arquitetura-visuais": {
+        "children": [
+         
+        ]
+    },
+    "flex-layout.row#infraestrutura": {
+        "children": [
+            "rich-text#txt-infraestrutura"
+        ]
+    },
+    "rich-text#txt-infraestrutura":{
+        "props": {
+            "text": "**Infraestrutura** <br/><br/> Como mencionado no planejamento, no primeiro momento precisamos entender o contexto, ou seja, toda orientação do software com visão de Como mencionado no planejamento, no primeiro momento precisamos entender o contexto, ou seja, toda orientação do software com visão de ferramentas e boas práticas de desenvolvimento. ",
+            "textPosition": "CENTER",
+            "blockClass": "infraestrutura"
+        }
+    }
+    //Faltou adicionar cards da infra estrutura
+
+}
