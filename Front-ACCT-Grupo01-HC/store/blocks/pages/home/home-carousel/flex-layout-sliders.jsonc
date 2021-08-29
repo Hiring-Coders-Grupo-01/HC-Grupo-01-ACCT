@@ -1,46 +1,99 @@
 {
     "flex-layout.row#slide1": {
         "props": {
-            
+            "blockClass": "rowSlide1"
         },
         "children": [
-            "rich-text#slide1"
+            "flex-layout.col#col1-slide1",
+            "flex-layout.col#col2-slide1"
         ]
     },
-
     "flex-layout.row#slide2": {
         "props": {
-            
+            "blockClass": "rowSlide2"
         },
         "children": [
-            "rich-text#slide2"
+            "flex-layout.col#col-slide2"
         ]
     },
-
     "flex-layout.row#slide3": {
         "props": {
-            
+            "blockClass": "rowSlide3"
         },
         "children": [
-            "rich-text#slide3"
+            "flex-layout.col#col-slide3"
         ]
     },
-
     "flex-layout.row#slide4": {
         "props": {
-            
+            "blockClass": "rowSlide4"
         },
         "children": [
-            "rich-text#slide4"
+            "flex-layout.col#col-slide4"
         ]
     },
-
     "flex-layout.row#slide5": {
         "props": {
-            
+            "blockClass": "rowSlide5"
         },
         "children": [
-            "rich-text#slide5"
+            "flex-layout.col#col-slide5"
         ]
+    },
+    "flex-layout.col#col1-slide1": {
+    "children": [
+            "rich-text#title-slide1",
+            "rich-text#subtitle1-slide1",
+            "rich-text#subtitle2-slide1",
+            "rich-text#subtitle3-slide1"
+        ],
+        "props": {
+            "blockClass": "col1Slide1"
+          }
+  },
+    "flex-layout.col#col2-slide1": {
+    "children": [
+            "mapa-slide"
+        ],
+        "props": {
+            "blockClass": "col2Slide1"
+          }
+  },
+    "flex-layout.col#col-slide2": {
+      "children": [
+        "rich-text#title-slide2",
+        "rich-text#subtitle-slide2",
+        "computer-slide"
+      ],
+      "props": {
+        "blockClass": "colSlide2"
+      }
+    },
+    "flex-layout.col#col-slide3": {
+      "children": [
+        "rich-text#title-slide3",
+        "rich-text#subtitle-slide3"
+      ],
+      "props": {
+        "blockClass": "colSlide3"
+      }
+    },
+    "flex-layout.col#col-slide4": {
+      "children": [
+        "rich-text#title-slide4",
+        "rich-text#subtitle-slide4"
+      ],
+      "props": {
+        "blockClass": "colSlide4"
+      }
+    },
+    "flex-layout.col#col-slide5": {
+      "children": [
+        "rich-text#title-slide5",
+        "rich-text#subtitle-slide5"
+      ],
+      "props": {
+        "blockClass": "colSlide5"
+      }
     }
 }

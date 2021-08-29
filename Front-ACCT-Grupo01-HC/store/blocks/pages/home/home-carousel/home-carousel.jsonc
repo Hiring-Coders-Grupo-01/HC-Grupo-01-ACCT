@@ -1,16 +1,16 @@
 {
-"slider-layout#home-carousel": {
-  "props": {
-    "itemsPerPage": {
-      "desktop": 1,
-      "tablet": 1,
-      "phone": 1
+  "slider-layout#home-carousel": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "home-carousel"
     },
-    "infinite": true,
-    "showPaginationDots": "never",
-    "showNavigationArrows": "desktopOnly",
-    "blockClass": "home-carousel"
-  },
-  "children": ["flex-layout.row#slide1", "flex-layout.row#slide2", "flex-layout.row#slide3", "flex-layout.row#slide4", "flex-layout.row#slide5"]
-}
-}
+    "children": ["flex-layout.row#slide1", "flex-layout.row#slide2", "flex-layout.row#slide3", "flex-layout.row#slide4", "flex-layout.row#slide5"]
+  }
+  }
