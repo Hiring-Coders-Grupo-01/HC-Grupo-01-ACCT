@@ -1,0 +1,9 @@
+{
+	"store.custom#contact": {
+		"blocks": [
+			"flex-layout.row#header-contact",
+			"flex-layout.row#block-form-address",
+			"flex-layout.row#block-global-map"
+		]
+	}
+}

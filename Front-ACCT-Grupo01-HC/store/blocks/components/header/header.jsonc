@@ -14,6 +14,7 @@
   //Layout Desktop
   "header-layout.desktop": {
     "children": [
+      "progress-wraper",
       "sticky-layout#header-desktop"
     ]
   },
@@ -25,9 +26,13 @@
       "flex-layout.row#header-desktop-container"
     ]
   },
+
+
+
+
   "flex-layout.row#header-desktop-container": {
     "props": {
-      "blockClass": "header-desktopcontainer"
+      "blockClass": "header-desktop-container"
     },
     "children": [
       "flex-layout.col#header-desktop-container"  

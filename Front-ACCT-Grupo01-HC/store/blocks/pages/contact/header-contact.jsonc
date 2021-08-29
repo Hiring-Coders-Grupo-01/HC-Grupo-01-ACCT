@@ -1,0 +1,21 @@
+{
+	"flex-layout.row#header-contact": {
+        "props": {
+            "blockClass": "header-contact"
+        },
+        "children": [
+            "rich-text#title-contact"
+        ]
+    },	
+	"rich-text#title-contact": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "# CONTATO",
+			"blockClass": [
+				"page-header", 
+				"blink"
+			]
+		}
+	}
+}

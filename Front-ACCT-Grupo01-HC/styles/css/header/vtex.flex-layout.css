@@ -1,6 +1,9 @@
+.flexRow--header-desktop-container {
+    background: #fff;
+}
+
 .flexRow--header-container {
     position: sticky;
     height: 90px;
-    background: #fff;
     display: flex;
 }
