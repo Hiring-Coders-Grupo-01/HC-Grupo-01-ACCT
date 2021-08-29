@@ -1,7 +1,15 @@
 {
     "store.custom#data-growth": {
         "blocks": [
-            "flex-layout.row#header-data-growth"
+            "flex-layout.row#header-data-growth",
+            "info-card#data",
+            "info-card#objetivos",
+            // Faltou os ícones
+            "flex-layout.row#bloco-objetivos",  
+            // Faltou as sessões 
+            "info-card#metricas",        
+            "flex-layout.row#perfil"
+            // Faltoua as sessões 
         ]
     }
 }
