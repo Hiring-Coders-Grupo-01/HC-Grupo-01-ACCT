@@ -16,3 +16,4 @@
 
 - [Vtex.io](https://developers.vtex.com/vtex-developer-docs/docs/welcome)
 - [API Gateway AWS](https://docs.aws.amazon.com/pt_br/apigateway/latest/developerguide/welcome.html)
+- [React](https://pt-br.reactjs.org/docs/getting-started.html)
