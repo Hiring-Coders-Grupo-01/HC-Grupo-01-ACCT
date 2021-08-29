@@ -1,0 +1,10 @@
+.imageElement--why-acct-item {
+    max-width: 100px;
+    margin: 0 auto 10px;
+    transition: all 0.6s;
+}
+
+.imageElement--why-acct-item:hover {
+    transform: scale(0.9, 0.9);
+    opacity: 0.8;
+}

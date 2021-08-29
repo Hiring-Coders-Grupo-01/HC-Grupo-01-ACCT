@@ -12,7 +12,10 @@
 			"textAlignment": "LEFT",
 			"textPosition": "LEFT",
 			"text": "# SOBRE NÓS",
-			"blockClass": ["page-header", "blink"]
+			"blockClass": [
+				"page-header", 
+				"blink"
+			]
 		}
 	}
 }

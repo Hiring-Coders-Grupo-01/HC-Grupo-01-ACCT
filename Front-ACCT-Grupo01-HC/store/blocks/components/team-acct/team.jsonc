@@ -25,8 +25,8 @@
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
 			"blockClass": [
-                "headline",
-                "headline-team"
+                "block-title",
+                "team-title"
             ]
 		}
 	},

@@ -1,24 +1,17 @@
 .flexRowContent--intro-about-us,
-.flexRowContent--header-about-us,
-.flexRowContent--why-acct-container,
-.flexRowContent--team-container {
+.flexRowContent--header-about-us {
     max-width: 1170px;
     margin: 0 auto;
+}
+
+.flexRowContent--intro-about-us {
+    padding: 8em 2em 4em 2em;
 }
 
 .flexRow--header-about-us {
     background: url("assets/title/about-us.jpg");
     background-size: cover;
 	background-position: center center;
-}
-
-.flexRow--why-acct-container,
-.flexRowContent--team-container {
-    padding: 4em 2em 8em 2em;
-}
-
-.flexRowContent--intro-about-us {
-    padding: 8em 2em 4em 2em;
 }
 
 .flexRowContent--intro-details {
@@ -29,16 +22,4 @@
 
 .flexRow--intro-image {
     margin: auto 0;
-}
-
-.flexRowContent--why-acct-itens {
-    flex-wrap: wrap;
-}
-
-.flexRowContent--why-acct-row {
-    display: flex;
-}
-
-.flexColChild--why-acct-item {
-    text-align: center;
 }

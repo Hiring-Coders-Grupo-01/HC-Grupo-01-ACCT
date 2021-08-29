@@ -1,0 +1,20 @@
+.flexRowContent--why-acct-container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexRow--why-acct-container {
+    padding: 4em 2em 8em 2em;
+}
+
+.flexRowContent--why-acct-itens {
+    flex-wrap: wrap;
+}
+
+.flexRowContent--why-acct-row {
+    display: flex;
+}
+
+.flexColChild--why-acct-item {
+    text-align: center;
+}
