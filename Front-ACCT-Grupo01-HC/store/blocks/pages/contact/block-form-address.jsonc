@@ -24,16 +24,9 @@
             "horizontalAlign": "center"
         },
         "children": [
-            "rich-text#form-prospect-title"
+            "lead-form"
         ]
     },
-    "rich-text#form-prospect-title": {
-		"props": {
-			"text": " ### Formulário deverá ser inserido aqui",
-			"textAlignment": "LEFT",
-			"textPosition": "LEFT"
-		}
-	},
     "flex-layout.row#contact-address-brazil": {
         "props": {
             "blockClass": "block-form-address-row",

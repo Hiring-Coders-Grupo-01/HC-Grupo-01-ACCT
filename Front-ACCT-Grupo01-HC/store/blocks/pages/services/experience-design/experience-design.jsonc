@@ -1,6 +1,7 @@
 {
     "store.custom#experience-design": {
         "blocks": [
+            "progress-wraper",
             "flex-layout.row#header-experience-design",
             "flex-layout.row#block-o-que-e-experience-design",
             "flex-layout.row#block-profissional-ux-ui",

@@ -1,6 +1,7 @@
 {
     "store.custom#tecnology": {
         "blocks": [
+            "progress-wraper",
             "flex-layout.row#header-tecnology",
             "flex-layout.row#block-criando-futuro",
             "flex-layout.row#block-plataformas",            

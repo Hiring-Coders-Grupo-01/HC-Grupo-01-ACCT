@@ -1,6 +1,7 @@
 {
     "store.custom#quality-assurance": {
         "blocks": [
+            "progress-wraper",
             "flex-layout.row#header-quality-assurance",
             "flex-layout.row#block-garantindo-melhor-tecnologia",
             "flex-layout.row#block-automatizando-testes",
