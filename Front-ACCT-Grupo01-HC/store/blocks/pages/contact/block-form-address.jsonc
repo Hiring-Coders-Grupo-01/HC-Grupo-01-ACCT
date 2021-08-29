@@ -1,0 +1,154 @@
+{
+    "flex-layout.row#block-form-address": {
+        "props": {
+            "blockClass": "block-form-address"
+        },
+        "children": [
+            "flex-layout.row#form-prospect",
+            "flex-layout.row#contact-address-brazil",
+            "flex-layout.row#contact-address-usa",
+            "flex-layout.row#contact-address-spain"
+        ]
+    },
+    "flex-layout.row#form-prospect": {
+        "props": {
+            "blockClass": "block-form-address-row",
+            "width": "48%"
+        },
+        "children": [
+            "flex-layout.col#form-prospect"   
+        ]
+    },
+    "flex-layout.col#form-prospect": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "rich-text#form-prospect-title"
+        ]
+    },
+    "rich-text#form-prospect-title": {
+		"props": {
+			"text": " ### Formulário deverá ser inserido aqui",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT"
+		}
+	},
+    "flex-layout.row#contact-address-brazil": {
+        "props": {
+            "blockClass": "block-form-address-row",
+            "width": "16%"
+        },
+        "children": [
+            "flex-layout.col#contact-address-brazil"
+        ]
+    },
+    "flex-layout.row#contact-address-usa": {
+        "props": {
+            "blockClass": "block-form-address-row",
+            "width": "16%"
+        },
+        "children": [
+            "flex-layout.col#contact-address-usa"
+        ]
+    },
+    "flex-layout.row#contact-address-spain": {
+        "props": {
+            "blockClass": "block-form-address-row",
+            "width": "16%"
+        },
+        "children": [
+            "flex-layout.col#contact-address-spain"
+        ]
+    },
+    "flex-layout.col#contact-address-brazil": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+		"children": [
+			"image#contact-saopaulo",
+			"rich-text#contact-saopaulo-title",
+			"rich-text#contact-saopaulo-address"			
+		]
+	},
+    "image#contact-saopaulo": {
+		"props": {
+			"blockClass":"contact-address-image",
+			"src": "assets/banners/contact-saopaulo.jpg"
+		}
+	},
+    "rich-text#contact-saopaulo-title": {
+		"props": {
+			"text": " ### São Paulo",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT"
+		}
+	},
+	"rich-text#contact-saopaulo-address": {
+		"props": {
+			"text": "Al. Professor Lucas Nogueira Garcez, 1395 Atibaia/SP\n \n \nAv. das Nações Unidas, 11.857 - 8ºA - Brooklin São Paulo/SP",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT"
+		}
+	},
+    "flex-layout.col#contact-address-usa": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+		"children": [
+			"image#contact-newyork",
+			"rich-text#contact-newyork-title",
+			"rich-text#contact-newyork-address"			
+		]
+	},
+    "image#contact-newyork": {
+		"props": {
+			"blockClass":"contact-address-image",
+			"src": "assets/banners/contact-newyork.jpg"
+		}
+	},
+    "rich-text#contact-newyork-title": {
+		"props": {
+			"text": " ### Nova York",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT"
+		}
+	},
+	"rich-text#contact-newyork-address": {
+		"props": {
+			"text": "12 East 49th Street NY 10017",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT"
+		}
+	},
+    "flex-layout.col#contact-address-spain": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+		"children": [
+			"image#contact-barcelona",
+			"rich-text#contact-barcelona-title",
+			"rich-text#contact-barcelona-address"
+		]
+	},
+	"image#contact-barcelona": {
+		"props": {
+			"blockClass":"contact-address-image",
+			"src": "assets/banners/contact-barcelona.jpg"
+		}
+	},
+	"rich-text#contact-barcelona-title": {
+		"props": {
+			"text": " ### Barcelona",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT"
+		}
+	},
+	"rich-text#contact-barcelona-address": {
+		"props": {
+			"text": "Carrer Provença, 339 - 08037",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT"
+		}
+	}	
+}

@@ -1,0 +1,40 @@
+.flexRowContent--block-form-address,
+.flexRowContent--header-contact,
+.flexRowContent--block-global-map {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexRowContent--block-form-address {
+    justify-content: space-between;
+}
+
+.flexRow--header-contact {
+    background: url("assets/title/contact.jpg");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexRow--block-form-address {
+    background-color: #fff;
+    padding: 6em 2em 6em 2em;
+}
+
+.flexRow--block-global-map {
+    background-color: #f1f1f1;
+    padding: 10em 2em 8em 2em;
+}
+
+.flexRowContent--block-form-address,
+.flexRowContent--block-global-map-itens {
+    flex-wrap: wrap;
+}
+
+.flexRowContent--block-form-address-row,
+.flexRowContent--block-global-map-row {
+    display: flex;
+}
+
+.flexColChild--block-global-map-item {
+    text-align: center;
+}

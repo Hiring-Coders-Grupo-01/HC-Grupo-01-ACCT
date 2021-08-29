@@ -1,7 +1,4 @@
 {
-    "store.custom#cadastro": {
-        "path": "/cadastro"
-    },
     "store.custom#about-us": {
         "path": "/sobre-nos"
     },
@@ -13,5 +10,8 @@
     },
     "store.custom#tecnology": {
         "path": "/servicos/tecnologia"
+    },
+    "store.custom#contact": {
+        "path": "/contato"
     }
 }

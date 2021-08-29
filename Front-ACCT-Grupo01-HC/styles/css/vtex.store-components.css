@@ -19,10 +19,6 @@
 	display: block;
 	border: 3px solid #dedede;
 }
-.imageElement--image {
-    border-bottom: 10px solid #fcc200;
-    margin-bottom: 20px;
-}
 
 .imageElement--imageTeam:hover {
 	filter: brightness(100%);
