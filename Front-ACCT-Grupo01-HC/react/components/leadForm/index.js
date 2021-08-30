@@ -1,5 +1,5 @@
 import React, { useCallback, useState, useEffect } from "react";
-import { FormContainer, Label, Paragraph, Input, ButtonInput } from "./styled";
+import { FormContainer, Label, TitleForm, Paragraph, Input, ButtonInput } from "./styled";
 import api from "../../services/api";
 
 function LeadFormJs() {
@@ -31,7 +31,14 @@ function LeadFormJs() {
 
   return (
     <div>
-      <Paragraph>Solicite nosso contato:</Paragraph>
+      <TitleForm>
+        <Paragraph>
+          Cadastre-se e<br />
+          <span>ganhe 10% off</span>
+          <br />
+          no seu primeiro curso!
+        </Paragraph>
+      </TitleForm>
 
       <FormContainer>
         <Label>

@@ -9,10 +9,18 @@ export const FormContainer = styled.div`
   //border: 1.5px solid #5974c7;
 `;
 
+export const TitleForm = styled.div`
+  span {
+    text-transform: uppercase;
+    color: rgb(252, 194, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+`;
+
 export const Paragraph = styled.p`
   color: #040404;
   font-size: 22.4px;
-  text-align: center;
 `;
 
 export const LabelsGroup = styled.div`
