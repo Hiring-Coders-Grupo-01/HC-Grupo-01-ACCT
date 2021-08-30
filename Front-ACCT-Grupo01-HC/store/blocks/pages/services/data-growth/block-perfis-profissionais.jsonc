@@ -24,14 +24,14 @@
     },
     "rich-text#engineering":{
         "props": {
-            "text": "**Data Engineering** <br/><br/> Os profissionais de Data Engineering são responsáveis por toda estratégia de coleta de dados nas lojas (independente da ferramenta) , reunindo todas essas informações no ambiente responsável pelo analytics. <br/><br/> Também somos responsáveis pela configuração dos ambientes de Analytics, garantindo que as melhores práticas e os dados corretos estejam sendo consumidos. ",
+            "text": "**Data Engineering** \n\n Os profissionais de Data Engineering são responsáveis por toda estratégia de coleta de dados nas lojas (independente da ferramenta) , reunindo todas essas informações no ambiente responsável pelo analytics. \n\n Também somos responsáveis pela configuração dos ambientes de Analytics, garantindo que as melhores práticas e os dados corretos estejam sendo consumidos. ",
             "textPosition": "CENTER",
             "blockClass": ""
         }
     },
     "rich-text#analytics":{
         "props": {
-            "text": "**Data Analytics** <br/><br/> Os profissionais de Data Analytics são responsáveis por Análises, Dashboards, Reports e Insights no geral. Possuímos diversas áreas de atuação e nosso principal objetivo é responder duas das quatro grandes perguntas do mundo de Análise de Dados. 'O que aconteceu?' e 'Porque Aconteceu?'. <br/><br/> Garantimos que as áreas de negócio entendam qual seu cenário atual e quais são seus principais aliados e ofensores na trajetória de buscar a melhor performance no dia a dia.",
+            "text": "**Data Analytics** \n\n Os profissionais de Data Analytics são responsáveis por Análises, Dashboards, Reports e Insights no geral. Possuímos diversas áreas de atuação e nosso principal objetivo é responder duas das quatro grandes perguntas do mundo de Análise de Dados. 'O que aconteceu?' e 'Porque Aconteceu?'. \n\n Garantimos que as áreas de negócio entendam qual seu cenário atual e quais são seus principais aliados e ofensores na trajetória de buscar a melhor performance no dia a dia.",
             "textPosition": "CENTER",
             "blockClass": ""
         }
