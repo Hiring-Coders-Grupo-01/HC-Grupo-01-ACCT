@@ -1,0 +1,16 @@
+{
+	"flex-layout.row#header-courses": {
+		"props": {
+			"blockClass": "header-courses"
+		},
+		"children": ["rich-text#title-courses"]
+	},
+	"rich-text#title-courses": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "# NOSSOS CURSOS",
+			"blockClass": ["page-header", "blink"]
+		}
+	}
+}

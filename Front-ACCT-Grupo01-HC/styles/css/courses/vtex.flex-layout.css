@@ -1,0 +1,11 @@
+.flexRowContent--header-courses,
+.flexRowContent--courses-container  {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexRow--header-courses {
+    background: url("assets/title/courses.jpg");
+    background-size: cover;
+	background-position: center center;
+}
