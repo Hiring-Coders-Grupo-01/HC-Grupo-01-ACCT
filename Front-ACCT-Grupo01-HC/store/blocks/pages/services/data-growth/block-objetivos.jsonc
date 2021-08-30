@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-objetivos": {
+        "props": {
+            "blockClass": "block-objetivos"
+        },
+        "children": [
+            "flex-layout.row#block-objetivos-image",
+            "flex-layout.col#block-objetivos-text-content"                      
+        ]
+    },
+    "flex-layout.row#block-objetivos-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-objetivos-image"
+        },
+        "children": [
+            "image#block-objetivos-image"
+        ]
+    },
+    "image#block-objetivos-image": {
+        "props": {
+            "src": "assets/services/card-objetivos.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-objetivos-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-objetivos-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-objetivos-title",
+            "rich-text#block-objetivos-text"
+        ]
+    },
+    "rich-text#block-objetivos-title": {
+        "props": {
+            "text": "#### Objetivos",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-objetivos-text": {
+        "props": {
+            "text": "• Dar mais visibilidade para os resultados impulsionados pelos mecanismos da Algonomy. <br/><br/> • Aumentar o nível de conhecimento dos profissionais envolvidos na análise da performance, garantindo rápidas evoluções e melhorias no dia a dia. <br/><br/> • Melhorar a otimização de performance do cliente, impactando diretamente na taxa de conversão. <br/><br/> • Apoiar a coleta de dados do site, impulsionando novas visões e possibilidades na loja. <br/><br/> • Reportar e sugerir Insights.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

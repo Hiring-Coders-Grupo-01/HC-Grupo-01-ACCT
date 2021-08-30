@@ -2,14 +2,9 @@
     "store.custom#data-growth": {
         "blocks": [
             "flex-layout.row#header-data-growth",
-            "info-card#data",
-            "info-card#objetivos",            
-            "flex-layout.row#bloco-objetivos",             
-            "flex-layout.row#metricas",             
-            "flex-layout.row#perfil1",          
-            "flex-layout.row#title-collapse",
-            "flex-layout.row#servicos-collapse",
+            "flex-layout.row#block-data-analytics",
+            "flex-layout.row#block-objetivos",
             "contact-form"
         ]
     }
-} 
+}
