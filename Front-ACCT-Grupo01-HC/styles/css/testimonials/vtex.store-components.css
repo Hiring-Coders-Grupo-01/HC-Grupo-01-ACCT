@@ -1,11 +1,5 @@
-.imageElement--testimonial-image {
-  border-radius: 100%;
-  margin: 0 0 0 40%;
-  width: 80px;
-}
-
-@media (max-width: 640px) {
-  .imageElement--testimonial-image {
-    margin: 0 0 0 0;
-  }
+.imageElement--testimonial-person-image {
+	  max-width: 64px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
