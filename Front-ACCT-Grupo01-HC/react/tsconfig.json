@@ -22,5 +22,5 @@
     "./typings/*.d.ts",
     "./**/*.tsx",
     "./**/*.ts"
-  ]
+, "components/leadList/index.js"  ]
 }
