@@ -1,0 +1,208 @@
+{
+	"flex-layout.row#testimonials": {
+		"children": ["flex-layout.col#testimonials"],
+		"props": {
+			"blockClass": "testimonials"
+		}
+	},
+	"flex-layout.col#testimonials": {
+		"children": [
+			"flex-layout.row#title-testimonials",
+			"slider-layout#info-testimonials"
+		],
+		"props": {
+			"blockClass": "testimonials"
+		}
+	},
+	"flex-layout.row#title-testimonials": {
+		"children": ["rich-text#title-testimonials"]
+	},
+	"rich-text#title-testimonials": {
+		"props": {
+			"text": "### Testemunhos",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "block-title"
+		}
+	},
+	"slider-layout#info-testimonials": {
+		"children": [
+			"flex-layout.row#testimonial-one",
+			"flex-layout.row#testimonial-two",
+			"flex-layout.row#testimonial-three"
+		],
+		"props": {
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"showPaginationDots": "never",
+			"arrowSize": {
+				"desktop": 14,
+				"tablet": 14,
+				"phone": 12
+			},
+			"blockClass": "testimonial-slider"
+		}
+	},
+	"flex-layout.row#testimonial-one": {
+		"children": ["flex-layout.col#testimonial-one"]
+	},
+	"flex-layout.col#testimonial-one": {
+		"children": [
+			"flex-layout.row#testimonial-text-one",
+			"flex-layout.row#info-person-one"
+		]
+	},
+	"flex-layout.row#testimonial-text-one": {
+		"children": ["rich-text#testimonial-one"]
+	},
+	"flex-layout.row#info-person-one": {
+		"children": [
+			"flex-layout.row#image-testimonial-one",
+			"flex-layout.row#name-testimonial-one"
+		],
+		"props": {
+			"blockClass": "info-testimonial"
+		}
+	},
+	"flex-layout.row#image-testimonial-one": {
+		"children": ["image#testimonial-person-one"],
+		"props": { "blockClass": "image-testimonial" }
+	},
+	"flex-layout.row#name-testimonial-one": {
+		"children": ["rich-text#info-person-one"],
+		"props": { "blockClass": "name-testimonial" }
+	},
+	"rich-text#testimonial-one": {
+		"props": {
+			"text": "A ACCT e Empório da Cerveja trabalharam em conjunto com nossa equipe interna para que eles pudessem ser treinados para liderar as operações posteriormente. Na minha opinião, tivemos uma parceria muito rica, feita em equipe, que incluiu troca de conhecimento e comunicação transparente.",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"blockClass": "testimonial"
+		}
+	},
+	"image#testimonial-person-one": {
+		"props": {
+			"src": "assets/testimonial/nelson-emporio-da-cerveja.jpg",
+			"blockClass": "testimonial-image"
+		}
+	},
+	"rich-text#info-person-one": {
+		"props": {
+			"text": "#### NELSON DE MOURA \n Ex-gerente de Produto - Empório da Cerveja",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"blockClass": "info-testimonial-person"
+		}
+	},
+
+	//person2
+	"flex-layout.row#testimonial-two": {
+		"children": ["flex-layout.col#testimonial-two"]
+	},
+	"flex-layout.col#testimonial-two": {
+		"children": [
+			"flex-layout.row#testimonial-text-two",
+			"flex-layout.row#info-person-two"
+		]
+	},
+	"flex-layout.row#testimonial-text-two": {
+		"children": ["rich-text#testimonial-two"]
+	},
+	"flex-layout.row#info-person-two": {
+		"children": [
+			"flex-layout.row#image-testimonial-two",
+			"flex-layout.row#name-testimonial-two"
+		],
+		"props": {
+			"blockClass": "info-testimonial"
+		}
+	},
+	"flex-layout.row#image-testimonial-two": {
+		"children": ["image#testimonial-person-two"],
+		"props": { "blockClass": "image-testimonial" }
+	},
+	"flex-layout.row#name-testimonial-two": {
+		"children": ["rich-text#info-person-two"],
+		"props": { "blockClass": "name-testimonial" }
+	},
+	"rich-text#testimonial-two": {
+		"props": {
+			"text": "A Tok & Stok precisava evoluir sua experiência de compra online. Nossas lojas já estão bastante consolidadas e somos referência em experiência em móveis e decoração. Nosso desafio era fazer exatamente esse mesmo movimento no digital, de forma bastante acelerada.",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"blockClass": "testimonial"
+		}
+	},
+	"image#testimonial-person-two": {
+		"props": {
+			"src": "assets/testimonial/adriano-tok-stok.jpg",
+			"blockClass": "testimonial-image"
+		}
+	},
+	"rich-text#info-person-two": {
+		"props": {
+			"text": "#### ADRIANO DI BELLA TAVOLLASSI \n Ex-Diretor de E-commerce e Digital - Tok & Stok",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"blockClass": "info-testimonial-person"
+		}
+	},
+
+	//person3
+	"flex-layout.row#testimonial-three": {
+		"children": ["flex-layout.col#testimonial-three"]
+	},
+	"flex-layout.col#testimonial-three": {
+		"children": [
+			"flex-layout.row#testimonial-text-three",
+			"flex-layout.row#info-person-three"
+		]
+	},
+
+	"flex-layout.row#testimonial-text-three": {
+		"children": ["rich-text#testimonial-three"]
+	},
+	"flex-layout.row#info-person-three": {
+		"children": [
+			"flex-layout.row#image-testimonial-three",
+			"flex-layout.row#name-testimonial-three"
+		],
+		"props": {
+			"blockClass": "info-testimonial"
+		}
+	},
+	"flex-layout.row#image-testimonial-three": {
+		"children": ["image#testimonial-person-three"],
+		"props": { "blockClass": "image-testimonial" }
+	},
+	"flex-layout.row#name-testimonial-three": {
+		"children": ["rich-text#info-person-three"],
+		"props": { "blockClass": "name-testimonial" }
+	},
+	"rich-text#testimonial-three": {
+		"props": {
+			"text": "Foi gratificante ter um parceiro que concordou com esse projeto, pois sabíamos que as regras do negócio poderiam gerar várias mudanças ao longo do caminho. A equipe da ACCT foi flexível o suficiente para lidar com as mudanças no planejamento e se adaptou ao processo.",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"blockClass": "testimonial"
+		}
+	},
+	"image#testimonial-person-three": {
+		"props": {
+			"src": "assets/testimonial/gustavo-rios-vtex.jpg",
+			"blockClass": "testimonial-image"
+		}
+	},
+	"rich-text#info-person-three": {
+		"props": {
+			"text": "#### GUSTAVO RIOS \n Diretor de Clientes - VTEX",
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"blockClass": "info-testimonial-person"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+.flexRow--testimonials {
+	background-color: #f1f1f1;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+	padding: 40px;
+}
+
+.flexRow--info-testimonial {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.flexRowContent--info-testimonial {
+	display: flex;
+	width: 60%;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+@media (max-width: 760px) {
+	.flexRow--testimonials {
+		padding: 0px;
+	}
+}
