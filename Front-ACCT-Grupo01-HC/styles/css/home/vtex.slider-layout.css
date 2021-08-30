@@ -1,0 +1,9 @@
+
+.caretIcon--slider-layout-home {
+    opacity: 1;
+	color: #fff;
+}
+
+.caretIcon--slider-layout-home:hover {
+	opacity: .8;
+}

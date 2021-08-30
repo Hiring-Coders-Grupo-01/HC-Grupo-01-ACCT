@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#block-banner-engenharia-ecommerce": {
+        "props": {
+            "blockClass": "block-banner-engenharia-ecommerce"
+        },
+        "children": [
+            "flex-layout.col#block-banner-engenharia-ecommerce-call-to-action"
+        ]
+    },
+    "flex-layout.col#block-banner-engenharia-ecommerce-call-to-action": {
+        "props": {
+            "blockClass": "block-banner-engenharia-ecommerce-call-to-action",
+            "width": "40%",
+            "height": "500px"
+        },
+        "children": [
+            "rich-text#block-banner-engenharia-ecommerce-title",
+            "rich-text#block-banner-engenharia-ecommerce-details"
+        ]
+    },
+    "rich-text#block-banner-engenharia-ecommerce-title": {
+        "props": {
+            "text": "# **Engenharia de** <br> **E-commerce_**",
+            "blockClass": "banner-title"
+        }
+    },
+    "rich-text#block-banner-engenharia-ecommerce-details": {
+        "props": {
+            "text": "Equipes de alto desempenho entregando algumas das soluções de e-commerce mais complexas do mundo.",
+            "blockClass": "banner-detail"
+        }
+    }
+}

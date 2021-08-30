@@ -25,9 +25,6 @@
     padding-bottom: 5rem;
 }
 
-
-
-
 .headingLevel4--team-member-name {
     margin: 15px 0 0;
     font-size: 16px;
@@ -177,4 +174,45 @@
     margin-bottom: 8px;
     font-size: 1rem;
     line-height: 1.5;
+}
+
+.paragraph--banner-detail,
+.paragraph--banner-list-item {
+    color: #ffffff;
+    font-size: 112.5%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: inherit;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: normal;
+    margin: 0;
+}
+
+.paragraph--banner-list-item::before {
+    content:"\A";
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background: #fcc200;
+    display:inline-block;
+    margin: 0 10px;
+}
+
+.headingLevel1--banner-title {
+    font-size: 56px;
+    letter-spacing: -1px;
+    line-height: 61px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1023px) {
+    .headingLevel1--banner-title {
+        text-align: center;
+    }
 }
