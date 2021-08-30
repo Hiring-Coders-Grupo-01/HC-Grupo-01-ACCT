@@ -3,8 +3,8 @@
 		"blocks": [
 			"progress-wraper",
 			"flex-layout.row#header-contact",
-			"lead-list",
 			"flex-layout.row#block-form-address",
+			"lead-list",
 			"flex-layout.row#block-global-map"
 		]
 	}

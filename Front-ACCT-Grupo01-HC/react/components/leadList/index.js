@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Container, ClientsContent, Ttile, ClientsName, ClientsGrid } from "./styled";
 
 //services
 import api from "../../services/api";
@@ -18,15 +19,16 @@ function LeadList() {
   }, []);
 
   return (
-    <div>
-      <h1>wee</h1>
-
-      {users.map((data) => (
-        <div>
-          <p>{data.nome}</p>
-        </div>
-      ))}
-    </div>
+    <Container>
+      <Ttile>Contatos Favoritos</Ttile>
+      <ClientsGrid>
+        {users.map((data, index) => (
+          <ClientsContent>
+            <ClientsName>{data.nome}</ClientsName>
+          </ClientsContent>
+        ))}
+      </ClientsGrid>
+    </Container>
   );
 }
 
