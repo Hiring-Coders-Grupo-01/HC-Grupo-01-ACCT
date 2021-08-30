@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Flipper } from './styled'
+import { Container, Flipper, Perspective3D } from './styled'
 
 interface PerspectiveAnimationImageSliderProps {
     children?: any
@@ -8,11 +8,13 @@ interface PerspectiveAnimationImageSliderProps {
 function PerspectiveAnimationImageSlider(props: PerspectiveAnimationImageSliderProps) {
     const {
         children
-      } = props
+    } = props
     return (
         <Container>
             <Flipper>
-                {children}
+                <Perspective3D>
+                    {children}
+                </Perspective3D>
             </Flipper>
         </Container>
     )

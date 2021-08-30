@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 export const Container = styled.div`
   perspective: 1000px;
-  transform: rotateX(25deg);
+  transform: rotateX(15deg);
 `;
 
 const qdAnimation = keyframes`
@@ -32,6 +32,9 @@ export const Flipper = styled.div`
   height: 100%;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+`;
+
+export const Perspective3D = styled.div`
   animation-name: ${qdAnimation};
   animation-duration: 4s;
   animation-iteration-count: infinite;
