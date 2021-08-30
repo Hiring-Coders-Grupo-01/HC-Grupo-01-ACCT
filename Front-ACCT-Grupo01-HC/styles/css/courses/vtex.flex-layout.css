@@ -9,3 +9,7 @@
     background-size: cover;
 	background-position: center center;
 }
+
+.flexRow--courses-container {
+    padding: 4em 0em 8em 0em;
+}
