@@ -9,7 +9,7 @@ function LeadList() {
 
   useEffect(() => {
     async function loadUsers() {
-      await api.get().then((response) => {
+      await api.get("leads").then((response) => {
         if (response.data) {
           setUsers(response.data);
         }
