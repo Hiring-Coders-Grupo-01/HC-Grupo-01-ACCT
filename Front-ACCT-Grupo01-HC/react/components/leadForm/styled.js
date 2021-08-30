@@ -56,7 +56,7 @@ export const Input = styled.input`
   }
 `;
 
-export const Button = styled.button`
+export const ButtonInput = styled.input`
   outline-style: none;
   border: 2px solid #5974c7;
   border-radius: 3px;

@@ -1,114 +1,35 @@
 import React, { useCallback, useState, useEffect } from "react";
-import { FormContainer, Label, Paragraph, Input, Button } from "./styled";
-import axios from "axios";
+import { FormContainer, Label, Paragraph, Input, ButtonInput } from "./styled";
 import api from "../../services/api";
 
-/* //yup and hook-form (validators)
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import * as yup from "yup"; */
-
-/* // aws-amplify
-import Amplify from "aws-amplify";
-import { API } from "aws-amplify";
-import awsExports from "../../src/aws-exports.js";
-Amplify.configure(awsExports);
-
-async function addContact() {
-  const data = {
-    body: {
-      name: formState.name,
-      email: formState.email,
-      telefone: formState.telefone,
-    },
-  };
-
-  console.log(data);
-  const apiData = await API.post("formapi", "/contact", data);
-  console.log({ apiData });
-  alert("Success");
-}
-
-const formState = { name: "", email: "", telefone: "" };
-
-function updateFormState(key, value) {
-  formState[key] = value;
-}
-
-let schema = yup.object().shape({
-  name: yup.string().required("Nome é obrigatório"),
-  email: yup.string().email().required("E-Mail é obrigatório"),
-  telefone: yup.string().required("Telefone é obrigatório"),
-}); */
-
 function LeadFormJs() {
-  /* const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm <
-  Validators >
-  {
-    resolver: yupResolver(schema),
-  };
-
-  const onSubmit = useCallback((data) => {
-    console.log(data);
-    console.log(register);
-  }, []); */
-
-  /* const [data, setData] = useState({
-    name: "",
-    email: "",
-    telefone: "",
-  }); */
-  /* const [data, setData] = useState({
+  const [data, setData] = useState({
     name: "",
     email: "",
     telefone: "",
   });
 
-  function handleChange(event) {
-    setData({ nome: event.target.value, email: event.target.value, telefone: event.target.value });
-  }
-
   function handleSubmit(event) {
+    console.log("VETX?????");
     event.preventDefault();
 
-    const user = {
-      nome: data.nome,
-      email: data.email,
-      telefone: data.telefone,
-    };
-
-    api.post("", { user }).then((res) => {
-      console.log(res);
-      console.log(res.data);
-    });
-  } */
-
-  /* function onSubmit(e) {
-    e.preventDefault();
-    axios
-      .post(url, {
+    api
+      .post("leads", {
         nome: data.nome,
         email: data.email,
-        telefone: parseInt(data.telefone),
+        telefone: data.telefone,
       })
-      .then((res) => {
-        console.log(res.data);
+      .then((response) => {
+        console.log(response.data);
       });
+
+    console.log(data);
   }
 
-  function handleSubmit(e) {
+  function handleChange(event) {
     const newdata = { ...data };
-    newdata[e.target.id] = e.target.value;
+    newdata[event.target.id] = event.target.value;
     setData(newdata);
-  } */
-  //console.log = console.warn = console.error = () => {};
-
-  function handleSubmit() {
-    console.log("odeio muito");
   }
 
   return (
@@ -119,21 +40,19 @@ function LeadFormJs() {
         <Label>
           Nome:<span>*</span>
         </Label>
-        <Input type="text" placeholder="Nome" id="nome" />
+        <Input type="text" placeholder="Nome" id="nome" value={data.nome} onChange={(event) => handleChange(event)} />
 
         <Label>
           E-mail:<span>*</span>
         </Label>
-        <Input type="email" placeholder="email@example.com" id="email" />
+        <Input type="email" placeholder="email@example.com" id="email" value={data.email} onChange={(event) => handleChange(event)} />
 
         <Label>
           Telefone:<span>*</span>
         </Label>
-        <Input type="text" placeholder="991234567891" id="telefone" />
+        <Input type="text" placeholder="991234567891" id="telefone" value={data.telefone} onChange={(event) => handleChange(event)} />
 
-        <Button type="submit" onClick={handleSubmit}>
-          Enviar
-        </Button>
+        <ButtonInput type="submit" onClick={handleSubmit}></ButtonInput>
       </FormContainer>
     </div>
   );
