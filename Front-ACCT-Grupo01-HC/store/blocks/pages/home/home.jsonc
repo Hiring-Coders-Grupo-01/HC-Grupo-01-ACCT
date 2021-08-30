@@ -4,6 +4,7 @@
       "responsive-layout.desktop#slider-home",
       "responsive-layout.mobile#slider-home",
       "flex-layout.row#call-to-action",
+      "flex-layout.row#slider-products-home",
       "flex-layout.row#service-quadrants",
       "flex-layout.row#testimonials",
       "flex-layout.row#trusted-by",

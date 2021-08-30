@@ -236,7 +236,14 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .headingLevel1--banner-title {
+    .headingLevel1--banner-list-title {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container--testimonial-person-name,
+    .container--testimonial-person-office {
+        justify-content: center;
     }
 }

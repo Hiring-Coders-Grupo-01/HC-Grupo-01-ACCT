@@ -92,7 +92,7 @@
     "rich-text#block-quadrante-vtex-title": {
         "props": {
             "text": "# **Somos líder no Quadrante VTEX**",
-            "blockClass": "banner-title"
+            "blockClass": "banner-list-title"
         }
     },
     "rich-text#block-quadrante-vtex-details1": {

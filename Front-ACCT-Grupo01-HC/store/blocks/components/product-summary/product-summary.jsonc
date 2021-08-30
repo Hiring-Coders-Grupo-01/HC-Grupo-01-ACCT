@@ -1,0 +1,32 @@
+{   
+    "product-summary.shelf#course-acct": {
+        "children": [
+            "product-summary-image#course-acct",
+            "product-summary-name#course-acct",
+            "product-summary-space",
+            "add-to-cart-button#course-acct"
+        ],
+        "props": {
+            "clearLink": "none",
+            "blockClass": "course-acct"
+        }
+    },
+    "product-summary-name#course-acct": {
+        "props": {
+            "blockClass": "course-acct",
+            "tag": "div"
+        }
+    },
+    "product-summary-image#course-acct": {
+        "props": {
+            "blockClass": "course-acct",
+            "showBadge": false
+        } 
+    },
+    "add-to-cart-button#course-acct": {
+        "props": {
+            "onClickBehavior": "go-to-product-page",
+            "text": "Saiba mais"
+        }
+    }
+}

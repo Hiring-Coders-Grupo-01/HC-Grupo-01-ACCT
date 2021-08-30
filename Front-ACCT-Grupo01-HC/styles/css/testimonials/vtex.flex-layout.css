@@ -1,7 +1,7 @@
 .flexRowContent--testimonials {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 4em 2em 4em 2em;
+    padding: 4em 0em 4em 0em;
 }
 
 .flexRow--testimonials {
@@ -10,4 +10,10 @@
 	flex-wrap: wrap;
 	margin-bottom: 40px;
 	padding: 40px;
+}
+
+@media screen and (max-width: 650px) {
+	.flexCol--testimoninal-person-image-container {
+		align-items: center;
+	}
 }

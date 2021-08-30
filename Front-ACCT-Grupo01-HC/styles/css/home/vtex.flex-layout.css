@@ -2,7 +2,12 @@
     padding: 8em 4em 4em 4em;
 }
 
-.flexRowContent--call-to-action-container {
+.flexRow--slider-products-home {
+    padding: 4em 4em 8em 4em;
+}
+
+.flexRowContent--call-to-action-container,
+.flexRowContent--slider-products-home {
     max-width: 1170px;
     margin: 0 auto;
 }

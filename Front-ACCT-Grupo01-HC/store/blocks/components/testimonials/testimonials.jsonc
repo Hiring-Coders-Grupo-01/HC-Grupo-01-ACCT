@@ -42,6 +42,7 @@
                 "phone": 1
             },
             "infinite": true,
+            "showNavigationArrows": "desktopOnly",
             "showPaginationDots": "never",
             "arrowSize": {
                 "desktop": 14,
@@ -99,7 +100,8 @@
     "flex-layout.col#testimoninal-person1-image": {
         "props": {
             "horizontalAlign": "right",
-            "width": "45%"
+            "width": "40%",
+            "blockClass": "testimoninal-person-image-container"
         },
         "children": [
             "image#testimonial-person1-image"
@@ -113,7 +115,7 @@
     },
     "flex-layout.col#testimoninal-person1-info": {
         "props": {
-            "width": "55%"
+            "width": "60%"
         },
         "children": [
             "rich-text#testimonial-person1-name",
@@ -172,7 +174,7 @@
     "flex-layout.col#testimoninal-person2-image": {
         "props": {
             "horizontalAlign": "right",
-            "width": "45%"
+            "width": "35%"
         },
         "children": [
             "image#testimonial-person2-image"
@@ -186,7 +188,7 @@
     },
     "flex-layout.col#testimoninal-person2-info": {
         "props": {
-            "width": "55%"
+            "width": "65%"
         },
         "children": [
             "rich-text#testimonial-person2-name",
