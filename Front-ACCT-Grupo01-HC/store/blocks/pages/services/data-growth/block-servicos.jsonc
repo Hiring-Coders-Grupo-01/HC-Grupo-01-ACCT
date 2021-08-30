@@ -1,0 +1,168 @@
+{
+    "flex-layout.row#title-collapse": {
+        "children": [
+            "rich-text#title-servicos"
+        ]
+    },
+    "rich-text#title-servicos":{
+        "props": {
+            "text": "**Serviços** ",
+            "textPosition": "CENTER",
+            "blockClass": ""
+        }
+    },
+
+    "flex-layout.row#servicos-collapse": {
+        "children": [
+            "flex-layout.col#servicos"
+            
+        ]
+    },
+    "flex-layout.col#servicos": {
+        "children": [
+            "disclosure-layout#servicos1",
+            "disclosure-layout#servicos2",
+            "disclosure-layout#servicos3",
+            "disclosure-layout#servicos4",
+            "disclosure-layout#servicos5"
+        ]
+    },
+    
+
+    "disclosure-layout#servicos1": {
+        "children": [
+            "disclosure-trigger#servicos1",
+            "disclosure-content#servicos1"
+            
+        ]
+    },
+    "disclosure-trigger#servicos1": {
+        "children": [
+            "rich-text#title-servicos1"
+        ]
+    },
+    "rich-text#title-servicos1": {
+        "props" : {
+          "text" : "**CRO**"
+       }
+     },
+    "disclosure-content#servicos1":{
+        "children": [
+             "rich-text#texto-servicos1"
+        ]
+    },
+    "rich-text#texto-servicos1": {
+        "props" : {
+            "text": "**Perfil**: Data Analytics com foco em CRO \n\n **Objetivo**: Acompanhar os principais ofensores e oportunidades de Conversão dentro do Funil de Vendas. \n\n **Atividades realizadas**: \n\n • Estudo de Conversão (principais ofensores e aliados).\n • Elaboração de Dashboard para acompanhamento do cliente. \n • Participações em discussões de estratégia e alterações que mexem diretamente com o Fim do Funil (transações, conversão e receita). \n\n **Tempo sugerido de atuação**: 2 - 6 meses. "
+        }
+    },
+    "disclosure-layout#servicos2": {
+        "children": [
+            "disclosure-trigger#servicos2",
+            "disclosure-content#servicos2"
+            
+        ]
+    },
+    "disclosure-trigger#servicos2": {
+        "children": [
+            "rich-text#title-servicos2"
+        ]
+    },
+    "rich-text#title-servicos2": {
+        "props" : {
+          "text" : "**GO LIVE**"
+       }
+     },
+    "disclosure-content#servicos2":{
+        "children": [
+             "rich-text#texto-servicos2"
+        ]
+    },
+    "rich-text#texto-servicos2": {
+        "props" : {
+            "text": "**Perfil**: Data Analytics \n\n **Objetivo**: Acompanhar os principais ofensores e oportunidades do Funil de Vendas e compilar todos os dados e estudos em um Dashboard e Reports. \n\n **Atividades realizadas**: \n\n • Estudo de Conversão (principais ofensores e aliados).\n • Elaboração de Dashboard para acompanhamento do cliente. \n • Participações em discussões de estratégia e alterações que mexem diretamente com o Fim do Funil (transações, conversão e receita). \n\n **Tempo sugerido de atuação**: 1 - 3 meses. "
+        }
+    },
+    "disclosure-layout#servicos3": {
+        "children": [
+            "disclosure-trigger#servicos3",
+            "disclosure-content#servicos3"
+            
+        ]
+    },
+    "disclosure-trigger#servicos3": {
+        "children": [
+            "rich-text#title-servicos3"
+        ]
+    },
+    "rich-text#title-servicos3": {
+        "props" : {
+          "text" : "**TESTE AB**"
+       }
+     },
+    "disclosure-content#servicos3":{
+        "children": [
+             "rich-text#texto-servicos3"
+        ]
+    },
+    "rich-text#texto-servicos3": {
+        "props" : {
+            "text": "**Perfil**: Data Analytics + Data Engineering \n\n **Objetivo**: Realizar Testes entre Layouts, Versões de Site, Landing Pages, Call to Actions, Motores e tecnologias de busca ou qualquer outro teste dentro da Loja. \n\n **Atividades realizadas**: \n\n • Mensuração do cenário de CRO pré-teste (Análise do funil e seus comportamentos vistos de granularidades e periodicidades diferentes).\n • Configuração do Analytics para realização do teste. \n • Elaboração de Dashboard de acompanhamento do teste.\n\n • Insights e reports periódicos para acompanhamento do time do cliente.\n\n **Tempo sugerido de atuação**: 2 - 6 meses. "
+        }
+    },
+    "disclosure-layout#servicos4": {
+        "children": [
+            "disclosure-trigger#servicos4",
+            "disclosure-content#servicos4"
+            
+        ]
+    },
+    "disclosure-trigger#servicos4": {
+        "children": [
+            "rich-text#title-servicos4"
+        ]
+    },
+    "rich-text#title-servicos4": {
+        "props" : {
+          "text" : "**ANALYTICS**"
+       }
+     },
+    "disclosure-content#servicos4":{
+        "children": [
+             "rich-text#texto-servicos4"
+        ]
+    },
+    "rich-text#texto-servicos4": {
+        "props" : {
+            "text": "**Perfil**: Data Analytics  \n\n **Objetivo**: Fornecer Insights e sugestões para melhorar o fluxo de compra dos usuários, calibrar a maneira como se investe em Aquisição e propor melhorias na experiência do usuário. \n\n **Atividades realizadas**: \n\n • Análises e desenvolvimento de relatórios e reports. \n • Estudos de mercado, comportamento de compra e análises de investimentos de aquisição (facebook, google ads ou outros parceiros de mídia). \n • Participação de ritos e implantações, apoiando a tomada de decisão com dados.\n\n **Tempo sugerido de atuação**: 3 - 12 meses. "
+        }
+    },
+
+    "disclosure-layout#servicos5": {
+        "children": [
+            "disclosure-trigger#servicos5",
+            "disclosure-content#servicos5"
+            
+        ]
+    },
+    "disclosure-trigger#servicos5": {
+        "children": [
+            "rich-text#title-servicos5"
+        ]
+    },
+    "rich-text#title-servicos5": {
+        "props" : {
+          "text" : "**ENGINEERING**"
+       }
+     },
+    "disclosure-content#servicos5":{
+        "children": [
+             "rich-text#texto-servicos5"
+        ]
+    },
+    "rich-text#texto-servicos5": {
+        "props" : {
+            "text": "**Perfil**: Data Engineering  \n\n **Objetivo**: Ser responsável por coletar, integrar, tratar e disponibilizar os dados, independente da fonte de dados.\n\n **Atividades realizadas**: \n\n • Montagem de rotinas de extração e tratamento de dados. \n • Implantação de ferramentas de ETL. \n • Integrações entre Data Visualization e Data Lakes / Data Warehouses.\n\n **Tempo sugerido de atuação**: 3 - 12 meses. "
+        }
+    }
+}

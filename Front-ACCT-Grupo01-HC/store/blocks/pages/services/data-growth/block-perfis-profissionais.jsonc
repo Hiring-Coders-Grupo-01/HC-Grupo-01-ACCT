@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#perfil1": {
+        "children": [
+           "flex-layout.col#perfil",
+           "flex-layout.col#2perfil"
+
+        ]
+    },
+    "flex-layout.col#perfil": {
+        "children": [
+            "rich-text#title-perfil"
+        ]
+    },
+    "rich-text#title-perfil": {
+        "props": {
+            "text": "**Perfis dos Profissionais**"
+        }
+    },
+    "flex-layout.col#2perfil": {
+        "children": [
+            "rich-text#engineering",
+            "rich-text#analytics"
+        ]
+    },
+    "rich-text#engineering":{
+        "props": {
+            "text": "**Data Engineering** <br/><br/> Os profissionais de Data Engineering são responsáveis por toda estratégia de coleta de dados nas lojas (independente da ferramenta) , reunindo todas essas informações no ambiente responsável pelo analytics. <br/><br/> Também somos responsáveis pela configuração dos ambientes de Analytics, garantindo que as melhores práticas e os dados corretos estejam sendo consumidos. ",
+            "textPosition": "CENTER",
+            "blockClass": ""
+        }
+    },
+    "rich-text#analytics":{
+        "props": {
+            "text": "**Data Analytics** <br/><br/> Os profissionais de Data Analytics são responsáveis por Análises, Dashboards, Reports e Insights no geral. Possuímos diversas áreas de atuação e nosso principal objetivo é responder duas das quatro grandes perguntas do mundo de Análise de Dados. 'O que aconteceu?' e 'Porque Aconteceu?'. <br/><br/> Garantimos que as áreas de negócio entendam qual seu cenário atual e quais são seus principais aliados e ofensores na trajetória de buscar a melhor performance no dia a dia.",
+            "textPosition": "CENTER",
+            "blockClass": ""
+        }
+    }
+
+
+}

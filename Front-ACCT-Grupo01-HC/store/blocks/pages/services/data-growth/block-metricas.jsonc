@@ -1,0 +1,153 @@
+{
+    
+    "flex-layout.row#metricas": {
+        "children": [
+            "flex-layout.col#metricas1",
+            "flex-layout.col#image-metricas1"
+        ]
+    },
+    "flex-layout.col#metricas1": {
+        "children": [
+            "rich-text#metricas",
+            "disclosure-layout#1",
+            "disclosure-layout#2",
+            "disclosure-layout#3",
+            "disclosure-layout#4"
+        ]
+    },
+
+    "rich-text#metricas": {
+     "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**Métricas**: \n  Otimizar a jornada do nosso consumidor não é uma tarefa fácil. Sabendo disso, é extremamente importante que tenhamos o conhecimento de todas as possibilidades que melhoram a performance de navegabilidade do nosso consumidor. ",
+        "blockClass": [
+            "page-header",
+            "blink"
+        ]
+     }
+    },
+    "disclosure-layout#1": {
+        "children": [
+            "disclosure-trigger#1",
+            "disclosure-content#1"
+            
+        ]
+    },
+    "disclosure-trigger#1": {
+        "children": [
+            "rich-text#trigger1"
+        ]
+    },
+    "rich-text#trigger1": {
+        "props" : {
+          "text" : "**KPIS**"
+       }
+     },
+    "disclosure-content#1":{
+        "children": [
+             "rich-text#answer1"
+        ]
+    },
+    "rich-text#answer1": {
+        "props" : {
+            "text": "Key Performance Indicator (Indicador-chave de Performance), mais conhecido como KPI, é um conjunto de ferramentas utilizado para ajudar a medir e quantificar a experiência do usuário e fornecer dados para a empresa acompanhar a evolução dos seus produtos."
+        }
+    },
+   
+    "disclosure-layout#2": {
+        "children": [
+            "disclosure-trigger#2",
+            "disclosure-content#2"
+            
+        ]
+    },
+    "disclosure-trigger#2": {
+        "children": [
+            "rich-text#trigger2"
+        ]
+    },
+    "rich-text#trigger2": {
+        "props" : {
+          "text" : "**TESTES AB**"
+       }
+     },
+    "disclosure-content#2":{
+        "children": [
+             "rich-text#answer2"
+        ]
+    },
+    "rich-text#answer2": {
+        "props" : {
+            "text": "Passaremos a executar testes AB com o objetivo de entender o que gera mais resultado para o produto, assim podemos aprender mais sobre o que funciona a cada versionamento de uma funcionalidade."
+        }
+    },
+    "disclosure-layout#3": {
+        "children": [
+            "disclosure-trigger#3",
+            "disclosure-content#3"
+            
+        ]
+    },
+    "disclosure-trigger#3": {
+        "children": [
+            "rich-text#trigger3"
+        ]
+    },
+    "rich-text#trigger3": {
+        "props" : {
+          "text" : "**HEAT MAPS**"
+       }
+     },
+    "disclosure-content#3":{
+        "children": [
+             "rich-text#answer3"
+        ]
+    },
+    "rich-text#answer3": {
+        "props" : {
+            "text": "O acompanhamento de relatórios de heatmaps de uma determinada página deve acontecer semanalmente. Essa ferramenta serve como base para encontrar problemas de usabilidade e ajudar no mapeamento e construção do backlog."
+        }
+    },
+
+    "disclosure-layout#4": {
+        "children": [
+            "disclosure-trigger#4",
+            "disclosure-content#4"
+            
+        ]
+    },
+    "disclosure-trigger#4": {
+        "children": [
+            "rich-text#trigger4"
+        ]
+    },
+    "rich-text#trigger4": {
+        "props" : {
+          "text" : "**CONVERSION RATE**"
+       }
+     },
+    "disclosure-content#4":{
+        "children": [
+             "rich-text#answer4"
+        ]
+    },
+    "rich-text#answer4": {
+        "props" : {
+            "text": "As conversões medem se os usuários realizam uma ação desejada em seu site, portanto, são uma ótima métrica para rastrear melhorias de design (ou a falta delas). \n\nEstruturar um plano de mensuração da taxa de conversão segmentado para cada tarefa do e-commerce, permite que a forma de acompanhamento de decisões de design sejam progressivas, tornando fácil a percepção de padrões nos comportamentos bem sucedidos dos usuários."
+        }
+    },
+    "flex-layout.col#image-metricas1": {
+        "children": [
+            "image#metricas"
+        ]
+    },
+    "image#metricas": {
+        "props": {
+            "src": "assets/quadrants/metricas.jpg",
+            "maxHeight": 550,
+            "maxWidth":500
+        }
+    }
+
+}
