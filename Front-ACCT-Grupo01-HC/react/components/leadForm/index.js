@@ -1,11 +1,12 @@
 import React, { useCallback, useState, useEffect } from "react";
 import { FormContainer, Label, Paragraph, Input, Button } from "./styled";
 import axios from "axios";
+import api from "../../services/api";
 
-//yup and hook-form (validators)
+/* //yup and hook-form (validators)
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import * as yup from "yup";
+import * as yup from "yup"; */
 
 /* // aws-amplify
 import Amplify from "aws-amplify";
@@ -61,7 +62,7 @@ function LeadFormJs() {
     email: "",
     telefone: "",
   }); */
-  const [data, setData] = useState({
+  /* const [data, setData] = useState({
     name: "",
     email: "",
     telefone: "",
@@ -84,7 +85,7 @@ function LeadFormJs() {
       console.log(res);
       console.log(res.data);
     });
-  }
+  } */
 
   /* function onSubmit(e) {
     e.preventDefault();
@@ -104,29 +105,35 @@ function LeadFormJs() {
     newdata[e.target.id] = e.target.value;
     setData(newdata);
   } */
-  console.log = console.warn = console.error = () => {};
+  //console.log = console.warn = console.error = () => {};
+
+  function handleSubmit() {
+    console.log("odeio muito");
+  }
 
   return (
     <div>
-      <FormContainer onSubmit={handleSubmit}>
-        <Paragraph>Solicite nosso contato:</Paragraph>
+      <Paragraph>Solicite nosso contato:</Paragraph>
 
+      <FormContainer>
         <Label>
           Nome:<span>*</span>
         </Label>
-        <Input type="text" placeholder="Nome" onChange={handleChange} id="nome" value={data.nome} />
+        <Input type="text" placeholder="Nome" id="nome" />
 
         <Label>
           E-mail:<span>*</span>
         </Label>
-        <Input type="email" placeholder="email@example.com" onChange={handleChange} id="email" value={data.email} />
+        <Input type="email" placeholder="email@example.com" id="email" />
 
         <Label>
           Telefone:<span>*</span>
         </Label>
-        <Input type="text" placeholder="991234567891" onChange={handleChange} id="telefone" value={data.telefone} />
+        <Input type="text" placeholder="991234567891" id="telefone" />
 
-        <Button type="submit">Enviar</Button>
+        <Button type="submit" onClick={handleSubmit}>
+          Enviar
+        </Button>
       </FormContainer>
     </div>
   );
