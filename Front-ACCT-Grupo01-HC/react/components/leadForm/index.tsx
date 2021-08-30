@@ -23,11 +23,9 @@ function LeadForm() {
         resolver: yupResolver(schema)
     })
 
-    const onSubmit = useCallback(
-        (data) => {
-            console.log(data)
-        },
-        [],
+    const onSubmit = useCallback((data) => {
+        console.log(data)
+    }, [],
     )
 
     return (
