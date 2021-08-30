@@ -23,7 +23,7 @@ function LeadList() {
       <Ttile>Contatos Favoritos</Ttile>
       <ClientsGrid>
         {users.map((data, index) => (
-          <ClientsContent>
+          <ClientsContent key={index}>
             <ClientsName>{data.nome}</ClientsName>
           </ClientsContent>
         ))}

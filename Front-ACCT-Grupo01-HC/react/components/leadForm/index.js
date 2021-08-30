@@ -1,51 +1,66 @@
 import React, { useCallback, useState, useEffect } from "react";
-import { FormContainer, Label, Paragraph, Input, LabelsGroup, Button } from "./styled";
+import { FormContainer, Label, Paragraph, Input, Button } from "./styled";
 import axios from "axios";
-import api from "../../services/api";
 
-function useFormik({ initialValues, validate }) {
-  const [touched, setTouchedFields] = useState({});
-  const [errors, setErrors] = useState({});
-  const [values, setValues] = useState(initialValues);
+//yup and hook-form (validators)
+import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
 
-  useEffect(() => {
-    console.log("Alguém mexeu nos values", values);
-    validateValues(values);
-  }, [values]);
+/* // aws-amplify
+import Amplify from "aws-amplify";
+import { API } from "aws-amplify";
+import awsExports from "../../src/aws-exports.js";
+Amplify.configure(awsExports);
 
-  function handleChange(event) {
-    const fieldName = event.target.getAttribute("name");
-    const { value } = event.target;
-    setValues({
-      ...values,
-      [fieldName]: value,
-    });
-  }
-
-  function handleBlur(event) {
-    const fieldName = event.target.getAttribute("name");
-    console.log(fieldName);
-    setTouchedFields({
-      ...touched,
-      [fieldName]: true,
-    });
-  }
-
-  function validateValues(values) {
-    setErrors(validate(values));
-  }
-
-  return {
-    values,
-    errors,
-    touched,
-    handleBlur,
-    setErrors,
-    handleChange,
+async function addContact() {
+  const data = {
+    body: {
+      name: formState.name,
+      email: formState.email,
+      telefone: formState.telefone,
+    },
   };
+
+  console.log(data);
+  const apiData = await API.post("formapi", "/contact", data);
+  console.log({ apiData });
+  alert("Success");
 }
 
+const formState = { name: "", email: "", telefone: "" };
+
+function updateFormState(key, value) {
+  formState[key] = value;
+}
+
+let schema = yup.object().shape({
+  name: yup.string().required("Nome é obrigatório"),
+  email: yup.string().email().required("E-Mail é obrigatório"),
+  telefone: yup.string().required("Telefone é obrigatório"),
+}); */
+
 function LeadFormJs() {
+  /* const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm <
+  Validators >
+  {
+    resolver: yupResolver(schema),
+  };
+
+  const onSubmit = useCallback((data) => {
+    console.log(data);
+    console.log(register);
+  }, []); */
+
+  /* const [data, setData] = useState({
+    name: "",
+    email: "",
+    telefone: "",
+  }); */
   const [data, setData] = useState({
     name: "",
     email: "",
@@ -65,68 +80,51 @@ function LeadFormJs() {
       telefone: data.telefone,
     };
 
-    axios.post(url, { user }).then((res) => {
+    api.post("", { user }).then((res) => {
       console.log(res);
       console.log(res.data);
     });
   }
 
-  const formik = useFormik({
-    initialValues: {
-      userEmail: "email email.com",
-      userPassword: "123456",
-    },
-    validate: function (values) {
-      const errors = {};
+  /* function onSubmit(e) {
+    e.preventDefault();
+    axios
+      .post(url, {
+        nome: data.nome,
+        email: data.email,
+        telefone: parseInt(data.telefone),
+      })
+      .then((res) => {
+        console.log(res.data);
+      });
+  }
 
-      if (!values.userEmail.includes("@")) {
-        errors.userEmail = "Please, insert a valid email";
-      }
-
-      if (values.userPassword.length < 8) {
-        errors.userPassword = "Please, insert a valid password";
-      }
-
-      return errors;
-    },
-  });
+  function handleSubmit(e) {
+    const newdata = { ...data };
+    newdata[e.target.id] = e.target.value;
+    setData(newdata);
+  } */
+  console.log = console.warn = console.error = () => {};
 
   return (
     <div>
-      <FormContainer
-        onSubmit={(event) => {
-          event.preventDefault();
-          console.log(formik.values);
-
-          // validateValues(formik.values)
-
-          alert("Olha o console!");
-        }}
-      >
+      <FormContainer onSubmit={handleSubmit}>
         <Paragraph>Solicite nosso contato:</Paragraph>
 
-        <LabelsGroup>
-          <Label>
-            Nome:<span>*</span>
-          </Label>
-          <Input type="text" placeholder="Nome" onChange={handleChange} id="nome" value={data.nome} />
-        </LabelsGroup>
+        <Label>
+          Nome:<span>*</span>
+        </Label>
+        <Input type="text" placeholder="Nome" onChange={handleChange} id="nome" value={data.nome} />
 
-        <LabelsGroup>
-          <Label>
-            E-mail:<span>*</span>
-          </Label>
-          <Input type="email" placeholder="email@example.com" onChange={handleChange} id="email" onBlur={formik.handleBlur} onChange={formik.handleChange} />
-          {formik.touched.userEmail && formik.errors.userEmail && <span className="formField__error">{formik.errors.userEmail}</span>}
-        </LabelsGroup>
+        <Label>
+          E-mail:<span>*</span>
+        </Label>
+        <Input type="email" placeholder="email@example.com" onChange={handleChange} id="email" value={data.email} />
 
-        <LabelsGroup>
-          <Label>
-            Telefone:<span>*</span>
-          </Label>
-          <Input type="text" placeholder="991234567891" onChange={handleChange} id="telefone" onBlur={formik.handleBlur} onChange={formik.handleChange} />
-          {formik.touched.userPassword && formik.errors.userPassword && <span className="formField__error">{formik.errors.userPassword}</span>}
-        </LabelsGroup>
+        <Label>
+          Telefone:<span>*</span>
+        </Label>
+        <Input type="text" placeholder="991234567891" onChange={handleChange} id="telefone" value={data.telefone} />
 
         <Button type="submit">Enviar</Button>
       </FormContainer>
