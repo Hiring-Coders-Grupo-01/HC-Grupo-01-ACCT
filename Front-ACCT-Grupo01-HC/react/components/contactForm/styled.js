@@ -24,3 +24,8 @@ export const Container = styled.div`
     grid-template-columns: 1fr;
   }
 `;
+
+export const FormContent = styled.div`
+  max-width: 90%;
+  margin: auto;
+`;

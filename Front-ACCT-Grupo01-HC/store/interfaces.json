@@ -14,7 +14,7 @@
     },
 
     "contact-form": {
-      "component": "ComponentContactForm"
+      "component": "JSComponentContactForm"
     },
 
     "contact-form-separated": {
