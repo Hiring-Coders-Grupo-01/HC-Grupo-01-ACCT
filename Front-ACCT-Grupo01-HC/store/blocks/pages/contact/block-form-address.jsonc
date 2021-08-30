@@ -13,7 +13,7 @@
 	"flex-layout.row#form-prospect": {
 		"props": {
 			"blockClass": "block-form-address-row",
-			"width": "48%"
+			"width": "40%"
 		},
 		"children": ["flex-layout.col#form-prospect"]
 	},
@@ -26,21 +26,21 @@
 	"flex-layout.row#contact-address-brazil": {
 		"props": {
 			"blockClass": "block-form-address-row",
-			"width": "16%"
+			"width": "18%"
 		},
 		"children": ["flex-layout.col#contact-address-brazil"]
 	},
 	"flex-layout.row#contact-address-usa": {
 		"props": {
 			"blockClass": "block-form-address-row",
-			"width": "16%"
+			"width": "18%"
 		},
 		"children": ["flex-layout.col#contact-address-usa"]
 	},
 	"flex-layout.row#contact-address-spain": {
 		"props": {
 			"blockClass": "block-form-address-row",
-			"width": "16%"
+			"width": "18%"
 		},
 		"children": ["flex-layout.col#contact-address-spain"]
 	},

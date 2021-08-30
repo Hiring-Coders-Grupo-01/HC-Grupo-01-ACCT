@@ -1,8 +1,10 @@
-.flexRow--header-desktop-container {
+.flexRow--header-desktop-container,
+.flexRow--header-mobile-container {
     background: #fff;
 }
 
-.flexRow--header-container {
+.flexRow--header-container,
+.flexRow--header-mobile-container {
     position: sticky;
     height: 90px;
     display: flex;
