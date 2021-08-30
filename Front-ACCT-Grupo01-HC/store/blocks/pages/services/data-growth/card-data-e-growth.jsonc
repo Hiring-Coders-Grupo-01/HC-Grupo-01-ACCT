@@ -1,22 +1,37 @@
 {
     "flex-layout.row#bloco-objetivos": {
         "children": [
-            "rich-text#txt-bloco-objetivos",
-            "rich-text#txt-bloco-objetivos-icones"
+           "flex-layout.col#bloco-objetivos",
+           "flex-layout.col#bloco-objetivos-icones"
         ],
         "props":{
             "blockClass": ""
         }
+    },
+    "flex-layout.col#bloco-objetivos": {
+        "children": [
+            "rich-text#txt-bloco-objetivos"
+        ]
     },
     "rich-text#txt-bloco-objetivos": {
         "props": {
             "text": "**Como atingir nossos objetivos?** \n\n Para a evolução contínua do produto, combinamos:",
             "textPosition": "CENTER",
             "blockClass": ""
-        }    },
-    "rich-text#txt-bloco-objetivos-icones": {
-        
+        }    
+    },
+    "flex-layout.col#bloco-objetivos-icones":{
+        "children": [
+            "image#objetivos"
+        ]
+    },
+    "image#objetivos": {
+        "props": {
+            "src": "assets/icones.png",
+            "blockClass": ""
+        }
     }
+    
     
     
 }

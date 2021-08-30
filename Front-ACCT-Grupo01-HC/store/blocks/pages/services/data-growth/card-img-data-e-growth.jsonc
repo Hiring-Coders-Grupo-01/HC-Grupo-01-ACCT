@@ -10,7 +10,7 @@
             "callToActionUrl": "/",
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "blockClass": ""
+            "blockClass": "data"
         }
     },
     "info-card#objetivos": {
@@ -27,7 +27,7 @@
             "blockClass": ""
         }
     }
-    // Faltou as sessões
+    
     /*
     "info-card#metricas":{
         "props": {
