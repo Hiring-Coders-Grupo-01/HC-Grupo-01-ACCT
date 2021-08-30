@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#block-piramide-testes": {
+        "props": {
+            "blockClass": "block-piramide-testes"
+        },
+        "children": [
+            "flex-layout.row#block-piramide-testes-image",
+            "flex-layout.col#block-piramide-testes-text-content"                      
+        ]
+    },
+    "flex-layout.row#block-piramide-testes-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-piramide-testes-image"
+        },
+        "children": [
+            "image#block-piramide-testes-image"
+        ]
+    },
+    "image#block-piramide-testes-image": {
+        "props": {
+            "src": "assets/services/card-piramyd-tests.png",
+            "blockClass": "service-card-image",
+            "width": "274px"
+        }
+    },
+    "flex-layout.row#block-piramide-testes-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-piramide-testes-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-piramide-testes-title",
+            "rich-text#block-piramide-testes-text"
+        ]
+    },
+    "rich-text#block-piramide-testes-title": {
+        "props": {
+            "text": "#### Pirâmide ideal de teste de softwares",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-piramide-testes-text": {
+        "props": {
+            "text": "• Seção baseada em **testes manuais**; <br/> • Testes automatizados de **interface**; <br/> • Testes automatizados de **API**; <br/> • Testes automatizados de **integração**; <br/> • Testes automatizados de **componentes**; <br/> • Testes automatizados **unitários**. ",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.flexRowContent--block-quadrante-vtex,
+.flexRowContent--block-banner-tecnologia,
+.flexRowContent--block-banner-engenharia-ecommerce,
+.flexRowContent--block-banner-desenvolvimento-produto {
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+    min-height: 520px;
+    max-height: 520px;
+}
+
+.flexRow--block-quadrante-vtex {
+    padding: 4em 0em 4em 0em;
+    background: url("assets/banners/gradiente01.webp");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexCol--block-quadrante-vtex .flexColChild:first-child {
+    z-index: 1;
+}
+
+.flexCol--block-quadrante-vtex-call-to-action {
+    padding: 50px 0;
+}
+
+.flexRow--block-banner-tecnologia {
+    padding: 4em 0em 4em 0em;
+    background: url("assets/banners/slider-home-technology.webp");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexCol--block-banner-tecnologia-call-to-action {
+    padding: 40% 0;
+}
+
+.flexRow--block-banner-engenharia-ecommerce {
+    padding: 4em 0em 4em 0em;
+    background: url("assets/banners/slider-home-engineering.webp");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexCol--block-banner-engenharia-ecommerce-call-to-action {
+    padding: 40% 0;
+}
+
+.flexRow--block-banner-desenvolvimento-produto {
+    padding: 4em 0em 4em 0em;
+    background: url("assets/banners/slider-home-development-product.webp");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexCol--block-banner-desenvolvimento-produto-call-to-action {
+    padding: 40% 0;
+}

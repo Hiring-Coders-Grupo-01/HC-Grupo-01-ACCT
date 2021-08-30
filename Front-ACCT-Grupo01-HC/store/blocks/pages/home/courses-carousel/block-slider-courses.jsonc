@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#slider-products-home": {
+        "props": {
+            "blockClass": "slider-products-home"
+        },
+        "children": [
+            "flex-layout.col#slider-products-home"
+        ]
+    },
+    "flex-layout.col#slider-products-home": {
+        "children": [
+            "flex-layout.row#slider-products-home-title",
+            "list-context.product-list#product-list-home"
+        ]
+    },
+    "flex-layout.row#slider-products-home-title": {
+        "children": [
+            "rich-text#slider-products-home-title"
+        ]
+    },
+    "rich-text#slider-products-home-title": {
+        "props": {
+            "text": "### Nossos Cursos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "block-title"
+        }
+    },
+    "list-context.product-list#product-list-home": {
+        "blocks": [
+            "product-summary.shelf#course-acct"
+        ],
+        "children": [
+            "slider-layout#home-courses"
+        ],
+        "props": {
+            "orderBy": "OrderByNameASC"
+        }
+    },
+    "slider-layout#home-courses": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": false,
+            "arrowSize": {
+                "desktop": 14,
+                "tablet": 14,
+                "phone": 12
+            },
+            "blockClass": "home-courses"
+        }
+    }
+}

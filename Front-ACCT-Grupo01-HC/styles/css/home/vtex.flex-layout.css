@@ -1,47 +1,13 @@
-.flexRow--banner-home1,
-.flexRow--banner-home2,
-.flexRow--banner-home3,
-.flexRow--banner-home4,
-.flexRow--banner-home5 {
-    width: 100%;
-    height: 650px;
-}
-
-.flexRow--banner-home1 {
-    background: url("assets/banners/gradiente01.webp");
-    background-size: cover;
-	background-position: center center;
-}
-
-.flexRow--banner-home2 {
-    background: url("assets/banners/gradiente02.webp");
-    background-size: cover;
-	background-position: center center;
-}
-
-.flexRow--banner-home3 {
-    background: url("assets/banners/slider-home-technology.webp");
-    background-size: cover;
-	background-position: center center;
-}
-
-.flexRow--banner-home4 {
-    background: url("assets/banners/slider-home-engineering.webp");
-    background-size: cover;
-	background-position: center center;
-}
-
-.flexRow--banner-home5 {
-    background: url("assets/banners/slider-home-product.webp");
-    background-size: cover;
-	background-position: center center;
-}
-
 .flexRow--call-to-action-container {
     padding: 8em 4em 4em 4em;
 }
 
-.flexRowContent--call-to-action-container {
+.flexRow--slider-products-home {
+    padding: 4em 4em 8em 4em;
+}
+
+.flexRowContent--call-to-action-container,
+.flexRowContent--slider-products-home {
     max-width: 1170px;
     margin: 0 auto;
 }

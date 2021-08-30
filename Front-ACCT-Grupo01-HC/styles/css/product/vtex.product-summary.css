@@ -1,0 +1,26 @@
+.element--course-acct :global(.vtex-button) {
+    text-transform: none;
+    font-weight: 500;
+    font-family: "OpenSans";
+}
+
+.nameContainer--course-acct{
+    text-align: center;
+    justify-content: center;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.productNameContainer--course-acct {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.image--course-acct {
+    border-radius: 5px;
+}
+
+.productBrand--course-acct {
+    font-family: 'OpenSans Condensed';
+    font-size: 1.3em;
+}

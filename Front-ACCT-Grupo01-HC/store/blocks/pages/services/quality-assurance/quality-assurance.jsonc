@@ -5,9 +5,9 @@
             "flex-layout.row#header-quality-assurance",
             "flex-layout.row#block-garantindo-melhor-tecnologia",
             "flex-layout.row#block-automatizando-testes",
+            "flex-layout.row#block-piramide-testes",
 
             //TODO NECESSIDADE DE REFATORAÇÃO DO CÓDIGO DA SCARLET
-            "flex-layout.row#piramide",            
             "flex-layout.row#card-piramide",
             "flex-layout.row#planejamento",
             "flex-layout.row#title-table-modulos",

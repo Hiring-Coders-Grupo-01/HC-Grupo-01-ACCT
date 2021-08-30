@@ -1,0 +1,289 @@
+{
+    "flex-layout.row#testimonials": {
+        "children": [
+            "flex-layout.col#testimonials"
+        ],
+        "props": {
+            "blockClass": "testimonials"
+        }
+    },
+    "flex-layout.col#testimonials": {
+        "children": [
+            "flex-layout.row#title-testimonials",
+            "slider-layout#info-testimonials"
+        ],
+        "props": {
+            "blockClass": "testimonials"
+        }
+    },
+    "flex-layout.row#title-testimonials": {
+        "children": [
+            "rich-text#title-testimonials"
+        ]
+    },
+    "rich-text#title-testimonials": {
+        "props": {
+            "text": "### Depoimentos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "block-title"
+        }
+    },
+    "slider-layout#info-testimonials": {
+        "children": [
+            "flex-layout.row#testimonial-person1",
+            "flex-layout.row#testimonial-person2",
+            "flex-layout.row#testimonial-person3"
+        ],
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "arrowSize": {
+                "desktop": 14,
+                "tablet": 14,
+                "phone": 12
+            },
+            "blockClass": "testimonial-slider"
+        }
+    },
+    "flex-layout.row#testimonial-person1": {
+        "children": [
+            "flex-layout.col#testimonial-person1"
+        ]
+    },
+    "flex-layout.row#testimonial-quotes": {
+        "props": {
+            "horizontalAlign": "center"
+        },
+        "children": [
+            "image#testimonial-quotes"
+        ]
+    },
+    "image#testimonial-quotes": {
+        "props": {
+            "src": "assets/testimonial/testimonial-quotes.svg",
+            "width": "36px"
+        }
+    },
+    "flex-layout.col#testimonial-person1": {
+        "children": [
+            "flex-layout.row#testimonial-quotes",
+            "flex-layout.row#testimonial-person1-text-container",
+            "flex-layout.row#testimonial-person1-info-container"
+        ]
+    },
+    "flex-layout.row#testimonial-person1-text-container": {
+        "children": [
+            "rich-text#testimonial-person1-text"
+        ]
+    },
+    "rich-text#testimonial-person1-text": {
+        "props": {
+            "text": "A ACCT e Empório da Cerveja trabalharam em conjunto com nossa equipe interna para que eles pudessem ser treinados para liderar as operações posteriormente. Na minha opinião, tivemos uma parceria muito rica, feita em equipe, que incluiu troca de conhecimento e comunicação transparente.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "testimonial-text"
+        }
+    },
+    "flex-layout.row#testimonial-person1-info-container": {
+        "children": [
+            "flex-layout.col#testimoninal-person1-image",
+            "flex-layout.col#testimoninal-person1-info"
+        ]
+    },
+    "flex-layout.col#testimoninal-person1-image": {
+        "props": {
+            "horizontalAlign": "right",
+            "width": "40%",
+            "blockClass": "testimoninal-person-image-container"
+        },
+        "children": [
+            "image#testimonial-person1-image"
+        ]
+    },
+    "image#testimonial-person1-image": {
+        "props": {
+            "src": "assets/testimonial/nelson-emporio-da-cerveja.jpg",
+            "blockClass": "testimonial-person-image"
+        }
+    },
+    "flex-layout.col#testimoninal-person1-info": {
+        "props": {
+            "width": "60%"
+        },
+        "children": [
+            "rich-text#testimonial-person1-name",
+            "rich-text#testimonial-person1-office"
+        ]
+    },
+    "rich-text#testimonial-person1-name": {
+        "props": {
+            "text": "##### NELSON DE MOURA",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5",
+            "blockClass": "testimonial-person-name"
+        }
+    },
+    "rich-text#testimonial-person1-office": {
+        "props": {
+            "text": "Ex-gerente de Produto - Empório da Cerveja",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "p",
+            "blockClass": "testimonial-person-office"
+        }
+    },
+    "flex-layout.row#testimonial-person2": {
+        "children": [
+            "flex-layout.col#testimonial-person2"
+        ]
+    },
+    "flex-layout.col#testimonial-person2": {
+        "children": [
+            "flex-layout.row#testimonial-quotes",
+            "flex-layout.row#testimonial-person2-text-container",
+            "flex-layout.row#testimonial-person2-info-container"
+        ]
+    },
+    "flex-layout.row#testimonial-person2-text-container": {
+        "children": [
+            "rich-text#testimonial-person2-text"
+        ]
+    },
+    "rich-text#testimonial-person2-text": {
+        "props": {
+            "text": "A Tok & Stok precisava evoluir sua experiência de compra online. Nossas lojas já estão bastante consolidadas e somos referência em experiência em móveis e decoração. Nosso desafio era fazer exatamente esse mesmo movimento no digital, de forma bastante acelerada.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "testimonial-text"
+        }
+    },
+    "flex-layout.row#testimonial-person2-info-container": {
+        "children": [
+            "flex-layout.col#testimoninal-person2-image",
+            "flex-layout.col#testimoninal-person2-info"
+        ]
+    },
+    "flex-layout.col#testimoninal-person2-image": {
+        "props": {
+            "horizontalAlign": "right",
+            "width": "35%"
+        },
+        "children": [
+            "image#testimonial-person2-image"
+        ]
+    },
+    "image#testimonial-person2-image": {
+        "props": {
+            "src": "assets/testimonial/adriano-tok-stok.jpg",
+            "blockClass": "testimonial-person-image"
+        }
+    },
+    "flex-layout.col#testimoninal-person2-info": {
+        "props": {
+            "width": "65%"
+        },
+        "children": [
+            "rich-text#testimonial-person2-name",
+            "rich-text#testimonial-person2-office"
+        ]
+    },
+    "rich-text#testimonial-person2-name": {
+        "props": {
+            "text": "##### ADRIANO DI BELLA TAVOLLASSI",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5",
+            "blockClass": "testimonial-person-name"
+        }
+    },
+    "rich-text#testimonial-person2-office": {
+        "props": {
+            "text": "Ex-Diretor de E-commerce e Digital - Tok & Stok",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "p",
+            "blockClass": "testimonial-person-office"
+        }
+    },
+    "flex-layout.row#testimonial-person3": {
+        "children": [
+            "flex-layout.col#testimonial-person3"
+        ]
+    },
+    "flex-layout.col#testimonial-person3": {
+        "children": [
+            "flex-layout.row#testimonial-quotes",
+            "flex-layout.row#testimonial-person3-text-container",
+            "flex-layout.row#testimonial-person3-info-container"
+        ]
+    },
+    "flex-layout.row#testimonial-person3-text-container": {
+        "children": [
+            "rich-text#testimonial-person3-text"
+        ]
+    },
+    "rich-text#testimonial-person3-text": {
+        "props": {
+            "text": "Foi gratificante ter um parceiro que concordou com esse projeto, pois sabíamos que as regras do negócio poderiam gerar várias mudanças ao longo do caminho. A equipe da ACCT foi flexível o suficiente para lidar com as mudanças no planejamento e se adaptou ao processo.",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": "testimonial-text"
+        }
+    },
+    "flex-layout.row#testimonial-person3-info-container": {
+        "children": [
+            "flex-layout.col#testimoninal-person3-image",
+            "flex-layout.col#testimoninal-person3-info"
+        ]
+    },
+    "flex-layout.col#testimoninal-person3-image": {
+        "props": {
+            "horizontalAlign": "right",
+            "width": "45%"
+        },
+        "children": [
+            "image#testimonial-person3-image"
+        ]
+    },
+    "image#testimonial-person3-image": {
+        "props": {
+            "src": "assets/testimonial/gustavo-rios-vtex.jpg",
+            "blockClass": "testimonial-person-image"
+        }
+    },
+    "flex-layout.col#testimoninal-person3-info": {
+        "props": {
+            "width": "55%"
+        },
+        "children": [
+            "rich-text#testimonial-person3-name",
+            "rich-text#testimonial-person3-office"
+        ]
+    },
+    "rich-text#testimonial-person3-name": {
+        "props": {
+            "text": "##### GUSTAVO RIOS",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "t-heading-5",
+            "blockClass": "testimonial-person-name"
+        }
+    },
+    "rich-text#testimonial-person3-office": {
+        "props": {
+            "text": "Diretor de Clientes - VTEX",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "font": "p",
+            "blockClass": "testimonial-person-office"
+        }
+    }
+}

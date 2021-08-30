@@ -1,0 +1,14 @@
+.buttonLink--call-to-action-banner {
+    border-radius: 30px;
+    text-transform: none;
+    border-color: #0f1d40;
+    background-color: #0f1d40;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.buttonLink--call-to-action-banner:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: #0f1d40;
+}

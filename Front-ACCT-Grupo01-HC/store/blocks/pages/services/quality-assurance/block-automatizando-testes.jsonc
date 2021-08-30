@@ -39,7 +39,7 @@
     },
     "rich-text#block-automatizando-testes-title": {
         "props": {
-            "text": "### Automatizando testes de qualidade",
+            "text": "#### Automatizando testes de qualidade",
             "textPosition": "LEFT",
             "blockClass": "title-service-card"
         }

@@ -9,3 +9,11 @@
     font-weight: 500;
     color: #000;
 }
+
+.styledLink:hover {
+    color: #fcc200;
+}
+
+.menuContainerNav {
+    margin-right: 150px;
+}

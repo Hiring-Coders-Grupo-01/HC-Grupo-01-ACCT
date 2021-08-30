@@ -1,0 +1,125 @@
+{
+    "flex-layout.row#block-quadrante-vtex": {
+        "props": {
+            "blockClass": "block-quadrante-vtex"
+        },
+        "children": [
+            "flex-layout.col#block-quadrante-vtex-call-to-action",
+            "flex-layout.col#block-quadrante-vtex-image"
+        ]
+    },
+    "flex-layout.row#block-quadrante-vtex-mobile": {
+        "props": {
+            "blockClass": "block-quadrante-vtex"
+        },
+        "children": [
+            "flex-layout.col#block-quadrante-vtex"
+        ]
+    },
+    "flex-layout.col#block-quadrante-vtex": {
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "block-quadrante-vtex"
+        },
+        "children": [
+            "image#foguete-acct-mobile",
+            "perspective-animation-image#mapa-vtex-mobile",
+            "rich-text#block-quadrante-vtex-title",
+            "rich-text#block-quadrante-vtex-details1",
+            "rich-text#block-quadrante-vtex-details2",
+            "rich-text#block-quadrante-vtex-details3",
+            "link#block-quadrante-vtex-call-to-action"
+        ]
+    },
+    "flex-layout.col#block-quadrante-vtex-call-to-action": {
+        "props": {
+            "blockClass": "block-quadrante-vtex-call-to-action",
+            "width": "40%"
+        },
+        "children": [
+            "image#foguete-acct",
+            "rich-text#block-quadrante-vtex-title",
+            "rich-text#block-quadrante-vtex-details1",
+            "rich-text#block-quadrante-vtex-details2",
+            "rich-text#block-quadrante-vtex-details3",
+            "link#block-quadrante-vtex-call-to-action"
+        ]
+    },
+    "flex-layout.col#block-quadrante-vtex-image": {
+        "props": {
+            "width": "50%"
+        },
+        "children": [
+            "perspective-animation-image#mapa-vtex"
+        ]
+    },
+    "perspective-animation-image#mapa-vtex": {
+        "children": [
+            "image#quadrante-vtex"
+        ]
+    },
+    "perspective-animation-image#mapa-vtex-mobile": {
+        "children": [
+            "image#quadrante-vtex-mobile"
+        ]
+    },
+    "image#foguete-acct": {
+        "props": {
+            "src": "assets/brand/foguete-acct.gif",
+            "width": "140px",
+            "blockClass": "foguete-acct"
+        }
+    },
+    "image#foguete-acct-mobile": {
+        "props": {
+            "src": "assets/brand/foguete-acct.gif",
+            "width": "100px",
+            "blockClass": "foguete-acct"
+        }
+    },
+    "image#quadrante-vtex": {
+        "props": {
+            "src": "assets/brand/quadrante_vtex_2021.png",
+            "width": "500px"
+        }
+    },
+    "image#quadrante-vtex-mobile": {
+        "props": {
+            "src": "assets/brand/quadrante_vtex_2021.png",
+            "width": "200px"
+        }
+    },
+    "rich-text#block-quadrante-vtex-title": {
+        "props": {
+            "text": "# **Somos líder no Quadrante VTEX**",
+            "blockClass": "banner-list-title"
+        }
+    },
+    "rich-text#block-quadrante-vtex-details1": {
+        "props": {
+            "text": "Mais de 100 colaboradores certificados.",
+            "blockClass": "banner-list-item"
+        }
+    },
+    "rich-text#block-quadrante-vtex-details2": {
+        "props": {
+            "text": "Temos os clientes mais relevantes da VTEX.",
+            "blockClass": "banner-list-item"
+        }
+    },
+    "rich-text#block-quadrante-vtex-details3": {
+        "props": {
+            "text": "Conteúdo técnico criado em parceria com a VTEX.",
+            "blockClass": "banner-list-item"
+        }
+    },
+    "link#block-quadrante-vtex-call-to-action": {
+        "props": {
+            "label": "Saiba mais",
+            "href": "#",
+            "target": "_self",
+            "displayMode": "button",
+            "blockClass": "call-to-action-banner"
+        }
+    }
+}

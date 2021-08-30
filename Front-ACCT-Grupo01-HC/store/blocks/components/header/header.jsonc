@@ -26,16 +26,12 @@
       "flex-layout.row#header-desktop-container"
     ]
   },
-
-
-
-
   "flex-layout.row#header-desktop-container": {
     "props": {
       "blockClass": "header-desktop-container"
     },
     "children": [
-      "flex-layout.col#header-desktop-container"  
+      "flex-layout.col#header-desktop-container"
     ]
   },
   "flex-layout.col#header-desktop-container": {
@@ -43,7 +39,7 @@
       "verticalAlign": "center"
     },
     "children": [
-      "flex-layout.row#header-desktop" 
+      "flex-layout.row#header-desktop"
     ]
   },
   //Header Desktop
@@ -62,7 +58,7 @@
       "flex-layout.col#category-menu",
       "flex-layout.col#spacer"
     ]
-  },    
+  },
   //Logo Desktop
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -105,6 +101,83 @@
     ],
     "props": {
       "orientation": "vertical"
+    }
+  },
+  //Layout Mobile
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#header-mobile"
+    ]
+  },
+  "sticky-layout#header-mobile": {
+    "props": {
+      "blockClass": "header-sticky"
+    },
+    "children": [
+      "flex-layout.row#header-mobile"
+    ]
+  },
+  "flex-layout.row#header-mobile": {
+    "children": [
+      "flex-layout.row#logo-mobile",
+      "flex-layout.col#spacer",
+      "flex-layout.row#drawer-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "blockClass": "header-mobile-container",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#drawer-mobile": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "right",
+      "marginTop": "6"
+    },
+    "children": [
+      "drawer#mobile"
+    ]
+  },
+  "drawer#mobile": {
+    "children": [
+      "menu#drawer-mobile"
+    ]
+  },
+  "menu#drawer-mobile": {
+    "children": [
+      "menu-item#category-inicio",
+      "menu-item#category-sobre-nos",
+      "vtex.menu@2.x:menu#category-servicos",
+      "menu-item#category-cursos",
+      "menu-item#category-contato"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "isFullWidth": true,
+      "backdropMode": "none"
+    }
+  },
+  "flex-layout.row#logo-mobile": {
+    "props": {
+      "verticalAlign": "center",
+      "horizontalAlign": "left",
+      "marginTop": "6"
+    },
+    "children": [
+      "logo#mobile"
+    ]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "verticalAlign": "middle",
+      "href": "/",
+      "url": "assets/brand/logo-acct-black.svg",
+      "width": "150"
     }
   }
 }

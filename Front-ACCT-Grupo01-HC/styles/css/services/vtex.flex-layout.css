@@ -22,7 +22,8 @@
 .flexRowContent--block-citacao,
 .flexRowContent--block-garantindo-melhor-tecnologia,
 .flexRowContent--block-automatizando-testes,
-.flexRowContent--block-report {
+.flexRowContent--block-report,
+.flexRowContent--block-piramide-testes {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -42,7 +43,8 @@
 .flexRowContent--block-numeros-nao-mentem,
 .flexRowContent--block-auto-layout,
 .flexRowContent--block-analise-heatmaps,
-.flexRowContent--block-automatizando-testes {
+.flexRowContent--block-automatizando-testes,
+.flexRowContent--block-piramide-testes {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
@@ -78,6 +80,11 @@
 .flexRow--block-cards-metricas-kpis {
     background-color: #f5f5f5;
     padding: 6em 2em 6em 2em;
+}
+
+.flexRow--block-piramide-testes {
+    background-color: #fbfbfb;
+    padding: 6em 2em 6em 2em;   
 }
 
 .flexRow--block-vtex {

@@ -1,0 +1,48 @@
+{
+    "responsive-layout.desktop#slider-home": {
+        "children": [
+            "slider-layout#slider-layout-home"   
+        ]
+    },
+    "responsive-layout.mobile#slider-home": {
+        "children": [
+            "slider-layout#slider-layout-home-mobile"
+        ]
+    },
+    "slider-layout#slider-layout-home": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": "slider-layout-home"
+        },
+        "children": [
+            "flex-layout.row#block-quadrante-vtex",
+            "flex-layout.row#block-banner-tecnologia",
+            "flex-layout.row#block-banner-engenharia-ecommerce",
+            "flex-layout.row#block-banner-desenvolvimento-produto"
+        ]
+    },
+    "slider-layout#slider-layout-home-mobile": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showPaginationDots": "never",
+            "blockClass": "slider-layout-home"
+        },
+        "children": [
+            "flex-layout.row#block-quadrante-vtex-mobile",
+            "flex-layout.row#block-banner-tecnologia",
+            "flex-layout.row#block-banner-engenharia-ecommerce",
+            "flex-layout.row#block-banner-desenvolvimento-produto"
+        ]
+    }
+}

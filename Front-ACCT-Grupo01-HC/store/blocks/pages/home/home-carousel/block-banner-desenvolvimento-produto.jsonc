@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#block-banner-desenvolvimento-produto": {
+        "props": {
+            "blockClass": "block-banner-desenvolvimento-produto"
+        },
+        "children": [
+            "flex-layout.col#block-banner-desenvolvimento-produto-call-to-action"
+        ]
+    },
+    "flex-layout.col#block-banner-desenvolvimento-produto-call-to-action": {
+        "props": {
+            "blockClass": "block-banner-desenvolvimento-produto-call-to-action",
+            "width": "40%",
+            "height": "500px"
+        },
+        "children": [
+            "rich-text#block-banner-desenvolvimento-produto-title",
+            "rich-text#block-banner-desenvolvimento-produto-details"
+        ]
+    },
+    "rich-text#block-banner-desenvolvimento-produto-title": {
+        "props": {
+            "text": "# **Desenvolvimento** <br> **de Produto_**",
+            "blockClass": "banner-title"
+        }
+    },
+    "rich-text#block-banner-desenvolvimento-produto-details": {
+        "props": {
+            "text": "Somos especialistas em projetar e desenvolver produtos digitais de alto desempenho.",
+            "blockClass": "banner-detail"
+        }
+    }
+}

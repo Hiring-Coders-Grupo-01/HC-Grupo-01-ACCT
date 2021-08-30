@@ -1,0 +1,33 @@
+{
+    "flex-layout.row#block-banner-tecnologia": {
+        "props": {
+            "blockClass": "block-banner-tecnologia"
+        },
+        "children": [
+            "flex-layout.col#block-banner-tecnologia-call-to-action"
+        ]
+    },
+    "flex-layout.col#block-banner-tecnologia-call-to-action": {
+        "props": {
+            "blockClass": "block-banner-tecnologia-call-to-action",
+            "width": "40%",
+            "height": "500px"
+        },
+        "children": [
+            "rich-text#block-banner-tecnologia-title",
+            "rich-text#block-banner-tecnologia-details"
+        ]
+    },
+    "rich-text#block-banner-tecnologia-title": {
+        "props": {
+            "text": "# **Tecnologia_**",
+            "blockClass": "banner-title"
+        }
+    },
+    "rich-text#block-banner-tecnologia-details": {
+        "props": {
+            "text": "Somos uma empresa de arquitetura e engenharia de software focada na solução de problemas de negócios altamente complexos.",
+            "blockClass": "banner-detail"
+        }
+    }
+}

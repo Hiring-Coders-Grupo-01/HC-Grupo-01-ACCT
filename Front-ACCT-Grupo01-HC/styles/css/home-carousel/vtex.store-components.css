@@ -1,0 +1,10 @@
+.imageElement--foguete-acct {
+    margin-bottom: -30px;
+}
+
+@media screen and (max-width: 1023px) {
+    .imageElement--foguete-acct {
+        margin-bottom: -50px;
+        z-index: 9999;
+    }
+}
