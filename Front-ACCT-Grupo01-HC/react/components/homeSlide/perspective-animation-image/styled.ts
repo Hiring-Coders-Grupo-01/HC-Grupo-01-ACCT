@@ -1,8 +1,8 @@
 import styled, { keyframes } from "styled-components";
 
 export const Container = styled.div`
-  perspective: 500px;
-  transform: rotateX(10deg);
+  perspective: 1000px;
+  transform: rotateX(25deg);
 `;
 
 const qdAnimation = keyframes`
