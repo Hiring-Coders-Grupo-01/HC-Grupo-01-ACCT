@@ -1,6 +1,8 @@
 {
     "store.custom#about-us": {
         "path": "/sobre-nos"
+    }, "store.custom#courses": {
+        "path": "/nossos-cursos"
     },
     "store.custom#quality-assurance": {
         "path": "/servicos/quality-assurance"

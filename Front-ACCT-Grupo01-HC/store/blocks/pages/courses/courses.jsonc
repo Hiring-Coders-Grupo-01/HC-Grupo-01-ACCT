@@ -1,0 +1,59 @@
+{
+	"store.custom#courses": {
+		"blocks": ["search-result-layout.customQuery#courses"]
+	},
+	"search-result-layout.customQuery#courses": {
+		"props": {
+			"querySchema": {
+				"hideUnavailableItems": true,
+				"maxItemsPerPage": 8
+			}
+		},
+		"blocks": [
+			"search-result-layout.desktop#courses",
+			"search-result-layout.mobile#courses"
+		]
+	},
+	"search-result-layout.desktop#courses": {
+		"children": [
+			"search-content#courses",
+			"search-fetch-more"
+		],
+		"props": {
+			"preventRouteChange": true
+		}
+	},
+	"search-result-layout.mobile#courses": {
+		"children": ["search-content#courses", "search-fetch-more"],
+		"props": {
+			"preventRouteChange": true
+		}
+	},
+	"search-content#courses": {
+		"blocks": ["gallery#courses", "not-found"]
+	},
+	"gallery#courses": {
+		"props": {
+			"layouts": [
+				{
+					"name": "fouritem",
+					"component": "FourSummary",
+					"itemsPerRow": { "desktop": 4, "mobile": 2 }
+				}
+			],
+
+			"FourSummary": "product-summary.shelf#courses"
+		}
+	},
+	"product-summary.shelf#courses": {
+		"children": [
+			"product-summary-name",
+			"product-summary-image",
+			"product-selling-price",
+			"add-to-cart-button"
+		],
+		"props": {
+			"blockClass": "productsshelf"
+		}
+	}
+}
