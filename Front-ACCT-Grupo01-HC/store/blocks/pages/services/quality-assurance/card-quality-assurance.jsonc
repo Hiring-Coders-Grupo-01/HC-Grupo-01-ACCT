@@ -10,14 +10,14 @@
     },
     "image#piramide": {
         "props": {
-            "src": "https://acct.global/wp-content/uploads/2021/06/tests-piramyd-274x300.png",
+            "src": "assets/quadrants/tests-piramyd.png",
             "maxHeight": 450,
             "blockClass": "piramide"            
           }
     },
     "rich-text#txt-piramide": {
         "props": {
-            "text": "**Pirâmide ideal de teste de softwares** <br/><br/> • Seção baseada em testes manuais; <br/><br/> • Testes automatizados de interface; <br/><br/> • Testes automatizados de API; • Testes automatizados de integração; <br/><br/> • Testes automatizados de componentes; <br/><br/> • Testes automatizados unitários. ",
+            "text": "**Pirâmide ideal de teste de softwares** <br/><br/> • Seção baseada em **testes manuais**; <br/><br/> • Testes automatizados de **interface**; <br/><br/> • Testes automatizados de **API**; <br/><br/> • Testes automatizados de **integração**; <br/><br/> • Testes automatizados de **componentes**; <br/><br/> • Testes automatizados **unitários**. ",
             "textPosition": "CENTER",
             "blockClass": "piramide"
         }
@@ -51,23 +51,146 @@
     },
     "rich-text#one": {
         "props": {
-            "text": "**Por onde começar?** <br/><br/> Funcionalidades consideradas críticas devem ser um dos focos iniciais das atividades de automação, pois são partes do sistema de muita importância, que certamente serão muito utilizadas e terão alta visibilidade. <br/><br/> Exatamente por isso, essas funcionalidades requerem cuidados especiais.",
+            "text": "**Por onde começar?** <br/><br/> Funcionalidades consideradas críticas devem ser um dos focos iniciais das atividades de automação, pois são partes do sistema de muita importância, que certamente serão muito utilizadas e terão alta visibilidade. <br/><br/> **Exatamente por isso**, essas funcionalidades requerem cuidados especiais.",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
     },
     "rich-text#two":{
         "props": {
-            "text": "**Planejamento** <br/><br/> 1. Entender o contexto; <br/><br/> 2. Escrever casos de testes antes de automatizar; <br/><br/> 3. Focar nas regras de negócios; <br/><br/> 4. Avaliar bloqueios; <br/><br/> 5. Usar boas práticas. ",
+            "text": "**Planejamento** <br/><br/> 1. **Entender** o contexto; <br/><br/> 2. **Escrever** casos de testes antes de automatizar; <br/><br/> 3. **Focar** nas regras de negócios; <br/><br/> 4. **Avaliar** bloqueios; <br/><br/> 5. **Usar** boas práticas. ",
             "textPosition": "CENTER",
             "blockClass": "bloco-planejamento"
         }
     },
-    // Faltou adicionar tabela Módulos Funcionais e Módulos Visuais de Testes Sugeridos
+    "flex-layout.row#title-table-modulos": {
+        "children": [
+            "rich-text#modulos"
+        ]
+    },
+    "rich-text#modulos": {
+        "props": {
+            "text": "**Módulos funcionais de Testes Sugeridos**",
+            "textPosition": "LEFT",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "flex-layout.row#table-modulos": {
+        "children": [
+            "flex-layout.col#1table-modulos",
+            "flex-layout.col#2table-modulos",
+            "flex-layout.col#3table-modulos",
+            "flex-layout.col#4table-modulos",
+            "flex-layout.col#5table-modulos"
+        ]
+    },    
+    "flex-layout.col#1table-modulos":{
+        "children": [
+            "rich-text#1table"
+        ]
+    },
+    "rich-text#1table": {
+        "props": {
+            "text": "**Navegação**<br/><br/> Validar Home <br/><br/> Validar Categorias e Filtros <br/><br/> Validar PDP e Cálculos de Frete <br/><br/> Validar cada URL",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "flex-layout.col#2table-modulos":{
+        "children": [
+            "rich-text#2table"
+        ]
+    },
+    "rich-text#2table": {
+        "props": {
+            "text": "**Cliente**<br/><br/> Validar Login <br/><br/> Validar Cadastro <br/><br/> Validar Alteração de Cadastro <br/><br/> Validar lista de Desejos",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "flex-layout.col#3table-modulos":{
+        "children": [
+            "rich-text#3table"
+        ]
+    },
+    "rich-text#3table": {
+        "props": {
+            "text": "**Carrinho**<br/><br/> Validar Adição de Produto <br/><br/> Validar Remoção de Produto <br/><br/> Validar Adição e Remoção de Quantidade <br/><br/> Validar Cálculos de Frete",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "flex-layout.col#4table-modulos":{
+        "children": [
+            "rich-text#4table"
+        ]
+    },
+    "rich-text#4table": {
+        "props": {
+            "text": "**Checkout 1**<br/><br/> Validar Cadastro <br/><br/> Validar Alteração de Cadastro <br/><br/> Validar Adição de Endereço<br/><br/> Validar Alteração de Endereço",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "flex-layout.col#5table-modulos":{
+        "children": [
+            "rich-text#5table"
+        ]
+    },
+    "rich-text#5table": {
+        "props": {
+            "text": "**Checkout 2**<br/><br/> Validar Retirada em Loja<br/><br/> Validar Cupom de Desconto <br/><br/> Validar Regras de Pagamento <br/><br/> Validar Fechamento de Pedidos",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "flex-layout.row#title-table-testes": {
+        "children": [
+            "rich-text#testes"
+        ]
+    },
+    "rich-text#testes": {
+        "props": {
+            "text": "**Módulos Visuais de Testes Sugeridos**",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "flex-layout.row#table-testes":{
+        "children": [
+            "flex-layout.col#1table-testes",
+            "flex-layout.col#2table-testes"
+        ]
+    },
+    "flex-layout.col#1table-testes":{
+        "children": [
+            "rich-text#1testes"
+        ]
+    },
+    "rich-text#1testes": {
+        "props": {
+            "text": "**Checkout 1**<br/><br/> Validar Página de Carrinho<br/><br/> Validar Página de Endereço <br/><br/>Validar Adição de Pagamento <br/><br/> Validar Alteração de Pedido",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },
+    "flex-layout.col#2table-testes":{
+        "children": [
+            "rich-text#2testes"
+        ]
+    },
+    "rich-text#2testes": {
+        "props": {
+            "text": "**Páginas Especiais**<br/><br/>Validar Meu Carrefour<br/><br/>Validar Páginas de Blog<br/><br/>Validar Páginas do Formulário Cartão Carrefour <br/><br/> Validar página Nossas Lojas",
+            "textPosition": "CENTER",
+            "blockClass": "bloco-por-onde"
+        }
+    },  
+    
     "flex-layout.row#arquitetura-automatizadas":{
         "children": [
             "rich-text#txt-arquitetura-automatizadas"
-        ]
+        ] 
     },
     "rich-text#txt-arquitetura-automatizadas":{
         "props": {
@@ -76,7 +199,115 @@
             "blockClass": "arquitetura-automatizadas"
         }
     },
-    // Faltou adicionar Ícones e descrição da arquitetura Funcionais Automatizados
+    "flex-layout.row#arquitetura-icones1":{
+        "children": [
+            "image#bdd",
+            "rich-text#bdd",
+            "image#cy",
+            "rich-text#cy"
+        ]
+    },
+    "image#bdd": {
+        "props": {
+            "src": "assets/quadrants/icon-features-bdd.svg",
+            "maxHeight": 50,
+            "blockClass": "bdd"            
+          } 
+    },
+    "rich-text#bdd":{
+        "props": {
+            "text": "**Levantamento e Escrita do BDD** <br/><br/> Criação de features.  ",
+            "textPosition": "CENTER",
+            "blockClass": "arquitetura-automatizadas"
+        }
+    },
+    "image#cy": {
+        "props": {
+            "src": "assets/quadrants/icon-features-cypress.svg",
+            "maxHeight": 50,
+            "blockClass": "cypress"            
+          } 
+    },
+    "rich-text#cy":{
+        "props": {
+            "text": "**Codificação Cypress Script** <br/><br/>Codificação das ações e mapeamento de elementos. ",
+            "textPosition": "CENTER",
+            "blockClass": "arquitetura-automatizadas"
+        }
+    },
+    "flex-layout.row#arquitetura-icones2":{
+        "children": [
+            "image#gitlab",
+            "rich-text#gitlab",
+            "image#cucumber",
+            "rich-text#cucumber"
+        ]
+    },
+    "image#gitlab": {
+        "props": {
+            "src": "assets/quadrants/icon-features-gitlab.svg",
+            "maxHeight": 50,
+            "blockClass": "bdd"            
+          } 
+    },
+    "rich-text#gitlab":{
+        "props": {
+            "text": "**Gitlab executa o Pipeline** <br/><br/> Conjunto de tarefas e procedimentos a serem executados.  ",
+            "textPosition": "CENTER",
+            "blockClass": "arquitetura-automatizadas"
+        }
+    },
+    "image#cucumber": {
+        "props": {
+            "src": "assets/quadrants/icon-features-cucumber.svg",
+            "maxHeight": 50,
+            "blockClass": "cypress"            
+          } 
+    },
+    "rich-text#cucumber":{
+        "props": {
+            "text": "**Execução do BDD** <br/><br/>Orquestrador dos  Steps e Report de execução. ",
+            "textPosition": "CENTER",
+            "blockClass": "arquitetura-automatizadas"
+        }
+    },
+    "flex-layout.row#arquitetura-icones3":{
+        "children": [
+            "image#browsers",
+            "rich-text#browsers",
+            "image#dashboard",
+            "rich-text#dashboard"
+        ]
+    },
+    "image#browsers": {
+        "props": {
+            "src": "assets/quadrants/icon-features-browsers.svg",
+            "maxHeight": 50,
+            "blockClass": "bdd"            
+          } 
+    },
+    "rich-text#browsers":{
+        "props": {
+            "text": "**Cypress executa o Teste** <br/><br/>Grava execução, tira prints e interage com a interface.  ",
+            "textPosition": "CENTER",
+            "blockClass": "arquitetura-automatizadas"
+        }
+    },
+    "image#dashboard": {
+        "props": {
+            "src": "assets/quadrants/icon-features-dashboard.svg",
+            "maxHeight": 50,
+            "blockClass": "cypress"            
+          } 
+    },
+    "rich-text#dashboard":{
+        "props": {
+            "text": "**Cypress Dashboard** <br/><br/>Report Status: vídeos e prints das execuções. ",
+            "textPosition": "CENTER",
+            "blockClass": "arquitetura-automatizadas"
+        }
+    },
+   
     "flex-layout.row#info-arquitetura-automatizadas":{
         "children": [
             "rich-text#info-arquitetura-automatizadas",
@@ -101,11 +332,35 @@
             "blockClass": "arquitetura-visuais"
         }
     },
-    // Faltou adicionar cards da arquitetura Automatizado Visuais
+
+    
     "flex-layout.row#cards-arquitetura-visuais": {
         "children": [
-         
+            "image#cs",
+            "image#pl",
+            "image#io"
         ]
+    },
+    "image#cs": {
+        "props": {
+            "src": "assets/quadrants/icon-features-cypress.svg",
+            "maxHeight": 100,
+            "blockClass": "cypress"            
+          } 
+    },
+    "image#pl": {
+        "props": {
+            "src": "assets/quadrants/icon-features-gitlab.svg",
+            "maxHeight": 100,
+            "blockClass": "cypress"            
+          } 
+    },
+    "image#io": {
+        "props": {
+            "src": "assets/quadrants/icon-features-percy-ico.svg",
+            "maxHeight": 100,
+            "blockClass": "cypress"            
+          } 
     },
     "flex-layout.row#infraestrutura": {
         "children": [
@@ -118,7 +373,50 @@
             "textPosition": "CENTER",
             "blockClass": "infraestrutura"
         }
+    },
+    "flex-layout.row#cards-infra": {
+        "children": [
+            "flex-layout.col#card1",
+            "flex-layout.col#card2",
+            "flex-layout.col#card3"
+        ]
+    },
+    "flex-layout.col#card1": {
+       "children": [
+        "rich-text#artefatos"
+       ]
+    },
+    "rich-text#artefatos": {
+        "props": {
+            "text": "**Artefatos** <br/><br/> • Report dos testes;<br/> • Release homologada. ",
+            "textPosition": "CENTER",
+            "blockClass": "infraestrutura"
+        }
+    },
+    "flex-layout.col#card2": {
+       "children": [
+        "rich-text#pipeline"
+       ]
+    },
+    "rich-text#pipeline": {
+        "props": {
+            "text": "**Pipelines de Execução** <br/><br/> • Validações em homologação e produção automatizados através de pipeline;<br/> • Processo de aprovação baseado nos testes. ",
+            "textPosition": "CENTER",
+            "blockClass": "infraestrutura"
+        }
+    },
+    "flex-layout.col#card3": {
+       "children": [
+        "rich-text#ferramentas"
+       ]
+    },
+    "rich-text#ferramentas": {
+        "props": {
+            "text": "**Exemplos de Ferramentas** <br/><br/> • Gitlab (repositório e pipeline). ",
+            "textPosition": "CENTER",
+            "blockClass": "infraestrutura"
+        }
     }
-    //Faltou adicionar cards da infra estrutura
+   
 
 }

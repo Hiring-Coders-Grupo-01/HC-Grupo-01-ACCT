@@ -10,19 +10,27 @@
             "flex-layout.row#piramide",            
             "flex-layout.row#card-piramide",
             "flex-layout.row#planejamento",
-            // Faltou adicionar tabela Módulos Funcionais e Módulos Visuais de Testes Sugeridos
+            "flex-layout.row#title-table-modulos",
+            "flex-layout.row#table-modulos",
+            "flex-layout.row#title-table-testes",
+            "flex-layout.row#table-testes",
             "flex-layout.row#arquitetura-automatizadas",
-            // Faltou adicionar Ícones e descrição da arquitetura Funcionais Automatizados
+            "flex-layout.row#arquitetura-icones1",
+            "flex-layout.row#arquitetura-icones2",
+            "flex-layout.row#arquitetura-icones3",
+           
             "flex-layout.row#info-arquitetura-automatizadas",
             "flex-layout.row#arquitetura-visuais",
             "flex-layout.row#cards-arquitetura-visuais",
-            // Faltou adicionar cards da arquitetura Automatizado Visuais
+            
             "flex-layout.row#infraestrutura",
-            //Faltou adicionar cards da infra estrutura
-            // Faltou adicionar o texto Notificação
+            "flex-layout.row#cards-infra",
+           
+           
             //FIM TODO NECESSIDADE DE REFATORAÇÃO DO CÓDIGO DA SCARLET
 
-            "flex-layout.row#block-report"
+            "flex-layout.row#block-report",
+            "contact-form"
         ]
     }       
 }

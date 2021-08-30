@@ -8,8 +8,9 @@
             "flex-layout.row#bloco-objetivos",  
             // Faltou as sessões 
             "info-card#metricas",        
-            "flex-layout.row#perfil"
+            "flex-layout.row#perfil",
             // Faltoua as sessões 
+            "contact-form"
         ]
     }
 }
