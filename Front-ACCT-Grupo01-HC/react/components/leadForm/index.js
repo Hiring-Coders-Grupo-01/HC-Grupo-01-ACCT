@@ -1,5 +1,5 @@
 import React, { useCallback, useState, useEffect } from "react";
-import { FormContainer, Label, Paragraph, Input, LabelsGroup, Button } from "./styled";
+import { FormContainer, Label, Paragraph, Input, Button } from "./styled";
 import axios from "axios";
 
 //yup and hook-form (validators)
@@ -56,7 +56,6 @@ function LeadFormJs() {
     console.log(register);
   }, []); */
 
-  const url = "https://1d0u5setve.execute-api.sa-east-1.amazonaws.com/leads";
   /* const [data, setData] = useState({
     name: "",
     email: "",
@@ -81,7 +80,7 @@ function LeadFormJs() {
       telefone: data.telefone,
     };
 
-    axios.post(url, { user }).then((res) => {
+    api.post("", { user }).then((res) => {
       console.log(res);
       console.log(res.data);
     });
@@ -105,32 +104,27 @@ function LeadFormJs() {
     newdata[e.target.id] = e.target.value;
     setData(newdata);
   } */
+  console.log = console.warn = console.error = () => {};
 
   return (
     <div>
       <FormContainer onSubmit={handleSubmit}>
         <Paragraph>Solicite nosso contato:</Paragraph>
 
-        <LabelsGroup>
-          <Label>
-            Nome:<span>*</span>
-          </Label>
-          <Input type="text" placeholder="Nome" onChange={handleChange} id="nome" value={data.nome} />
-        </LabelsGroup>
+        <Label>
+          Nome:<span>*</span>
+        </Label>
+        <Input type="text" placeholder="Nome" onChange={handleChange} id="nome" value={data.nome} />
 
-        <LabelsGroup>
-          <Label>
-            E-mail:<span>*</span>
-          </Label>
-          <Input type="email" placeholder="email@example.com" onChange={handleChange} id="email" value={data.email} />
-        </LabelsGroup>
+        <Label>
+          E-mail:<span>*</span>
+        </Label>
+        <Input type="email" placeholder="email@example.com" onChange={handleChange} id="email" value={data.email} />
 
-        <LabelsGroup>
-          <Label>
-            Telefone:<span>*</span>
-          </Label>
-          <Input type="text" placeholder="991234567891" onChange={handleChange} id="telefone" value={data.telefone} />
-        </LabelsGroup>
+        <Label>
+          Telefone:<span>*</span>
+        </Label>
+        <Input type="text" placeholder="991234567891" onChange={handleChange} id="telefone" value={data.telefone} />
 
         <Button type="submit">Enviar</Button>
       </FormContainer>
