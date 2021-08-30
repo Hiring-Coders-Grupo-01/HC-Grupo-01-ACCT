@@ -7,7 +7,6 @@
       "flex-layout.row#service-quadrants",
       "flex-layout.row#testimonials",
       "flex-layout.row#trusted-by",
-      "lead-form",
       "contact-form"
     ]
   }
