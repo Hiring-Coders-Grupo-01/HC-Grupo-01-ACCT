@@ -2,21 +2,30 @@
     "progress-wraper": {
       "component": "ComponentProgressWraper"
     },
+
     "perspective-animation-image": {
       "component": "ComponentPerspectiveAnimationImageSlider",
       "composition": "children",
       "allowed": "*"
     },
+
     "computer-slide": {
       "component": "ComponentComputerSlide"
     },
+
     "contact-form": {
       "component": "ComponentContactForm"
     },
+
     "contact-form-separated": {
       "component": "ComponentFormSeparated"
     }, 
+    
     "lead-form": {
       "component": "JSComponentLeadForm"
+    },
+
+    "lead-list": {
+      "component": "JSComponentLeadList"
     }
 }
