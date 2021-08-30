@@ -1,0 +1,16 @@
+{
+    "store.custom#leads": {
+        "blocks": [
+            "flex-layout.row#header-leads",
+            "flex-layout.row#block-leads"
+        ]
+    },
+    "flex-layout.row#block-leads": {
+        "props": {
+            "blockClass": "block-leads"
+        },
+        "children": [
+            "lead-list"
+        ]
+    }
+}

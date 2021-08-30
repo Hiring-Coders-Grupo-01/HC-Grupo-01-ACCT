@@ -8,7 +8,8 @@
       "menu-item#category-sobre-nos",
       "menu-item#category-servicos",
       "menu-item#category-cursos",
-      "menu-item#category-contato"
+      "menu-item#category-contato",
+      "menu-item#category-leads"
     ]
   },
   "menu-item#category-inicio": {
@@ -165,6 +166,21 @@
         "noFollow": false,
         "tagTitle": "CONTATO",
         "text": "CONTATO"
+      }
+    }
+  },
+  "menu-item#category-leads": {
+    "props": {
+      "id": "menu-item-category-leads",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/leads-cadastrados",
+        "noFollow": false,
+        "tagTitle": "LEADS CADASTRADOS",
+        "text": "LEADS CADASTRADOS"
       }
     }
   }

@@ -4,7 +4,6 @@
 			"progress-wraper",
 			"flex-layout.row#header-contact",
 			"flex-layout.row#block-form-address",
-			"lead-list",
 			"flex-layout.row#block-global-map"
 		]
 	}

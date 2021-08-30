@@ -1,0 +1,15 @@
+.flexRowContent--block-leads,
+.flexRowContent--header-leads {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flexRow--header-leads {
+    background: url("assets/title/contact.jpg");
+    background-size: cover;
+	background-position: center center;
+}
+
+.flexRow--block-leads {
+    padding: 8em 2em 4em 2em;
+}
