@@ -1,18 +1,4 @@
 {
-    "info-card#data": {
-        "props": {
-            "isFullModeStyle": false,
-            "imageUrl": "https://acct.global/wp-content/uploads/2021/06/bi-01.jpg",
-            "headline": "Data & Analytics",
-            "subhead": "A ACCT possui uma equipe experiente de especialistas em dados que acumulam anos de experiência no mercado de comércio eletrônico. Esses cientistas são os guardiões dos dados e os facilitadores quando se trata de tomada de decisão baseada em dados. <br/><br/> Esse trabalho envolve processar, transformar, organizar, categorizar e analisar dados, gerando informações e, consequentemente, conhecimento para os tomadores de decisão. <br/><br/> “Nós da ACCT cultivamos uma cultura baseada em dados em todos os nossos processos.” Ammon Cunha - Head de Business Intelligence ",
-            "callToActionMode": "button",
-            "callToActionText": "ADICIONAR AO CARRINHO",
-            "callToActionUrl": "/",
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "blockClass": "data"
-        }
-    },
     "info-card#objetivos": {
         "props": {
             "isFullModeStyle": false,

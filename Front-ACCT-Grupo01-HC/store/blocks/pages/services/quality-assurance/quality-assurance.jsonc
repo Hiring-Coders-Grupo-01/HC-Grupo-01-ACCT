@@ -6,29 +6,6 @@
             "flex-layout.row#block-garantindo-melhor-tecnologia",
             "flex-layout.row#block-automatizando-testes",
             "flex-layout.row#block-piramide-testes",
-
-            //TODO NECESSIDADE DE REFATORAÇÃO DO CÓDIGO DA SCARLET
-            "flex-layout.row#card-piramide",
-            "flex-layout.row#planejamento",
-            "flex-layout.row#title-table-modulos",
-            "flex-layout.row#table-modulos",
-            "flex-layout.row#title-table-testes",
-            "flex-layout.row#table-testes",
-            "flex-layout.row#arquitetura-automatizadas",
-            "flex-layout.row#arquitetura-icones1",
-            "flex-layout.row#arquitetura-icones2",
-            "flex-layout.row#arquitetura-icones3",
-           
-            "flex-layout.row#info-arquitetura-automatizadas",
-            "flex-layout.row#arquitetura-visuais",
-            "flex-layout.row#cards-arquitetura-visuais",
-            
-            "flex-layout.row#infraestrutura",
-            "flex-layout.row#cards-infra",
-           
-           
-            //FIM TODO NECESSIDADE DE REFATORAÇÃO DO CÓDIGO DA SCARLET
-
             "flex-layout.row#block-report",
             "contact-form"
         ]

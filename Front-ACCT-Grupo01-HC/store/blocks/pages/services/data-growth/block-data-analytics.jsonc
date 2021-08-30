@@ -1,0 +1,54 @@
+{
+    "flex-layout.row#block-data-analytics": {
+        "props": {
+            "blockClass": "block-data-analytics"
+        },
+        "children": [
+            "flex-layout.col#block-data-analytics-text-content",
+            "flex-layout.row#block-data-analytics-image"            
+        ]
+    },
+    "flex-layout.row#block-data-analytics-image": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-data-analytics-image"
+        },
+        "children": [
+            "image#block-data-analytics-image"
+        ]
+    },
+    "image#block-data-analytics-image": {
+        "props": {
+            "src": "assets/services/card-data-analytics.jpg",
+            "blockClass": "service-card-image"
+        }
+    },
+    "flex-layout.row#block-data-analytics-text": {
+        "props": {
+            "width": "48%"
+        }
+    },
+    "flex-layout.col#block-data-analytics-text-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-data-analytics-title",
+            "rich-text#block-data-analytics-text"
+        ]
+    },
+    "rich-text#block-data-analytics-title": {
+        "props": {
+            "text": "### Data & Analytics",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-data-analytics-text": {
+        "props": {
+            "text": "A ACCT possui uma equipe experiente de especialistas em dados que acumulam anos de experiência no mercado de comércio eletrônico. Esses cientistas são os guardiões dos dados e os facilitadores quando se trata de tomada de decisão baseada em dados. <br><br>Esse trabalho envolve processar, transformar, organizar, categorizar e analisar dados, gerando informações e, consequentemente, conhecimento para os tomadores de decisão.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "flex-layout.row#block-testes": {
+        "props": {
+            "blockClass": "block-testes"
+        },
+        "children": [
+            "flex-layout.row#block-testes-funcionais",
+            "flex-layout.row#block-testes-visuais"                    
+        ]
+    },
+    "flex-layout.row#block-testes-funcionais": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-testes-funcionais-content"
+        },
+        "children": [
+            "flex-layout.col#block-testes-funcionais-content"   
+        ]        
+    },
+    "flex-layout.row#block-testes-visuais": {
+        "props": {
+            "width": "48%",
+            "blockClass": "block-testes-visuais-content"
+        },
+        "children": [
+            "flex-layout.col#block-testes-visuais-content"    
+        ]        
+    },
+    "flex-layout.col#block-testes-funcionais-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-automatizando-testes-title",
+            "rich-text#block-automatizando-testes-text"
+        ]
+    },
+    "rich-text#block-testes-funcionais-title": {
+        "props": {
+            "text": "#### Testes Funcionais",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-testes-funcionais-text": {
+        "props": {
+            "text": "Execução das principais funcionalidades apresentadas no site: <br/><br/> 1. Calcular frete <br/><br/> 2. Cadastrar cliente <br/><br/> 3. Efetuar pedido",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    },
+    "flex-layout.col#block-testes-visuais-content": {
+        "props": {
+            "width": "48%"
+        },
+        "children": [
+            "rich-text#block-automatizando-testes-title",
+            "rich-text#block-automatizando-testes-text"
+        ]
+    },
+    "rich-text#block-testes-visuais-title": {
+        "props": {
+            "text": "#### Testes Visuais",
+            "textPosition": "LEFT",
+            "blockClass": "title-service-card"
+        }
+    },
+    "rich-text#block-testes-visuais-text": {
+        "props": {
+            "text": "Verificação do template padrão com o apresentado no momento da execução do teste, exemplo: <br/><br/> 1. Validação de alinhamentos e posições <br/><br/> 2. Validação de fontes e tamanhos <br/><br/> 3. Validação de cores e conteúdos.",
+            "textPosition": "LEFT",
+            "blockClass": "text-service-card"
+        }
+    }
+}
