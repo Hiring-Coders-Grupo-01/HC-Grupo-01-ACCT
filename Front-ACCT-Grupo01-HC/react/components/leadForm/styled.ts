@@ -25,6 +25,10 @@ export const LabelsGroup = styled.div`
 
   margin: 15px auto auto auto;
   width: 90%;
+
+  span {
+    color: #ff0000;
+  }
 `;
 
 export const Label = styled.label`
