@@ -1,13 +1,13 @@
-import React, { useCallback } from 'react'
-import { FormContainer, Label, Paragraph, Input, LabelsGroup, Button } from './styled'
+//import React, { useCallback } from 'react'
+//import { FormContainer, Label, Paragraph, Input, LabelsGroup, Button } from './styled'
 
 //yup and hook-form (validators)
-import { useForm } from 'react-hook-form'
+/* import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from "yup";
+import * as yup from "yup"; */
 
-/* // aws-amplify
-import Amplify from 'aws-amplify';
+// aws-amplify
+/* import Amplify from 'aws-amplify';
 import { API } from 'aws-amplify';
 import awsExports from "../../src/aws-exports.js";
 Amplify.configure(awsExports);
@@ -27,15 +27,11 @@ async function addContact() {
     alert('Success')
 }
 
-const formState = {
-    name: '',
-    email: '',
-    telefone: ''
-};
+const formState = { name: '', email: '', telefone: '' };
 
 function updateFormState(key: string, value: string) {
     formState[key] = value;
-} */
+}
 
 type Validators = {
     name: string,
@@ -47,10 +43,10 @@ let schema = yup.object().shape({
     name: yup.string().required('Nome é obrigatório'),
     email: yup.string().email().required('E-Mail é obrigatório'),
     telefone: yup.string().required('Telefone é obrigatório')
-});
+}); */
 
 function LeadForm() {
-    const { register, handleSubmit, formState: { errors } } = useForm<Validators>({
+    /* const { register, handleSubmit, formState: { errors } } = useForm<Validators>({
         resolver: yupResolver(schema)
     })
 
@@ -58,10 +54,10 @@ function LeadForm() {
         console.log(data)
         console.log(register)
     }, [],
-    )
+    ) */
 
     return (
-        <FormContainer onSubmit={handleSubmit(onSubmit)}>
+        {/* <FormContainer onSubmit={addContact()}>
             <Paragraph>Solicite nosso contato:</Paragraph>
 
             <LabelsGroup>
@@ -82,8 +78,8 @@ function LeadForm() {
                 {errors.telefone && <span>{errors.telefone.message}</span>}
             </LabelsGroup>
 
-            <Button type="submit" >Enviar</Button>
-        </FormContainer>
+            <Button type="submit">Enviar</Button>
+        </FormContainer > */}
     )
 }
 

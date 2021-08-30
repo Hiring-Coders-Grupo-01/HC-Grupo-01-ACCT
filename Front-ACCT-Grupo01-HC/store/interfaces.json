@@ -17,6 +17,6 @@
       "component": "ComponentFormSeparated"
     }, 
     "lead-form": {
-      "component": "ComponentLeadForm"
+      "component": "JSComponentLeadForm"
     }
 }
