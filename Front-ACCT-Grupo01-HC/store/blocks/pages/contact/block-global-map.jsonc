@@ -1,58 +1,50 @@
 {
-    "flex-layout.row#block-global-map": {
-        "props": {
-            "blockClass": "block-global-map"
-        },
-        "children": [
-            "flex-layout.col#block-global-map"
-        ]
-    },
-    "flex-layout.col#block-global-map": {
+	"flex-layout.row#block-global-map": {
+		"props": {
+			"blockClass": "block-global-map"
+		},
+		"children": ["flex-layout.col#block-global-map"]
+	},
+	"flex-layout.col#block-global-map": {
 		"props": {
 			"width": "100%"
 		},
 		"children": [
 			"rich-text#block-global-map-title",
-            "responsive-layout.desktop#block-global-map-details",
-            "responsive-layout.tablet#block-global-map-details",
-            "responsive-layout.phone#block-global-map-details"
-        ]
-    },
-    "responsive-layout.desktop#block-global-map-details": {
-        "children": [
-            "flex-layout.row#block-global-map-itens"
-        ]
-    },
-    "responsive-layout.tablet#block-global-map-details": {
-        "children": [
-            "flex-layout.row#block-global-map-itens-phone"
-        ]
-    },
-    "responsive-layout.phone#block-global-map-details": {
-        "children": [
-            "flex-layout.row#block-global-map-itens-phone"
-        ]
-    },
-    "flex-layout.row#block-global-map-itens": {
-        "props": {
-            "blockClass": "block-global-map-itens"
-        },
-        "children": [
-            "flex-layout.row#block-global-map-row1",
-            "flex-layout.row#block-global-map-row2",
-            "flex-layout.row#block-global-map-row3"
-        ]
-    },
-    "flex-layout.row#block-global-map-itens-phone": {
-        "props": {
-            "blockClass": "block-global-map-itens"
-        },
-        "children": [
-            "flex-layout.row#block-global-map-row1-phone",
-            "flex-layout.row#block-global-map-row2-phone"
-        ]
-    },
-    "rich-text#block-global-map-title": {
+			"responsive-layout.desktop#block-global-map-details",
+			"responsive-layout.tablet#block-global-map-details",
+			"responsive-layout.phone#block-global-map-details"
+		]
+	},
+	"responsive-layout.desktop#block-global-map-details": {
+		"children": ["flex-layout.row#block-global-map-itens"]
+	},
+	"responsive-layout.tablet#block-global-map-details": {
+		"children": ["flex-layout.row#block-global-map-itens-phone"]
+	},
+	"responsive-layout.phone#block-global-map-details": {
+		"children": ["flex-layout.row#block-global-map-itens-phone"]
+	},
+	"flex-layout.row#block-global-map-itens": {
+		"props": {
+			"blockClass": "block-global-map-itens"
+		},
+		"children": [
+			"flex-layout.row#block-global-map-row1",
+			"flex-layout.row#block-global-map-row2",
+			"flex-layout.row#block-global-map-row3"
+		]
+	},
+	"flex-layout.row#block-global-map-itens-phone": {
+		"props": {
+			"blockClass": "block-global-map-itens"
+		},
+		"children": [
+			"flex-layout.row#block-global-map-row1-phone",
+			"flex-layout.row#block-global-map-row2-phone"
+		]
+	},
+	"rich-text#block-global-map-title": {
 		"props": {
 			"text": "### Operaçõs Globais **|** Presença Local",
 			"textAlignment": "CENTER",
@@ -60,100 +52,83 @@
 			"blockClass": "page-title"
 		}
 	},
-    "flex-layout.row#block-global-map-details": {
-        "children": [
-            "rich-text#country-list1",
-            "rich-text#country-list2",
-            "image#global-map"
-        ]
-    },
-    "flex-layout.row#block-global-map-row1": {
-        "props": {
-            "blockClass": "block-global-map-row",
-            "width": "15%"
-        },
-        "children": [
-            "rich-text#country-list1"
-        ]
-    },
-    "flex-layout.row#block-global-map-row2": {
-        "props": {
-            "blockClass": "block-global-map-row",
-            "width": "15%"
-        },
-        "children": [
-            "rich-text#country-list2"
-        ]
-    },
-    "flex-layout.row#block-global-map-row3": {
-        "props": {
-            "blockClass": "block-global-map-row",
-            "width": "70%"
-        },
-        "children": [
-            "image#global-map"
-        ]
-    },
-    "flex-layout.row#block-global-map-row1-phone": {
-        "props": {
-            "blockClass": "block-global-map-row",
-            "width": "100%"
-        },
-        "children": [
-            "rich-text#country-list1",
-            "rich-text#country-list2"
-        ]
-    },
-    "flex-layout.row#block-global-map-row2-phone": {
-        "props": {
-            "blockClass": "block-global-map-row",
-            "width": "100%"
-        },
-        "children": [
-            "flex-layout.col#global-map"
-        ]
-    },
-    "flex-layout.col#country-list1": {
-        "props": {
-            "blockClass": "block-global-map-item"
-        },
-        "children": [
-            "rich-text#country-list1"    
-        ]
-    },
-    "flex-layout.col#country-list2": {
-        "props": {
-            "blockClass": "block-global-map-item"
-        },
-        "children": [
-            "rich-text#country-list2"    
-        ]
-    },
-    "flex-layout.col#global-map": {
-        "props": {
-            "blockClass": "block-global-map-item"
-        },
-        "children": [
-            "image#global-map"  
-        ]
-    },
-    "rich-text#country-list1": {
+	"flex-layout.row#block-global-map-details": {
+		"children": [
+			"rich-text#country-list1",
+			"rich-text#country-list2",
+			"image#global-map"
+		]
+	},
+	"flex-layout.row#block-global-map-row1": {
 		"props": {
-			"text": " - Argentina\n - Brasil\n - Chile\n - Colômbia\n - EUA\n - France\n - Alemanha\n -Índia\n - Itália",			
+			"blockClass": "block-global-map-row",
+			"width": "15%"
+		},
+		"children": ["rich-text#country-list1"]
+	},
+	"flex-layout.row#block-global-map-row2": {
+		"props": {
+			"blockClass": "block-global-map-row",
+			"width": "15%"
+		},
+		"children": ["rich-text#country-list2"]
+	},
+	"flex-layout.row#block-global-map-row3": {
+		"props": {
+			"blockClass": "block-global-map-row",
+			"width": "70%"
+		},
+		"children": ["image#global-map"]
+	},
+	"flex-layout.row#block-global-map-row1-phone": {
+		"props": {
+			"blockClass": "block-global-map-row",
+			"width": "100%"
+		},
+		"children": ["rich-text#country-list1", "rich-text#country-list2"]
+	},
+	"flex-layout.row#block-global-map-row2-phone": {
+		"props": {
+			"blockClass": "block-global-map-row",
+			"width": "100%"
+		},
+		"children": ["flex-layout.col#global-map"]
+	},
+	"flex-layout.col#country-list1": {
+		"props": {
+			"blockClass": "block-global-map-item"
+		},
+		"children": ["rich-text#country-list1"]
+	},
+	"flex-layout.col#country-list2": {
+		"props": {
+			"blockClass": "block-global-map-item"
+		},
+		"children": ["rich-text#country-list2"]
+	},
+	"flex-layout.col#global-map": {
+		"props": {
+			"blockClass": "block-global-map-item"
+		},
+		"children": ["image#global-map"]
+	},
+	"rich-text#country-list1": {
+		"props": {
+			"text": " - Argentina\n - Brasil\n - Chile\n - Colômbia\n - EUA\n - France\n - Alemanha\n -Índia\n - Itália",
 			"textAlignment": "LEFT",
 			"textPosition": "LEFT",
 			"blockClass": "country-list-item"
-		}	
+		}
 	},
-    "rich-text#country-list2": {
+	"rich-text#country-list2": {
 		"props": {
-			"text": " - México\n - Paraguai\n - Peru\n - Portugal\n - Romênia\n - Arábia Saudita\n - Coreia do Sul\n -Espanha\n - Reino Unido",			
+			"text": " - México\n - Paraguai\n - Peru\n - Portugal\n - Romênia\n - Arábia Saudita\n - Coreia do Sul\n -Espanha\n - Reino Unido",
 			"textAlignment": "LEFT",
 			"textPosition": "LEFT",
 			"blockClass": "country-list-item"
-		}	
+		}
 	},
-    "image#global-map": {
+	"image#global-map": {
 		"props": {
 			"src": "assets/brand/bg-map-contact.png"
 		}
