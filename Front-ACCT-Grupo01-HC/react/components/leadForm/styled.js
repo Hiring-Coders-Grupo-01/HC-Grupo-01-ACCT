@@ -46,6 +46,7 @@ export const Input = styled.input`
   width: 100%;
   padding: 5px;
   font-size: 0.8rem;
+  margin: 5px auto 10px auto;
 
   &:focus {
     outline: none !important;
