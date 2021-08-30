@@ -12,8 +12,19 @@
     - Criar uma página para trazer a lista das leads cadastradas na API Gateway na AWS, listando os clientes cadastrados
 4.  - Criar um item no adm do VTEX para trazer o conteúdo das leads cadastradas na API Gateway AWS
 
-### > Technologies
+### > Technologies:
 
 - [Vtex.io](https://developers.vtex.com/vtex-developer-docs/docs/welcome)
 - [API Gateway AWS](https://docs.aws.amazon.com/pt_br/apigateway/latest/developerguide/welcome.html)
 - [React](https://pt-br.reactjs.org/docs/getting-started.html)
+
+### > Integrantes:
+
+- [Douglas Rodrigues](https://www.linkedin.com/in/douglas-rodrigues-pnz/)
+- [Thiago Teberga](https://www.linkedin.com/in/thiagoteberga/)
+- [Fabricio Brazil](https://www.linkedin.com/in/fabriciobrazil/)
+- [Guilhana Mucelin](https://www.linkedin.com/in/guilhana-mucelin-korb/)
+- [Leandro Trombini](https://www.linkedin.com/in/leandrotrombini/)
+- [Rafael Oliveira](https://www.linkedin.com/in/rafamoliv/)
+- [Scarlet Gabriella](https://www.linkedin.com/in/scarletgabriella/)
+- [André Rafael](https://www.linkedin.com/in/andr%C3%A9-rafael-b4269b1b0/)
