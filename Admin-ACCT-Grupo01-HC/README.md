@@ -6,9 +6,6 @@
 - [x] GET na AWS para Listar os Prospects e os Clients;
 - [x] POST na AWS para converter um Prospect para Client; 
 - [x] DELETE na na AWS para deletar manualmente um Prospect ou um Client; 
-- [ ] Filtros na Listagem da Tabela;
-- [ ] Ordenação na Listagem da Tabela;
-- [ ] Página com Indicadores;
 
 # Ferramentas Utilizadas:
 ## Styleguide - Table Component:
@@ -18,9 +15,9 @@ https://styleguide.vtex.com/#/Components/Display/Table
 ## Estrutura do projeto
 ``` bash
   / # pasta raiz
-    |__ ACCT-Grupo01-HC # Componentes Nativos em Vtex.io
-    |__ store-block-template1 # Componente Customizados em React
-    |__ admin-template1 # Componente Customizado com React para ser Exibido no Painel Administrativo
+    |__ Front-ACCT-Grupo01-HC # Front End
+    |__ Service-ACCT-Grupo01-HC # Service para Atualizar os Prospects e Clients na AWS
+    |__ Admin-ACCT-Grupo01-HC # Componente Customizado com React para ser Exibido no Painel Administrativo
 ```
 
 ## Desenvolvedores
