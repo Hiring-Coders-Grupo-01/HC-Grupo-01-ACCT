@@ -3,6 +3,7 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main"
+      
     ]
   },
   "flex-layout.row#main": {
@@ -38,13 +39,7 @@
       "showSavings": true,
       "showListPrice": true
     }
-  },
-  "flex-layout.row#qty-sku": {
-    "children": [
-      "sku-selector",
-      "product-quantity"
-    ]
-  },
+  },  
   "share#default": {
     "props": {
       "social": {
