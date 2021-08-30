@@ -15,7 +15,8 @@
             "flex-layout.row#block-styleguide",
             "flex-layout.row#block-analise-heatmaps",
             "flex-layout.row#block-cards-metricas-kpis",
-            "flex-layout.row#block-citacao"
+            "flex-layout.row#block-citacao",
+            "contact-form"
         ]
     }
 }

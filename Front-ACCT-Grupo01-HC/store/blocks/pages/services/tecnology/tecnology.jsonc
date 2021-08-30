@@ -7,7 +7,8 @@
             "flex-layout.row#block-plataformas",            
             "flex-layout.row#block-vtex",
             "flex-layout.row#block-integracoes",
-            "flex-layout.row#block-cloud-arquitetura"
+            "flex-layout.row#block-cloud-arquitetura",
+            "contact-form"
         ]
     }       
 }
