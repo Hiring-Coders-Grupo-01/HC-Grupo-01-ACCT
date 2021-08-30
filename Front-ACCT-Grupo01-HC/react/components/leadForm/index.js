@@ -10,7 +10,6 @@ function LeadFormJs() {
   });
 
   function handleSubmit(event) {
-    console.log("VETX?????");
     event.preventDefault();
 
     api
@@ -22,8 +21,6 @@ function LeadFormJs() {
       .then((response) => {
         console.log(response.data);
       });
-
-    console.log(data);
   }
 
   function handleChange(event) {
