@@ -153,7 +153,8 @@
       "menu-item#category-sobre-nos",
       "vtex.menu@2.x:menu#category-servicos",
       "menu-item#category-cursos",
-      "menu-item#category-contato"
+      "menu-item#category-contato",
+      "menu-item#category-leads"
     ],
     "props": {
       "orientation": "vertical",

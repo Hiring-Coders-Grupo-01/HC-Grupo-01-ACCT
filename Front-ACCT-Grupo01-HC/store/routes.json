@@ -18,5 +18,8 @@
     },
     "store.custom#contact": {
         "path": "/contato"
+    },
+    "store.custom#leads": {
+        "path": "/leads-cadastrados"
     }
 }

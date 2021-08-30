@@ -1,0 +1,16 @@
+{
+	"flex-layout.row#header-leads": {
+		"props": {
+			"blockClass": "header-leads"
+		},
+		"children": ["rich-text#title-leads"]
+	},
+	"rich-text#title-leads": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "# LEADS CADASTRADOS",
+			"blockClass": ["page-header", "blink"]
+		}
+	}
+}
