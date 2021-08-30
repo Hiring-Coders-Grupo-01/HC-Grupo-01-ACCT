@@ -7,10 +7,15 @@
             // Faltou os ícones
             "flex-layout.row#bloco-objetivos",  
             // Faltou as sessões 
-            "info-card#metricas", 
-               
-            "flex-layout.row#perfil",
+            //"info-card#metricas", 
+             // Faltou os ícones
+            "flex-layout.row#metricas", 
+            
+            
+            "flex-layout.row#perfil1",
             // Faltoua as sessões 
+            "flex-layout.row#title-collapse",
+            "flex-layout.row#servicos-collapse",
             "contact-form"
         ]
     }
