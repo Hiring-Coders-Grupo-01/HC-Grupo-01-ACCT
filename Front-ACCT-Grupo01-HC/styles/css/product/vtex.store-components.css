@@ -1,0 +1,27 @@
+.productBrand {
+    color: #040404;
+    font-family: 'OpenSans Condensed'; 
+    line-height: 1;
+    font-size: 4rem;
+    margin: 0.75rem 0 1.5rem 0;
+    text-rendering: optimizeLegibility;
+    display: block;
+}
+
+.productBrand::after {
+    color: #fcc200;
+    content: "_";
+    margin-left: -10px;
+}
+
+.productDescriptionTitle {
+    font-family: 'OpenSans Condensed'; 
+    color: #040404;
+    font-size: 2rem;
+    line-height: normal;
+}
+
+.productDescriptionTitle::after {
+    color: #fcc200;
+    content: "_";   
+}

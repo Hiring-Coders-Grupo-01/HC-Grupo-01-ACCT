@@ -23,11 +23,14 @@
 .flexRowContent--block-garantindo-melhor-tecnologia,
 .flexRowContent--block-automatizando-testes,
 .flexRowContent--block-report,
-.flexRowContent--block-piramide-testes {
+.flexRowContent--block-piramide-testes,
+.flexRowContent--block-data-analytics,
+.flexRowContent--block-objetivos {
     max-width: 1170px;
     margin: 0 auto;
 }
 
+.flexRowContent--block-data-analytics,
 .flexRowContent--block-o-que-e-experience-design,
 .flexRowContent--block-impactos-projeto,
 .flexRowContent--block-mobile-first,
@@ -44,6 +47,7 @@
 .flexRowContent--block-auto-layout,
 .flexRowContent--block-analise-heatmaps,
 .flexRowContent--block-automatizando-testes,
+.flexRowContent--block-objetivos,
 .flexRowContent--block-piramide-testes {
     align-items: center;
     justify-content: space-between;
@@ -105,6 +109,7 @@
 .flexRow--block-o-que-e-experience-design,
 .flexRow--block-profissional-ux-ui,
 .flexRow--block-automatizando-testes,
+.flexRow--block-objetivos,
 .flexRow--block-impactos-projeto,
 .flexRow--block-numeros-nao-mentem,
 .flexRow--block-mobile-first,
@@ -113,7 +118,8 @@
 .flexRow--block-analise-heatmaps,
 .flexRow--block-garantindo-melhor-tecnologia,
 .flexRow--block-automatizando-testes,
-.flexRow--block-report {
+.flexRow--block-report,
+.flexRow--block-data-analytics {
     background-color: #ffffff;
     padding: 6em 2em 6em 2em;
 }

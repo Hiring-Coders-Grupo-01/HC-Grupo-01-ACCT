@@ -87,8 +87,6 @@
     align-items: center;
 }
 
-
-
 .heading--block-title::after,
 .headingLevel1--page-header::after {
 	color: #fcc200;
