@@ -24,7 +24,7 @@ function LeadFormJs() {
       })
       .catch((error) => {
         console.log(error);
-        alert("Falha no cadastro :(");
+        alert("Falha no cadastro, insira campos validos :(");
       });
   }
 
