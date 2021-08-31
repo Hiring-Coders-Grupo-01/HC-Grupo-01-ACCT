@@ -1,7 +1,12 @@
-.styledLinkContainer {
-	margin-top: 0.8rem;
+.styledLinkContainer {	
 	margin-left: 1rem;
 	margin-right: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .styledLinkContainer {
+        margin-top: 0.8rem;
+    }
 }
 
 .styledLink {
