@@ -24,7 +24,17 @@ function LeadFormJs() {
       })
       .catch((error) => {
         console.log(error);
-        alert("Falha no cadastro, insira campos validos :(");
+
+        switch (error.response.status) {
+          case 400:
+            alert("Campos inválidos, preencha todos os campos");
+            break;
+          case 409:
+            alert("E-mail já cadastrado");
+            break;
+          default:
+            alert("Falha no cadastro, insira campos validos :(");
+        }
       });
   }
 
