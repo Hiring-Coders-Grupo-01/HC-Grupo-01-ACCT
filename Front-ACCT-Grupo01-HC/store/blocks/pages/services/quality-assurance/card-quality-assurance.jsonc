@@ -17,7 +17,7 @@
     },
     "rich-text#txt-piramide": {
         "props": {
-            "text": "**Pirâmide ideal de teste de softwares** <br/><br/> • Seção baseada em **testes manuais**; <br/><br/> • Testes automatizados de **interface**; <br/><br/> • Testes automatizados de **API**; <br/><br/> • Testes automatizados de **integração**; <br/><br/> • Testes automatizados de **componentes**; <br/><br/> • Testes automatizados **unitários**. ",
+            "text": "**Pirâmide ideal de teste de softwares** \n\n • Seção baseada em **testes manuais**; \n\n • Testes automatizados de **interface**; \n\n • Testes automatizados de **API**; \n\n • Testes automatizados de **integração**; \n\n • Testes automatizados de **componentes**; \n\n • Testes automatizados **unitários**. ",
             "textPosition": "CENTER",
             "blockClass": "piramide"
         }
@@ -30,14 +30,14 @@
     },
     "rich-text#testes-funcionais": {
         "props": {
-            "text": "**Testes Funcionais** <br/><br/> Execução das principais funcionalidades apresentadas no site: <br/><br/> 1. Calcular frete <br/><br/> 2. Cadastrar cliente <br/><br/> 3. Efetuar pedido",
+            "text": "**Testes Funcionais** \n\n Execução das principais funcionalidades apresentadas no site: \n\n 1. Calcular frete \n\n 2. Cadastrar cliente \n\n 3. Efetuar pedido",
             "textPosition": "CENTER",
             "blockClass": "testes-funcionais"
         }
     },
     "rich-text#testes-visuais":{
         "props": {
-            "text": "**Testes Visuais** <br/><br/> Verificação do template padrão com o apresentado no momento da execução do teste, exemplo: <br/><br/> 1. Validação de alinhamentos e posições <br/><br/> 2. Validação de fontes e tamanhos <br/><br/> 3. Validação de cores e conteúdos",
+            "text": "**Testes Visuais** \n\n Verificação do template padrão com o apresentado no momento da execução do teste, exemplo:\n\n 1. Validação de alinhamentos e posições \n\n 2. Validação de fontes e tamanhos \n\n 3. Validação de cores e conteúdos",
             "textPosition": "CENTER",
             "blockClass": "testes-visuais"
         }
@@ -51,14 +51,14 @@
     },
     "rich-text#one": {
         "props": {
-            "text": "**Por onde começar?** <br/><br/> Funcionalidades consideradas críticas devem ser um dos focos iniciais das atividades de automação, pois são partes do sistema de muita importância, que certamente serão muito utilizadas e terão alta visibilidade. <br/><br/> **Exatamente por isso**, essas funcionalidades requerem cuidados especiais.",
+            "text": "**Por onde começar?** \n\n Funcionalidades consideradas críticas devem ser um dos focos iniciais das atividades de automação, pois são partes do sistema de muita importância, que certamente serão muito utilizadas e terão alta visibilidade. \n\n **Exatamente por isso**, essas funcionalidades requerem cuidados especiais.",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
     },
     "rich-text#two":{
         "props": {
-            "text": "**Planejamento** <br/><br/> 1. **Entender** o contexto; <br/><br/> 2. **Escrever** casos de testes antes de automatizar; <br/><br/> 3. **Focar** nas regras de negócios; <br/><br/> 4. **Avaliar** bloqueios; <br/><br/> 5. **Usar** boas práticas. ",
+            "text": "**Planejamento** \n\n 1. **Entender** o contexto; \n\n 2. **Escrever** casos de testes antes de automatizar; \n\n 3. **Focar** nas regras de negócios; \n\n 4. **Avaliar** bloqueios; \n\n 5. **Usar** boas práticas. ",
             "textPosition": "CENTER",
             "blockClass": "bloco-planejamento"
         }
@@ -91,7 +91,7 @@
     },
     "rich-text#1table": {
         "props": {
-            "text": "**Navegação**<br/><br/> Validar Home <br/><br/> Validar Categorias e Filtros <br/><br/> Validar PDP e Cálculos de Frete <br/><br/> Validar cada URL",
+            "text": "**Navegação**\n\n Validar Home \n\n Validar Categorias e Filtros \n\n Validar PDP e Cálculos de Frete \n\n Validar cada URL",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
@@ -103,7 +103,7 @@
     },
     "rich-text#2table": {
         "props": {
-            "text": "**Cliente**<br/><br/> Validar Login <br/><br/> Validar Cadastro <br/><br/> Validar Alteração de Cadastro <br/><br/> Validar lista de Desejos",
+            "text": "**Cliente**\n\n Validar Login \n\n Validar Cadastro \n\n Validar Alteração de Cadastro \n\n Validar lista de Desejos",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
@@ -115,7 +115,7 @@
     },
     "rich-text#3table": {
         "props": {
-            "text": "**Carrinho**<br/><br/> Validar Adição de Produto <br/><br/> Validar Remoção de Produto <br/><br/> Validar Adição e Remoção de Quantidade <br/><br/> Validar Cálculos de Frete",
+            "text": "**Carrinho**\n\n Validar Adição de Produto \n\n Validar Remoção de Produto \n\n Validar Adição e Remoção de Quantidade \n\n Validar Cálculos de Frete",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
@@ -127,7 +127,7 @@
     },
     "rich-text#4table": {
         "props": {
-            "text": "**Checkout 1**<br/><br/> Validar Cadastro <br/><br/> Validar Alteração de Cadastro <br/><br/> Validar Adição de Endereço<br/><br/> Validar Alteração de Endereço",
+            "text": "**Checkout 1**\n\n Validar Cadastro \n\n Validar Alteração de Cadastro \n\n Validar Adição de Endereço\n\n Validar Alteração de Endereço",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
@@ -139,7 +139,7 @@
     },
     "rich-text#5table": {
         "props": {
-            "text": "**Checkout 2**<br/><br/> Validar Retirada em Loja<br/><br/> Validar Cupom de Desconto <br/><br/> Validar Regras de Pagamento <br/><br/> Validar Fechamento de Pedidos",
+            "text": "**Checkout 2**\n\n Validar Retirada em Loja\n\n Validar Cupom de Desconto \n\n Validar Regras de Pagamento \n\n Validar Fechamento de Pedidos",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
@@ -169,7 +169,7 @@
     },
     "rich-text#1testes": {
         "props": {
-            "text": "**Checkout 1**<br/><br/> Validar Página de Carrinho<br/><br/> Validar Página de Endereço <br/><br/>Validar Adição de Pagamento <br/><br/> Validar Alteração de Pedido",
+            "text": "**Checkout 1**\n\n Validar Página de Carrinho\n\n Validar Página de Endereço \n\nValidar Adição de Pagamento \n\n Validar Alteração de Pedido",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
@@ -181,7 +181,7 @@
     },
     "rich-text#2testes": {
         "props": {
-            "text": "**Páginas Especiais**<br/><br/>Validar Meu Carrefour<br/><br/>Validar Páginas de Blog<br/><br/>Validar Páginas do Formulário Cartão Carrefour <br/><br/> Validar página Nossas Lojas",
+            "text": "**Páginas Especiais**\n\nValidar Meu Carrefour\n\n>Validar Páginas de Blog\n\nValidar Páginas do Formulário Cartão Carrefour \n\n Validar página Nossas Lojas",
             "textPosition": "CENTER",
             "blockClass": "bloco-por-onde"
         }
@@ -194,7 +194,7 @@
     },
     "rich-text#txt-arquitetura-automatizadas":{
         "props": {
-            "text": "**Arquitetura de uma Ferramenta de Testes Funcionais Automatizados** <br/><br/>  Utilizamos as melhores tecnologias disponíveis no mercado para otimizar cenários de testes automatizados. Com o foco de minimizar e otimizar o trabalho de todo o ciclo de desenvolvimento.",
+            "text": "**Arquitetura de uma Ferramenta de Testes Funcionais Automatizados** \n\n  Utilizamos as melhores tecnologias disponíveis no mercado para otimizar cenários de testes automatizados. Com o foco de minimizar e otimizar o trabalho de todo o ciclo de desenvolvimento.",
             "textPosition": "CENTER",
             "blockClass": "arquitetura-automatizadas"
         }
@@ -216,7 +216,7 @@
     },
     "rich-text#bdd":{
         "props": {
-            "text": "**Levantamento e Escrita do BDD** <br/><br/> Criação de features.  ",
+            "text": "**Levantamento e Escrita do BDD** \n\n Criação de features.  ",
             "textPosition": "CENTER",
             "blockClass": "arquitetura-automatizadas"
         }
@@ -230,7 +230,7 @@
     },
     "rich-text#cy":{
         "props": {
-            "text": "**Codificação Cypress Script** <br/><br/>Codificação das ações e mapeamento de elementos. ",
+            "text": "**Codificação Cypress Script** \n\nCodificação das ações e mapeamento de elementos. ",
             "textPosition": "CENTER",
             "blockClass": "arquitetura-automatizadas"
         }
@@ -252,7 +252,7 @@
     },
     "rich-text#gitlab":{
         "props": {
-            "text": "**Gitlab executa o Pipeline** <br/><br/> Conjunto de tarefas e procedimentos a serem executados.  ",
+            "text": "**Gitlab executa o Pipeline** \n\n Conjunto de tarefas e procedimentos a serem executados.  ",
             "textPosition": "CENTER",
             "blockClass": "arquitetura-automatizadas"
         }
@@ -266,7 +266,7 @@
     },
     "rich-text#cucumber":{
         "props": {
-            "text": "**Execução do BDD** <br/><br/>Orquestrador dos  Steps e Report de execução. ",
+            "text": "**Execução do BDD** \n\nOrquestrador dos  Steps e Report de execução. ",
             "textPosition": "CENTER",
             "blockClass": "arquitetura-automatizadas"
         }
@@ -288,7 +288,7 @@
     },
     "rich-text#browsers":{
         "props": {
-            "text": "**Cypress executa o Teste** <br/><br/>Grava execução, tira prints e interage com a interface.  ",
+            "text": "**Cypress executa o Teste** \n\nGrava execução, tira prints e interage com a interface.  ",
             "textPosition": "CENTER",
             "blockClass": "arquitetura-automatizadas"
         }
@@ -302,7 +302,7 @@
     },
     "rich-text#dashboard":{
         "props": {
-            "text": "**Cypress Dashboard** <br/><br/>Report Status: vídeos e prints das execuções. ",
+            "text": "**Cypress Dashboard** \n\nReport Status: vídeos e prints das execuções. ",
             "textPosition": "CENTER",
             "blockClass": "arquitetura-automatizadas"
         }
@@ -327,7 +327,7 @@
     },
     "rich-text#txt-arquitetura-visuais":{
         "props": {
-            "text": "**Arquitetura de uma ferramenta de Testes Automatizado Visuais** <br/><br/>  Nesse fluxo de testes visuais, uma vez que o script de testes está codificado no Cypress e versionado no Gitlab, construímos por meio do CI/CD um pipeline de execução onde será construído o ambiente para execução dos testes, quando um teste for iniciado, irá chamar o serviço externo do Percy.io que irá gerar no seu App um build com os resultados das execuções. ",
+            "text": "**Arquitetura de uma ferramenta de Testes Automatizado Visuais** \n\n  Nesse fluxo de testes visuais, uma vez que o script de testes está codificado no Cypress e versionado no Gitlab, construímos por meio do CI/CD um pipeline de execução onde será construído o ambiente para execução dos testes, quando um teste for iniciado, irá chamar o serviço externo do Percy.io que irá gerar no seu App um build com os resultados das execuções. ",
             "textPosition": "CENTER",
             "blockClass": "arquitetura-visuais"
         }
@@ -369,7 +369,7 @@
     },
     "rich-text#txt-infraestrutura":{
         "props": {
-            "text": "**Infraestrutura** <br/><br/> Como mencionado no planejamento, no primeiro momento precisamos entender o contexto, ou seja, toda orientação do software com visão de Como mencionado no planejamento, no primeiro momento precisamos entender o contexto, ou seja, toda orientação do software com visão de ferramentas e boas práticas de desenvolvimento. ",
+            "text": "**Infraestrutura** \n\n Como mencionado no planejamento, no primeiro momento precisamos entender o contexto, ou seja, toda orientação do software com visão de Como mencionado no planejamento, no primeiro momento precisamos entender o contexto, ou seja, toda orientação do software com visão de ferramentas e boas práticas de desenvolvimento. ",
             "textPosition": "CENTER",
             "blockClass": "infraestrutura"
         }
@@ -388,7 +388,7 @@
     },
     "rich-text#artefatos": {
         "props": {
-            "text": "**Artefatos** <br/><br/> • Report dos testes;<br/> • Release homologada. ",
+            "text": "**Artefatos** \n\n • Report dos testes;<br/> • Release homologada. ",
             "textPosition": "CENTER",
             "blockClass": "infraestrutura"
         }
@@ -400,7 +400,7 @@
     },
     "rich-text#pipeline": {
         "props": {
-            "text": "**Pipelines de Execução** <br/><br/> • Validações em homologação e produção automatizados através de pipeline;<br/> • Processo de aprovação baseado nos testes. ",
+            "text": "**Pipelines de Execução** \n\n • Validações em homologação e produção automatizados através de pipeline;\n • Processo de aprovação baseado nos testes. ",
             "textPosition": "CENTER",
             "blockClass": "infraestrutura"
         }
@@ -412,7 +412,7 @@
     },
     "rich-text#ferramentas": {
         "props": {
-            "text": "**Exemplos de Ferramentas** <br/><br/> • Gitlab (repositório e pipeline). ",
+            "text": "**Exemplos de Ferramentas** \n\n • Gitlab (repositório e pipeline). ",
             "textPosition": "CENTER",
             "blockClass": "infraestrutura"
         }

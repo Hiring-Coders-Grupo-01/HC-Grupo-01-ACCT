@@ -46,7 +46,7 @@
     },
     "rich-text#block-analise-heatmaps-text": {
         "props": {
-            "text": "Todas as decisões de design são tomadas a partir de dados reais captados do comportamento de navegação do usuário no site atual e de heurísticas de design. <br/><br/> Através do Hotjar, obtivemos insights de usuários para propor melhorias e criar novas soluções: <br/><br/> • Exemplo de conteúdo e página quente; <br/><br/> • Tipos de Interações e Movimentações do Usuário na Página; <br/><br/> • Gravações que indicam que o usuário quer explorar o conteúdo.",
+            "text": "Todas as decisões de design são tomadas a partir de dados reais captados do comportamento de navegação do usuário no site atual e de heurísticas de design. \n\n Através do Hotjar, obtivemos insights de usuários para propor melhorias e criar novas soluções: \n\n • Exemplo de conteúdo e página quente; \n\n • Tipos de Interações e Movimentações do Usuário na Página; \n\n • Gravações que indicam que o usuário quer explorar o conteúdo.",
             "textPosition": "LEFT",
             "blockClass": "text-service-card"
         }
