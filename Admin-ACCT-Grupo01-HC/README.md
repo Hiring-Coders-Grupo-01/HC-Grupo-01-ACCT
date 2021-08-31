@@ -5,7 +5,7 @@
 ## PAINEL ADMINISTRATIVO
 - [x] GET na AWS para Listar os Prospects e os Clients;
 - [x] POST na AWS para converter um Prospect para Client; 
-- [x] DELETE na na AWS para deletar manualmente um Prospect ou um Client; 
+- [x] DELETE na AWS para deletar manualmente um Prospect ou um Client; 
 
 # Ferramentas Utilizadas:
 ## Styleguide - Table Component:
