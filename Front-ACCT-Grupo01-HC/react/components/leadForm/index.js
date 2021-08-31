@@ -20,6 +20,11 @@ function LeadFormJs() {
       })
       .then((response) => {
         console.log(response.data);
+        alert("Cadastro realizado com sucesso!");
+      })
+      .catch((error) => {
+        console.log(error);
+        alert("Falha no cadastro :(");
       });
   }
 
